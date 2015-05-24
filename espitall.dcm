@@ -5,6 +5,26 @@ D Decoder 4 to 16
 K TTL DECOD16 DECOD
 $ENDCMP
 #
+$CMP PCA9306
+D Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator
+K I2C voltage translator
+$ENDCMP
+#
+$CMP PCA9685
+D 16-channel, 12-bit PWM Fm+ I2C-bus LED controller
+K pwm expander i2c led
+$ENDCMP
+#
+$CMP TSR1-2433
+D Regulator +3.3V
+K POWER REGUL
+$ENDCMP
+#
+$CMP TSR1-2450
+D Regulator +5V
+K POWER REGUL
+$ENDCMP
+#
 $CMP TXB0108
 D 8-Bit Bidirectional Voltage-Level Translator with Auto Direction Sensing
 K level translator bidirectional
