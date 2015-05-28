@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-22 BZR 5678)-product   date = Thu May 28 08:25:43 2015
+Cmp-Mod V01 Created by Cvpcb (2015-05-22 BZR 5678)-product   date = Thu May 28 08:46:30 2015
 
 BeginCmp
 TimeStamp = /55652B9C/556B9238;
@@ -248,14 +248,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5562C13B/55634D9C;
 Reference = C27;
-ValeurCmp = C;
+ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5562C13B/55634D96;
 Reference = C28;
-ValeurCmp = C;
+ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
@@ -283,14 +283,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5562C13B/5562DA52;
 Reference = C32;
-ValeurCmp = C;
+ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5562C13B/5562DA19;
 Reference = C33;
-ValeurCmp = C;
+ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
@@ -710,7 +710,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5563C415/556E1209;
 Reference = D1;
-ValeurCmp = DIODE;
+ValeurCmp = 1N4148W;
 IdModule  = Diodes_SMD:SOD-123;
 EndCmp
 
@@ -817,6 +817,34 @@ TimeStamp = /5562C13B/5562C943;
 Reference = GYRO1;
 ValeurCmp = CONN_6;
 IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_6pin_straight;
+EndCmp
+
+BeginCmp
+TimeStamp = /5566D8A1;
+Reference = H1;
+ValeurCmp = CONN_1;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5566FA8C;
+Reference = H2;
+ValeurCmp = CONN_1;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5566FC24;
+Reference = H3;
+ValeurCmp = CONN_1;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5566FDBE;
+Reference = H4;
+ValeurCmp = CONN_1;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
 EndCmp
 
 BeginCmp
