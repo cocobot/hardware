@@ -1,4 +1,4 @@
-update=Sat May 23 11:05:21 2015
+update=Sun May 24 20:49:10 2015
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,5 +59,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=stm32
-LibName32=/home/damien/prog/eurobot/hardware/espitall
+LibName31=/home/damien/prog/eurobot/hardware/espitall
