@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/damien/prog/eurobot/hardware/brain/brain.sch)
-    (date "Thu May 28 08:46:43 2015")
+    (date "Thu May 28 21:41:43 2015")
     (tool "Eeschema (2015-05-22 BZR 5678)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1781,24 +1781,6 @@
         (pin (num 98) (name PE1/FSMC_NBL1/DCMI_D3/EVENTOUT) (type input))
         (pin (num 99) (name VSS) (type input))
         (pin (num 100) (name VDD) (type input))))
-    (libpart (lib espitall) (part TSR1-2433)
-      (description "Regulator +3.3V")
-      (fields
-        (field (name Reference) U)
-        (field (name Value) TSR1-2433))
-      (pins
-        (pin (num GND) (name GND) (type power_in))
-        (pin (num VI) (name VI) (type power_in))
-        (pin (num VO) (name VO) (type power_out))))
-    (libpart (lib espitall) (part TSR1-2450)
-      (description "Regulator +5V")
-      (fields
-        (field (name Reference) U)
-        (field (name Value) TSR1-2450))
-      (pins
-        (pin (num GND) (name GND) (type power_in))
-        (pin (num VI) (name VI) (type power_in))
-        (pin (num VO) (name VO) (type power_out))))
     (libpart (lib espitall) (part TXB0108)
       (description "8-Bit Bidirectional Voltage-Level Translator with Auto Direction Sensing")
       (fields
@@ -1848,7 +1830,25 @@
         (field (name Value) Crystal))
       (pins
         (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive)))))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib espitall) (part TSR1-2450)
+      (description "Regulator +5V")
+      (fields
+        (field (name Reference) U)
+        (field (name Value) TSR1-2450))
+      (pins
+        (pin (num 1) (name VI) (type power_in))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name VO) (type power_out))))
+    (libpart (lib espitall) (part TSR1-2433)
+      (description "Regulator +3.3V")
+      (fields
+        (field (name Reference) U)
+        (field (name Value) TSR1-2433))
+      (pins
+        (pin (num 1) (name VI) (type power_in))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name VO) (type power_out)))))
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
@@ -2110,9 +2110,9 @@
       (node (ref C89) (pin 2))
       (node (ref PWR1) (pin 2))
       (node (ref C87) (pin 2))
-      (node (ref U9) (pin GND))
+      (node (ref U9) (pin 2))
       (node (ref C88) (pin 2))
-      (node (ref U10) (pin GND))
+      (node (ref U10) (pin 2))
       (node (ref C68) (pin 1))
       (node (ref ANA3) (pin 2))
       (node (ref C57) (pin 2))
@@ -2320,9 +2320,9 @@
       (node (ref C19) (pin 1))
       (node (ref R15) (pin 1))
       (node (ref MOTL1) (pin 1))
-      (node (ref U9) (pin VO))
       (node (ref ANA4) (pin 1))
       (node (ref C60) (pin 2))
+      (node (ref U9) (pin 3))
       (node (ref I2C5V1) (pin 1))
       (node (ref C3) (pin 1))
       (node (ref US1) (pin 1))
@@ -2435,7 +2435,7 @@
       (node (ref C22) (pin 1))
       (node (ref C57) (pin 1))
       (node (ref U2) (pin 24))
-      (node (ref U10) (pin VO))
+      (node (ref U10) (pin 3))
       (node (ref C15) (pin 1))
       (node (ref C2) (pin 1))
       (node (ref C16) (pin 1))
@@ -2470,8 +2470,8 @@
       (node (ref C82) (pin 1)))
     (net (code 71) (name +BATT)
       (node (ref R29) (pin 1))
-      (node (ref U10) (pin VI))
-      (node (ref U9) (pin VI))
+      (node (ref U10) (pin 1))
+      (node (ref U9) (pin 1))
       (node (ref PWR1) (pin 1))
       (node (ref C88) (pin 1)))
     (net (code 72) (name "Net-(R37-Pad1)")
