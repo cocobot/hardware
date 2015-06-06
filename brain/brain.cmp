@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-22 BZR 5678)-product   date = Thu May 28 08:46:30 2015
+Cmp-Mod V01 Created by Cvpcb (2015-06-04 BZR 5708)-product   date = Fri Jun  5 21:33:05 2015
 
 BeginCmp
 TimeStamp = /55652B9C/556B9238;
@@ -302,34 +302,6 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5563C415/5564181F;
-Reference = C35;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55642235;
-Reference = C36;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/5564240A;
-Reference = C37;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556424BB;
-Reference = C38;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /5563C415/5563D1C5;
 Reference = C39;
 ValeurCmp = 100n;
@@ -351,34 +323,6 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5563C415/556468C3;
-Reference = C42;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556468E9;
-Reference = C43;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556468F5;
-Reference = C44;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55646907;
-Reference = C45;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /5563C415/5563EB03;
 Reference = C46;
 ValeurCmp = 4u7;
@@ -393,65 +337,9 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5563C415/556471E0;
-Reference = C48;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55647206;
-Reference = C49;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55647212;
-Reference = C50;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55647224;
-Reference = C51;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /5563C415/5564028A;
 Reference = C52;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55647287;
-Reference = C53;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556472AD;
-Reference = C54;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556472B9;
-Reference = C55;
-ValeurCmp = 4u7;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556472CB;
-Reference = C56;
-ValeurCmp = 4u7;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
@@ -939,6 +827,13 @@ IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight;
 EndCmp
 
 BeginCmp
+TimeStamp = /5563C415/5571DAEC;
+Reference = PWM1;
+ValeurCmp = HE10-20;
+IdModule  = espitall:HE10_20D;
+EndCmp
+
+BeginCmp
 TimeStamp = /556E60CA/556E624F;
 Reference = PWR1;
 ValeurCmp = CONN_2;
@@ -1002,13 +897,6 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5563C415/55641CEC;
-Reference = R9;
-ValeurCmp = NC;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /5563C415/5563E278;
 Reference = R10;
 ValeurCmp = 200k;
@@ -1030,30 +918,9 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5563C415/556468D5;
-Reference = R13;
-ValeurCmp = NC;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556471F2;
-Reference = R14;
-ValeurCmp = NC;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /5563C415/556E12F2;
 Reference = R15;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55647299;
-Reference = R16;
-ValeurCmp = NC;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -1240,118 +1107,6 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5563C415/55641328;
-Reference = S0;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556413E1;
-Reference = S1;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55641447;
-Reference = S3;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556424B5;
-Reference = S4;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556468A8;
-Reference = S5;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556468AE;
-Reference = S6;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556468B4;
-Reference = S7;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55646901;
-Reference = S8;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556471C5;
-Reference = S9;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556471CB;
-Reference = S10;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556471D1;
-Reference = S11;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/5564721E;
-Reference = S12;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/5564726C;
-Reference = S13;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55647272;
-Reference = S14;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55647278;
-Reference = S15;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556472C5;
-Reference = S16;
-ValeurCmp = CONN_3;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight;
-EndCmp
-
-BeginCmp
 TimeStamp = /55652B9C/55658C92;
 Reference = SHIFTREG1;
 ValeurCmp = CONN_6;
@@ -1398,34 +1153,6 @@ TimeStamp = /55611B26/556F5589;
 Reference = SLAUART1;
 ValeurCmp = CONN_01X05;
 IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55641982;
-Reference = SPWR0;
-ValeurCmp = CONN_2;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556468CF;
-Reference = SPWR1;
-ValeurCmp = CONN_2;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/556471EC;
-Reference = SPWR2;
-ValeurCmp = CONN_2;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight;
-EndCmp
-
-BeginCmp
-TimeStamp = /5563C415/55647293;
-Reference = SPWR3;
-ValeurCmp = CONN_2;
-IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight;
 EndCmp
 
 BeginCmp

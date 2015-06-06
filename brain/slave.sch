@@ -575,16 +575,11 @@ Wire Wire Line
 	6650 2000 6650 5250
 Connection ~ 6650 2000
 Wire Wire Line
-	6550 2200 6550 5350
-Connection ~ 6550 2200
-Wire Wire Line
 	6650 3750 9950 3750
 Wire Wire Line
 	6750 3650 9950 3650
 Text Label 6450 3950 0    60   ~ 0
 SLA_SPI_CS3_3v3
-Wire Wire Line
-	6350 2200 7400 2200
 Wire Wire Line
 	9950 2200 8900 2200
 Wire Wire Line
@@ -994,4 +989,9 @@ Text HLabel 2750 6650 2    60   Input ~ 0
 SLA_TX_3v3
 Text HLabel 2750 6750 2    60   Output ~ 0
 SLA_RX_3v3
+Wire Wire Line
+	6550 2100 6550 5350
+Connection ~ 6550 2100
+Wire Wire Line
+	7400 2200 6350 2200
 $EndSCHEMATC
