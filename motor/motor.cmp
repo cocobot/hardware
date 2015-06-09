@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by Cvpcb (2015-06-04 BZR 5708)-product   date = Tue Jun  9 13:13:35 2015
+
+BeginCmp
+TimeStamp = /5575CEDD;
+Reference = C1;
+ValeurCmp = 1m;
+IdModule  = Capacitors_ThroughHole:C_Radial_D10_L20_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575CF9B;
+Reference = C2;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575D80E;
+Reference = C3;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575D862;
+Reference = C4;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575D34E;
+Reference = ERROR1;
+ValeurCmp = CONN_2;
+IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575D161;
+Reference = LOGIC1;
+ValeurCmp = CONN_5;
+IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575DDF6;
+Reference = MOTOR1;
+ValeurCmp = CONN_2;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575DF28;
+Reference = POWER1;
+ValeurCmp = CONN_2;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575D2CA;
+Reference = R1;
+ValeurCmp = 470;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575D940;
+Reference = R2;
+ValeurCmp = 2k7;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575CCA3;
+Reference = U1;
+ValeurCmp = LMD18200T;
+IdModule  = espitall:NDJ0011B;
+EndCmp
+
+EndListe
