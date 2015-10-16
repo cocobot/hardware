@@ -59,4 +59,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/damien/prog/eurobot/hardware/espitall
+LibName31=../espitall
