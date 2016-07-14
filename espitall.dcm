@@ -36,4 +36,8 @@ D 8-Bit Bidirectional Voltage-Level Translator with Auto Direction Sensing
 K level translator bidirectional
 $ENDCMP
 #
+$CMP VL53L0X
+D Time-of-Flight ranging and gesture detection sensor
+$ENDCMP
+#
 #End Doc Library
