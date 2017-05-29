@@ -1,0 +1,209 @@
+EESchema Schematic File Version 2
+LIBS:brain-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:espitall
+LIBS:brain-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4000 4700 0    60   Input ~ 0
+MOT_ENA_3v3
+Text HLabel 4000 4800 0    60   Input ~ 0
+DCM0_DIR_3v3
+Text HLabel 4000 4900 0    60   Input ~ 0
+DCM1_DIR_3v3
+Text HLabel 4000 5000 0    60   Input ~ 0
+DCM0_PWM_3v3
+Text HLabel 4000 5100 0    60   Input ~ 0
+DCM1_PWM_3v3
+Wire Wire Line
+	4000 5100 7350 5100
+Wire Wire Line
+	4000 5000 7150 5000
+Wire Wire Line
+	4000 4900 7250 4900
+Wire Wire Line
+	4000 4800 7050 4800
+Wire Wire Line
+	6950 4700 4000 4700
+$Comp
+L CONN_5 DCM0
+U 1 1 592BFB9E
+P 8250 3300
+F 0 "DCM0" V 8200 3300 50  0000 C CNN
+F 1 "CONN_5" V 8300 3300 50  0000 C CNN
+F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight" H 8250 3300 60  0001 C CNN
+F 3 "" H 8250 3300 60  0000 C CNN
+	1    8250 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3200 6950 4700
+Wire Wire Line
+	6950 3200 7850 3200
+Wire Wire Line
+	7050 4800 7050 3300
+Wire Wire Line
+	7050 3300 7850 3300
+Wire Wire Line
+	7850 3400 7150 3400
+Wire Wire Line
+	7150 3400 7150 5000
+$Comp
+L GND-RESCUE-brain #PWR0224
+U 1 1 592BFBAB
+P 7800 3700
+F 0 "#PWR0224" H 7800 3700 30  0001 C CNN
+F 1 "GND" H 7800 3630 30  0001 C CNN
+F 2 "" H 7800 3700 60  0000 C CNN
+F 3 "" H 7800 3700 60  0000 C CNN
+	1    7800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR0225
+U 1 1 592BFBB1
+P 7800 2850
+F 0 "#PWR0225" H 7800 2940 20  0001 C CNN
+F 1 "+5V" H 7800 2940 30  0000 C CNN
+F 2 "" H 7800 2850 60  0000 C CNN
+F 3 "" H 7800 2850 60  0000 C CNN
+	1    7800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-brain C30
+U 1 1 592BFBB7
+P 8600 3300
+F 0 "C30" H 8600 3400 40  0000 L CNN
+F 1 "4u7" H 8606 3215 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8638 3150 30  0001 C CNN
+F 3 "" H 8600 3300 60  0000 C CNN
+	1    8600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-brain #PWR0226
+U 1 1 592BFBBE
+P 8600 3700
+F 0 "#PWR0226" H 8600 3700 30  0001 C CNN
+F 1 "GND" H 8600 3630 30  0001 C CNN
+F 2 "" H 8600 3700 60  0000 C CNN
+F 3 "" H 8600 3700 60  0000 C CNN
+	1    8600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3700 8600 3500
+Wire Wire Line
+	8600 3100 8600 2900
+Wire Wire Line
+	8600 2900 7800 2900
+Wire Wire Line
+	7800 2850 7800 3100
+Wire Wire Line
+	7800 3100 7850 3100
+Connection ~ 7800 2900
+Wire Wire Line
+	7850 3500 7800 3500
+Wire Wire Line
+	7800 3500 7800 3700
+$Comp
+L GND-RESCUE-brain #PWR0227
+U 1 1 592BFBD3
+P 7800 4950
+F 0 "#PWR0227" H 7800 4950 30  0001 C CNN
+F 1 "GND" H 7800 4880 30  0001 C CNN
+F 2 "" H 7800 4950 60  0000 C CNN
+F 3 "" H 7800 4950 60  0000 C CNN
+	1    7800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR0228
+U 1 1 592BFBD9
+P 7800 4100
+F 0 "#PWR0228" H 7800 4190 20  0001 C CNN
+F 1 "+5V" H 7800 4190 30  0000 C CNN
+F 2 "" H 7800 4100 60  0000 C CNN
+F 3 "" H 7800 4100 60  0000 C CNN
+	1    7800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-brain #PWR0229
+U 1 1 592BFBE6
+P 8600 4950
+F 0 "#PWR0229" H 8600 4950 30  0001 C CNN
+F 1 "GND" H 8600 4880 30  0001 C CNN
+F 2 "" H 8600 4950 60  0000 C CNN
+F 3 "" H 8600 4950 60  0000 C CNN
+	1    8600 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 4950 8600 4750
+Wire Wire Line
+	8600 4350 8600 4150
+Wire Wire Line
+	8600 4150 7800 4150
+Wire Wire Line
+	7800 4100 7800 4350
+Wire Wire Line
+	7800 4350 7850 4350
+Connection ~ 7800 4150
+Wire Wire Line
+	7850 4750 7800 4750
+Wire Wire Line
+	7800 4750 7800 4950
+Wire Wire Line
+	7850 4450 6950 4450
+Connection ~ 6950 4450
+Wire Wire Line
+	7850 4550 7250 4550
+Wire Wire Line
+	7250 4550 7250 4900
+Wire Wire Line
+	7850 4650 7350 4650
+Wire Wire Line
+	7350 4650 7350 5100
+$EndSCHEMATC
