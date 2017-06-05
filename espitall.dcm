@@ -15,6 +15,11 @@ D 16-channel, 12-bit PWM Fm+ I2C-bus LED controller
 K pwm expander i2c led
 $ENDCMP
 #
+$CMP SN74AHCT125PW
+D Decoder 4 to 16
+K TTL DECOD16 DECOD
+$ENDCMP
+#
 $CMP STM32F407VG
 D STM32F407VG, 32-bit ARM Cortex-M4F microcontroller, 168 MHz, 1024 kB Flash, 192 kB SRAM, FPU, Ethernet, DCMI
 K ARM 32bit CortexM4F M4F STM Microcontroller FPU
