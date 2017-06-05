@@ -1,4 +1,4 @@
-update=Tue Jul 12 08:03:21 2016
+update=lun. 05 juin 2017 13:00:04 CEST
 last_client=kicad
 [general]
 version=1
