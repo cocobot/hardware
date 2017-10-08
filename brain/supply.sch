@@ -1,37 +1,8 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:brain-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:espitall
 LIBS:brain-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -51,7 +22,7 @@ U 1 1 556E624F
 P 3750 3700
 F 0 "PWR1" V 3700 3700 40  0000 C CNN
 F 1 "CONN_2" V 3800 3700 40  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight" H 3750 3700 60  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight" H 3750 3700 60  0001 C CNN
 F 3 "" H 3750 3700 60  0000 C CNN
 	1    3750 3700
 	-1   0    0    -1  
@@ -92,7 +63,7 @@ U 1 1 556E6F4F
 P 4450 3650
 F 0 "C88" H 4450 3750 40  0000 L CNN
 F 1 "100u" H 4456 3565 40  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_6.3x7.7" H 4488 3500 30  0001 C CNN
+F 2 "espitall:c_elec_6.3x7.7" H 4488 3500 30  0001 C CNN
 F 3 "" H 4450 3650 60  0000 C CNN
 	1    4450 3650
 	1    0    0    -1  
@@ -137,7 +108,7 @@ U 1 1 556E7699
 P 7150 3150
 F 0 "C87" H 7150 3250 40  0000 L CNN
 F 1 "4u7" H 7156 3065 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7188 3000 30  0001 C CNN
+F 2 "espitall:C_0603" H 7188 3000 30  0001 C CNN
 F 3 "" H 7150 3150 60  0000 C CNN
 	1    7150 3150
 	1    0    0    -1  
@@ -193,7 +164,7 @@ U 1 1 556E78E1
 P 7150 4400
 F 0 "C89" H 7150 4500 40  0000 L CNN
 F 1 "4u7" H 7156 4315 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7188 4250 30  0001 C CNN
+F 2 "espitall:C_0603" H 7188 4250 30  0001 C CNN
 F 3 "" H 7150 4400 60  0000 C CNN
 	1    7150 4400
 	1    0    0    -1  

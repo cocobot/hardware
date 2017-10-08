@@ -1,37 +1,8 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:brain-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:espitall
 LIBS:brain-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -346,7 +317,7 @@ U 1 1 5566D8A1
 P 10250 750
 F 0 "H1" H 10330 750 40  0000 L CNN
 F 1 "CONN_1" H 10250 805 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_3-5mm" H 10250 750 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 10250 750 60  0001 C CNN
 F 3 "" H 10250 750 60  0000 C CNN
 	1    10250 750 
 	0    -1   -1   0   
@@ -357,7 +328,7 @@ U 1 1 5566FA8C
 P 10400 750
 F 0 "H2" H 10480 750 40  0000 L CNN
 F 1 "CONN_1" H 10400 805 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_3-5mm" H 10400 750 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 10400 750 60  0001 C CNN
 F 3 "" H 10400 750 60  0000 C CNN
 	1    10400 750 
 	0    -1   -1   0   
@@ -368,7 +339,7 @@ U 1 1 5566FC24
 P 10550 750
 F 0 "H3" H 10630 750 40  0000 L CNN
 F 1 "CONN_1" H 10550 805 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_3-5mm" H 10550 750 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 10550 750 60  0001 C CNN
 F 3 "" H 10550 750 60  0000 C CNN
 	1    10550 750 
 	0    -1   -1   0   
@@ -379,7 +350,7 @@ U 1 1 5566FDBE
 P 10700 750
 F 0 "H4" H 10780 750 40  0000 L CNN
 F 1 "CONN_1" H 10700 805 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_3-5mm" H 10700 750 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 10700 750 60  0001 C CNN
 F 3 "" H 10700 750 60  0000 C CNN
 	1    10700 750 
 	0    -1   -1   0   
