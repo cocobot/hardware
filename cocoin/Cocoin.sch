@@ -1,93 +1,8 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:Cocoin-rescue
-LIBS:xilinx
-LIBS:video
-LIBS:valves
-LIBS:ttl_ieee
-LIBS:transistors
-LIBS:transf
-LIBS:texas
-LIBS:switches
-LIBS:supertex
-LIBS:stm8
-LIBS:stm32
-LIBS:siliconi
-LIBS:silabs
-LIBS:sensors
-LIBS:rfcom
-LIBS:relays
-LIBS:regul
-LIBS:references
-LIBS:powerint
-LIBS:power
-LIBS:philips
-LIBS:opto
-LIBS:onsemi
-LIBS:nxp_armmcu
-LIBS:nordicsemi
-LIBS:msp430
-LIBS:motorola
-LIBS:motor_drivers
-LIBS:microcontrollers
-LIBS:microchip_pic32mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic10mcu
-LIBS:microchip_dspic33dsc
-LIBS:microchip
-LIBS:memory
-LIBS:maxim
-LIBS:logo
-LIBS:linear
-LIBS:ir
-LIBS:interface
-LIBS:intel
-LIBS:hc11
-LIBS:graphic
-LIBS:gennum
-LIBS:ftdi
-LIBS:elec-unifil
-LIBS:dsp
-LIBS:display
-LIBS:diode
-LIBS:digital-audio
-LIBS:device
-LIBS:dc-dc
-LIBS:cypress
-LIBS:contrib
-LIBS:conn
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:brooktre
-LIBS:audio
-LIBS:atmel
-LIBS:analog_switches
-LIBS:analog_devices
-LIBS:adc-dac
-LIBS:actel
-LIBS:ac-dc
-LIBS:Zilog
-LIBS:Xicor
-LIBS:Power_Management
-LIBS:Oscillators
-LIBS:Lattice
-LIBS:ESD_Protection
-LIBS:Altera
-LIBS:74xx
-LIBS:74xgxx
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
 LIBS:espitall
 LIBS:Cocoin-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -155,7 +70,7 @@ U 1 1 573CEA8D
 P 6650 1950
 F 0 "D16" H 6650 2050 50  0000 C CNN
 F 1 "LED" H 6650 1850 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 6650 1950 50  0001 C CNN
+F 2 "espitall:LED_0805" H 6650 1950 50  0001 C CNN
 F 3 "" H 6650 1950 50  0000 C CNN
 	1    6650 1950
 	0    -1   -1   0   
@@ -177,7 +92,7 @@ U 1 1 573CEAA0
 P 6650 1550
 F 0 "R1" V 6730 1550 50  0000 C CNN
 F 1 "220" V 6650 1550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6650 1550 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 6650 1550 50  0001 C CNN
 F 3 "" H 6650 1550 50  0000 C CNN
 	1    6650 1550
 	1    0    0    -1  
@@ -188,7 +103,7 @@ U 1 1 573CD7BD
 P 9200 1300
 F 0 "H1" H 9200 1400 50  0000 C CNN
 F 1 "CONN_01X01" V 9300 1300 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9200 1300 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9200 1300 50  0001 C CNN
 F 3 "" H 9200 1300 50  0000 C CNN
 	1    9200 1300
 	0    -1   -1   0   
@@ -199,7 +114,7 @@ U 1 1 573CD8BA
 P 9800 1300
 F 0 "H2" H 9800 1400 50  0000 C CNN
 F 1 "CONN_01X01" V 9900 1300 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9800 1300 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9800 1300 50  0001 C CNN
 F 3 "" H 9800 1300 50  0000 C CNN
 	1    9800 1300
 	0    -1   -1   0   
@@ -214,7 +129,7 @@ U 1 1 573CB74D
 P 4450 1900
 F 0 "C1" V 4550 2050 50  0000 C CNN
 F 1 "10u" V 4550 1750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4450 1900 50  0001 C CNN
+F 2 "espitall:C_0805_HandSoldering" H 4450 1900 50  0001 C CNN
 F 3 "" H 4450 1900 50  0000 C CNN
 	1    4450 1900
 	1    0    0    -1  
@@ -334,7 +249,7 @@ U 1 1 57889E4C
 P 9200 1800
 F 0 "H3" H 9200 1900 50  0000 C CNN
 F 1 "CONN_01X01" V 9300 1800 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9200 1800 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9200 1800 50  0001 C CNN
 F 3 "" H 9200 1800 50  0000 C CNN
 	1    9200 1800
 	0    -1   -1   0   
@@ -346,7 +261,7 @@ U 1 1 57878DE0
 P 1300 3950
 F 0 "U1" H 1600 4550 50  0000 C CNN
 F 1 "SN74HC165PW" H 1550 2900 50  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 1300 3950 60  0001 C CNN
+F 2 "espitall:TSSOP-16_4.4x5mm_Pitch0.65mm" H 1300 3950 60  0001 C CNN
 F 3 "" H 1300 3950 60  0000 C CNN
 	1    1300 3950
 	-1   0    0    -1  
@@ -458,7 +373,7 @@ U 1 1 5787A1A9
 P 3800 3350
 F 0 "P1" H 3800 3550 50  0000 C CNN
 F 1 "CONN_01X03" V 3900 3350 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 3800 3350 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 3800 3350 50  0001 C CNN
 F 3 "" H 3800 3350 50  0000 C CNN
 	1    3800 3350
 	-1   0    0    -1  
@@ -469,7 +384,7 @@ U 1 1 5787A202
 P 4400 3350
 F 0 "R2" V 4480 3350 50  0000 C CNN
 F 1 "R" V 4400 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4330 3350 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 4330 3350 50  0001 C CNN
 F 3 "" H 4400 3350 50  0000 C CNN
 	1    4400 3350
 	0    -1   1    0   
@@ -480,7 +395,7 @@ U 1 1 5787A267
 P 4800 3550
 F 0 "R5" V 4880 3550 50  0000 C CNN
 F 1 "R" V 4800 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4730 3550 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 4730 3550 50  0001 C CNN
 F 3 "" H 4800 3550 50  0000 C CNN
 	1    4800 3550
 	1    0    0    1   
@@ -523,7 +438,7 @@ U 1 1 5787A4CD
 P 5050 3550
 F 0 "C2" H 5075 3650 50  0000 L CNN
 F 1 "C" H 5075 3450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5088 3400 50  0001 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 5088 3400 50  0001 C CNN
 F 3 "" H 5050 3550 50  0000 C CNN
 	1    5050 3550
 	1    0    0    -1  
@@ -570,7 +485,7 @@ U 1 1 5787A9BC
 P 3800 4900
 F 0 "P2" H 3800 5100 50  0000 C CNN
 F 1 "CONN_01X03" V 3900 4900 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 3800 4900 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 3800 4900 50  0001 C CNN
 F 3 "" H 3800 4900 50  0000 C CNN
 	1    3800 4900
 	-1   0    0    -1  
@@ -581,7 +496,7 @@ U 1 1 5787A9C2
 P 4400 4900
 F 0 "R8" V 4480 4900 50  0000 C CNN
 F 1 "R" V 4400 4900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4330 4900 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 4330 4900 50  0001 C CNN
 F 3 "" H 4400 4900 50  0000 C CNN
 	1    4400 4900
 	0    -1   1    0   
@@ -592,7 +507,7 @@ U 1 1 5787A9C8
 P 4800 5100
 F 0 "R11" V 4880 5100 50  0000 C CNN
 F 1 "R" V 4800 5100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4730 5100 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 4730 5100 50  0001 C CNN
 F 3 "" H 4800 5100 50  0000 C CNN
 	1    4800 5100
 	1    0    0    1   
@@ -635,7 +550,7 @@ U 1 1 5787A9DF
 P 5050 5100
 F 0 "C5" H 5075 5200 50  0000 L CNN
 F 1 "C" H 5075 5000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5088 4950 50  0001 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 5088 4950 50  0001 C CNN
 F 3 "" H 5050 5100 50  0000 C CNN
 	1    5050 5100
 	1    0    0    -1  
@@ -682,7 +597,7 @@ U 1 1 5787AD0D
 P 5850 3350
 F 0 "P4" H 5850 3550 50  0000 C CNN
 F 1 "CONN_01X03" V 5950 3350 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 5850 3350 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 5850 3350 50  0001 C CNN
 F 3 "" H 5850 3350 50  0000 C CNN
 	1    5850 3350
 	-1   0    0    -1  
@@ -693,7 +608,7 @@ U 1 1 5787AD13
 P 6450 3350
 F 0 "R3" V 6530 3350 50  0000 C CNN
 F 1 "R" V 6450 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6380 3350 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 6380 3350 50  0001 C CNN
 F 3 "" H 6450 3350 50  0000 C CNN
 	1    6450 3350
 	0    -1   1    0   
@@ -704,7 +619,7 @@ U 1 1 5787AD19
 P 6850 3550
 F 0 "R6" V 6930 3550 50  0000 C CNN
 F 1 "R" V 6850 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6780 3550 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 6780 3550 50  0001 C CNN
 F 3 "" H 6850 3550 50  0000 C CNN
 	1    6850 3550
 	1    0    0    1   
@@ -747,7 +662,7 @@ U 1 1 5787AD30
 P 7100 3550
 F 0 "C3" H 7125 3650 50  0000 L CNN
 F 1 "C" H 7125 3450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7138 3400 50  0001 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 7138 3400 50  0001 C CNN
 F 3 "" H 7100 3550 50  0000 C CNN
 	1    7100 3550
 	1    0    0    -1  
@@ -794,7 +709,7 @@ U 1 1 5787AD4A
 P 5850 4900
 F 0 "P5" H 5850 5100 50  0000 C CNN
 F 1 "CONN_01X03" V 5950 4900 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 5850 4900 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 5850 4900 50  0001 C CNN
 F 3 "" H 5850 4900 50  0000 C CNN
 	1    5850 4900
 	-1   0    0    -1  
@@ -805,7 +720,7 @@ U 1 1 5787AD50
 P 6450 4900
 F 0 "R9" V 6530 4900 50  0000 C CNN
 F 1 "R" V 6450 4900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6380 4900 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 6380 4900 50  0001 C CNN
 F 3 "" H 6450 4900 50  0000 C CNN
 	1    6450 4900
 	0    -1   1    0   
@@ -816,7 +731,7 @@ U 1 1 5787AD56
 P 6850 5100
 F 0 "R12" V 6930 5100 50  0000 C CNN
 F 1 "R" V 6850 5100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6780 5100 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 6780 5100 50  0001 C CNN
 F 3 "" H 6850 5100 50  0000 C CNN
 	1    6850 5100
 	1    0    0    1   
@@ -859,7 +774,7 @@ U 1 1 5787AD6D
 P 7100 5100
 F 0 "C6" H 7125 5200 50  0000 L CNN
 F 1 "C" H 7125 5000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7138 4950 50  0001 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 7138 4950 50  0001 C CNN
 F 3 "" H 7100 5100 50  0000 C CNN
 	1    7100 5100
 	1    0    0    -1  
@@ -906,7 +821,7 @@ U 1 1 5787B13F
 P 7900 3350
 F 0 "P6" H 7900 3550 50  0000 C CNN
 F 1 "CONN_01X03" V 8000 3350 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 7900 3350 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 7900 3350 50  0001 C CNN
 F 3 "" H 7900 3350 50  0000 C CNN
 	1    7900 3350
 	-1   0    0    -1  
@@ -917,7 +832,7 @@ U 1 1 5787B145
 P 8500 3350
 F 0 "R4" V 8580 3350 50  0000 C CNN
 F 1 "R" V 8500 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8430 3350 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 8430 3350 50  0001 C CNN
 F 3 "" H 8500 3350 50  0000 C CNN
 	1    8500 3350
 	0    -1   1    0   
@@ -928,7 +843,7 @@ U 1 1 5787B14B
 P 8900 3550
 F 0 "R7" V 8980 3550 50  0000 C CNN
 F 1 "R" V 8900 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 3550 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 8830 3550 50  0001 C CNN
 F 3 "" H 8900 3550 50  0000 C CNN
 	1    8900 3550
 	1    0    0    1   
@@ -971,7 +886,7 @@ U 1 1 5787B162
 P 9150 3550
 F 0 "C4" H 9175 3650 50  0000 L CNN
 F 1 "C" H 9175 3450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9188 3400 50  0001 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 9188 3400 50  0001 C CNN
 F 3 "" H 9150 3550 50  0000 C CNN
 	1    9150 3550
 	1    0    0    -1  
@@ -1018,7 +933,7 @@ U 1 1 5787B17C
 P 7900 4900
 F 0 "P7" H 7900 5100 50  0000 C CNN
 F 1 "CONN_01X03" V 8000 4900 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 7900 4900 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 7900 4900 50  0001 C CNN
 F 3 "" H 7900 4900 50  0000 C CNN
 	1    7900 4900
 	-1   0    0    -1  
@@ -1029,7 +944,7 @@ U 1 1 5787B182
 P 8500 4900
 F 0 "R10" V 8580 4900 50  0000 C CNN
 F 1 "R" V 8500 4900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8430 4900 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 8430 4900 50  0001 C CNN
 F 3 "" H 8500 4900 50  0000 C CNN
 	1    8500 4900
 	0    -1   1    0   
@@ -1040,7 +955,7 @@ U 1 1 5787B188
 P 8900 5100
 F 0 "R13" V 8980 5100 50  0000 C CNN
 F 1 "R" V 8900 5100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 5100 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 8830 5100 50  0001 C CNN
 F 3 "" H 8900 5100 50  0000 C CNN
 	1    8900 5100
 	1    0    0    1   
@@ -1083,7 +998,7 @@ U 1 1 5787B19F
 P 9150 5100
 F 0 "C7" H 9175 5200 50  0000 L CNN
 F 1 "C" H 9175 5000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9188 4950 50  0001 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 9188 4950 50  0001 C CNN
 F 3 "" H 9150 5100 50  0000 C CNN
 	1    9150 5100
 	1    0    0    -1  
@@ -1130,7 +1045,7 @@ U 1 1 5787B2B5
 P 3800 6450
 F 0 "P3" H 3800 6650 50  0000 C CNN
 F 1 "CONN_01X03" V 3900 6450 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 3800 6450 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 3800 6450 50  0001 C CNN
 F 3 "" H 3800 6450 50  0000 C CNN
 	1    3800 6450
 	-1   0    0    -1  
@@ -1141,7 +1056,7 @@ U 1 1 5787B2BB
 P 4400 6450
 F 0 "R15" V 4480 6450 50  0000 C CNN
 F 1 "R" V 4400 6450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4330 6450 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 4330 6450 50  0001 C CNN
 F 3 "" H 4400 6450 50  0000 C CNN
 	1    4400 6450
 	0    -1   1    0   
@@ -1152,7 +1067,7 @@ U 1 1 5787B2C1
 P 4800 6650
 F 0 "R17" V 4880 6650 50  0000 C CNN
 F 1 "R" V 4800 6650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4730 6650 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 4730 6650 50  0001 C CNN
 F 3 "" H 4800 6650 50  0000 C CNN
 	1    4800 6650
 	1    0    0    1   
@@ -1195,7 +1110,7 @@ U 1 1 5787B2D8
 P 5050 6650
 F 0 "C9" H 5075 6750 50  0000 L CNN
 F 1 "C" H 5075 6550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5088 6500 50  0001 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 5088 6500 50  0001 C CNN
 F 3 "" H 5050 6650 50  0000 C CNN
 	1    5050 6650
 	1    0    0    -1  
@@ -1242,7 +1157,7 @@ U 1 1 5787B6B2
 P 1750 6450
 F 0 "P0" H 1750 6650 50  0000 C CNN
 F 1 "CONN_01X03" V 1850 6450 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 1750 6450 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 1750 6450 50  0001 C CNN
 F 3 "" H 1750 6450 50  0000 C CNN
 	1    1750 6450
 	-1   0    0    -1  
@@ -1253,7 +1168,7 @@ U 1 1 5787B6B8
 P 2350 6450
 F 0 "R14" V 2430 6450 50  0000 C CNN
 F 1 "R" V 2350 6450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2280 6450 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 2280 6450 50  0001 C CNN
 F 3 "" H 2350 6450 50  0000 C CNN
 	1    2350 6450
 	0    -1   1    0   
@@ -1264,7 +1179,7 @@ U 1 1 5787B6BE
 P 2750 6650
 F 0 "R16" V 2830 6650 50  0000 C CNN
 F 1 "R" V 2750 6650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2680 6650 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 2680 6650 50  0001 C CNN
 F 3 "" H 2750 6650 50  0000 C CNN
 	1    2750 6650
 	1    0    0    1   
@@ -1307,7 +1222,7 @@ U 1 1 5787B6D5
 P 3000 6650
 F 0 "C8" H 3025 6750 50  0000 L CNN
 F 1 "C" H 3025 6550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3038 6500 50  0001 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 3038 6500 50  0001 C CNN
 F 3 "" H 3000 6650 50  0000 C CNN
 	1    3000 6650
 	1    0    0    -1  
@@ -1366,7 +1281,7 @@ U 1 1 59352307
 P 3050 3400
 F 0 "C10" H 3075 3500 50  0000 L CNN
 F 1 "100n" H 3075 3300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 3250 50  0001 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 3088 3250 50  0001 C CNN
 F 3 "" H 3050 3400 50  0000 C CNN
 	1    3050 3400
 	1    0    0    -1  
