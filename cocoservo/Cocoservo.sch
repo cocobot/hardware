@@ -1,93 +1,8 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:Cocoservo-rescue
-LIBS:xilinx
-LIBS:video
-LIBS:valves
-LIBS:ttl_ieee
-LIBS:transistors
-LIBS:transf
-LIBS:texas
-LIBS:switches
-LIBS:supertex
-LIBS:stm8
-LIBS:stm32
-LIBS:siliconi
-LIBS:silabs
-LIBS:sensors
-LIBS:rfcom
-LIBS:relays
-LIBS:regul
-LIBS:references
-LIBS:powerint
-LIBS:power
-LIBS:philips
-LIBS:opto
-LIBS:onsemi
-LIBS:nxp_armmcu
-LIBS:nordicsemi
-LIBS:msp430
-LIBS:motorola
-LIBS:motor_drivers
-LIBS:microcontrollers
-LIBS:microchip_pic32mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic10mcu
-LIBS:microchip_dspic33dsc
-LIBS:microchip
-LIBS:memory
-LIBS:maxim
-LIBS:logo
-LIBS:linear
-LIBS:ir
-LIBS:interface
-LIBS:intel
-LIBS:hc11
-LIBS:graphic
-LIBS:gennum
-LIBS:ftdi
-LIBS:elec-unifil
-LIBS:dsp
-LIBS:display
-LIBS:diode
-LIBS:digital-audio
-LIBS:device
-LIBS:dc-dc
-LIBS:cypress
-LIBS:contrib
-LIBS:conn
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:brooktre
-LIBS:audio
-LIBS:atmel
-LIBS:analog_switches
-LIBS:analog_devices
-LIBS:adc-dac
-LIBS:actel
-LIBS:ac-dc
-LIBS:Zilog
-LIBS:Xicor
-LIBS:Power_Management
-LIBS:Oscillators
-LIBS:Lattice
-LIBS:ESD_Protection
-LIBS:Altera
-LIBS:74xx
-LIBS:74xgxx
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
 LIBS:espitall
 LIBS:Cocoservo-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -131,7 +46,7 @@ U 1 1 573CEA8D
 P 6650 1700
 F 0 "D1" H 6650 1800 50  0000 C CNN
 F 1 "LED" H 6650 1600 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 6650 1700 50  0001 C CNN
+F 2 "espitall:LED_0805" H 6650 1700 50  0001 C CNN
 F 3 "" H 6650 1700 50  0000 C CNN
 	1    6650 1700
 	0    -1   -1   0   
@@ -153,7 +68,7 @@ U 1 1 573CEAA0
 P 6650 1300
 F 0 "R1" V 6730 1300 50  0000 C CNN
 F 1 "330" V 6650 1300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6650 1300 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 6650 1300 50  0001 C CNN
 F 3 "" H 6650 1300 50  0000 C CNN
 	1    6650 1300
 	1    0    0    -1  
@@ -164,7 +79,7 @@ U 1 1 573CD7BD
 P 9200 1300
 F 0 "H1" H 9200 1400 50  0000 C CNN
 F 1 "CONN_01X01" V 9300 1300 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9200 1300 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9200 1300 50  0001 C CNN
 F 3 "" H 9200 1300 50  0000 C CNN
 	1    9200 1300
 	0    -1   -1   0   
@@ -175,7 +90,7 @@ U 1 1 573CD8BA
 P 9800 1300
 F 0 "H2" H 9800 1400 50  0000 C CNN
 F 1 "CONN_01X01" V 9900 1300 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9800 1300 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9800 1300 50  0001 C CNN
 F 3 "" H 9800 1300 50  0000 C CNN
 	1    9800 1300
 	0    -1   -1   0   
@@ -188,7 +103,7 @@ U 1 1 573CB74D
 P 3150 1500
 F 0 "C1" H 3200 1600 50  0000 C CNN
 F 1 "10u" V 3250 1350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3150 1500 50  0001 C CNN
+F 2 "espitall:C_0805_HandSoldering" H 3150 1500 50  0001 C CNN
 F 3 "" H 3150 1500 50  0000 C CNN
 	1    3150 1500
 	1    0    0    -1  
@@ -211,7 +126,7 @@ U 1 1 57889E4C
 P 9200 1950
 F 0 "H3" H 9200 2050 50  0000 C CNN
 F 1 "CONN_01X01" V 9300 1950 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9200 1950 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9200 1950 50  0001 C CNN
 F 3 "" H 9200 1950 50  0000 C CNN
 	1    9200 1950
 	0    -1   -1   0   
@@ -222,7 +137,7 @@ U 1 1 5787B6B2
 P 4850 4000
 F 0 "S0" H 4850 4200 50  0000 C CNN
 F 1 "CONN_01X03" V 4950 4000 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 4850 4000 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 4850 4000 50  0001 C CNN
 F 3 "" H 4850 4000 50  0000 C CNN
 	1    4850 4000
 	1    0    0    1   
@@ -291,7 +206,7 @@ U 1 1 5787D4A4
 P 4300 3750
 F 0 "R2" V 4380 3750 50  0000 C CNN
 F 1 "10k" V 4300 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4230 3750 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 4230 3750 50  0001 C CNN
 F 3 "" H 4300 3750 50  0000 C CNN
 	1    4300 3750
 	1    0    0    -1  
@@ -314,7 +229,7 @@ U 1 1 5787D99C
 P 6750 4000
 F 0 "S1" H 6750 4200 50  0000 C CNN
 F 1 "CONN_01X03" V 6850 4000 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 6750 4000 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 6750 4000 50  0001 C CNN
 F 3 "" H 6750 4000 50  0000 C CNN
 	1    6750 4000
 	1    0    0    1   
@@ -355,7 +270,7 @@ U 1 1 5787D9B2
 P 6200 3750
 F 0 "R3" V 6280 3750 50  0000 C CNN
 F 1 "10k" V 6200 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6130 3750 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 6130 3750 50  0001 C CNN
 F 3 "" H 6200 3750 50  0000 C CNN
 	1    6200 3750
 	1    0    0    -1  
@@ -378,7 +293,7 @@ U 1 1 5787DBB0
 P 4850 5650
 F 0 "S2" H 4850 5850 50  0000 C CNN
 F 1 "CONN_01X03" V 4950 5650 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 4850 5650 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 4850 5650 50  0001 C CNN
 F 3 "" H 4850 5650 50  0000 C CNN
 	1    4850 5650
 	1    0    0    1   
@@ -419,7 +334,7 @@ U 1 1 5787DBC6
 P 4300 5400
 F 0 "R4" V 4380 5400 50  0000 C CNN
 F 1 "10k" V 4300 5400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4230 5400 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 4230 5400 50  0001 C CNN
 F 3 "" H 4300 5400 50  0000 C CNN
 	1    4300 5400
 	1    0    0    -1  
@@ -442,7 +357,7 @@ U 1 1 5787DBD3
 P 6750 5650
 F 0 "S3" H 6750 5850 50  0000 C CNN
 F 1 "CONN_01X03" V 6850 5650 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 6750 5650 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 6750 5650 50  0001 C CNN
 F 3 "" H 6750 5650 50  0000 C CNN
 	1    6750 5650
 	1    0    0    1   
@@ -483,7 +398,7 @@ U 1 1 5787DBE9
 P 6200 5400
 F 0 "R5" V 6280 5400 50  0000 C CNN
 F 1 "10k" V 6200 5400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6130 5400 50  0001 C CNN
+F 2 "espitall:R_0603_HandSoldering" V 6130 5400 50  0001 C CNN
 F 3 "" H 6200 5400 50  0000 C CNN
 	1    6200 5400
 	1    0    0    -1  
@@ -506,7 +421,7 @@ U 1 1 5787DF50
 P 950 1500
 F 0 "SIN1" H 950 1800 50  0000 C CNN
 F 1 "CONN_01X05" V 1050 1500 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight" H 950 1500 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight" H 950 1500 50  0001 C CNN
 F 3 "" H 950 1500 50  0000 C CNN
 	1    950  1500
 	-1   0    0    -1  
@@ -566,7 +481,7 @@ U 1 1 5787E7AE
 P 4850 1500
 F 0 "C2" H 4900 1600 50  0000 C CNN
 F 1 "10u" V 4950 1350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4850 1500 50  0001 C CNN
+F 2 "espitall:C_0805_HandSoldering" H 4850 1500 50  0001 C CNN
 F 3 "" H 4850 1500 50  0000 C CNN
 	1    4850 1500
 	1    0    0    -1  
@@ -577,7 +492,7 @@ U 1 1 5787E938
 P 5150 1500
 F 0 "C3" H 5200 1600 50  0000 C CNN
 F 1 "100n" V 5250 1350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5150 1500 50  0001 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 5150 1500 50  0001 C CNN
 F 3 "" H 5150 1500 50  0000 C CNN
 	1    5150 1500
 	1    0    0    -1  
@@ -641,7 +556,7 @@ U 1 1 5787F44A
 P 2750 1250
 F 0 "PIN1" H 2750 1400 50  0000 C CNN
 F 1 "CONN_01X02" V 2850 1250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 2750 1250 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight" H 2750 1250 50  0001 C CNN
 F 3 "" H 2750 1250 50  0000 C CNN
 	1    2750 1250
 	-1   0    0    -1  
@@ -670,7 +585,7 @@ U 1 1 5787F6B6
 P 5650 1250
 F 0 "POUT1" H 5650 1400 50  0000 C CNN
 F 1 "CONN_01X02" V 5750 1250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 5650 1250 50  0001 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight" H 5650 1250 50  0001 C CNN
 F 3 "" H 5650 1250 50  0000 C CNN
 	1    5650 1250
 	1    0    0    -1  
