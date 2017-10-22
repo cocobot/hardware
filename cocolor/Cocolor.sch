@@ -1,92 +1,7 @@
-EESchema Schematic File Version 2
-LIBS:xilinx
-LIBS:video
-LIBS:valves
-LIBS:ttl_ieee
-LIBS:transistors
-LIBS:transf
-LIBS:texas
-LIBS:switches
-LIBS:supertex
-LIBS:stm8
-LIBS:stm32
-LIBS:siliconi
-LIBS:silabs
-LIBS:sensors
-LIBS:rfcom
-LIBS:relays
-LIBS:regul
-LIBS:references
-LIBS:powerint
-LIBS:power
-LIBS:philips
-LIBS:opto
-LIBS:onsemi
-LIBS:nxp_armmcu
-LIBS:nordicsemi
-LIBS:msp430
-LIBS:motorola
-LIBS:motor_drivers
-LIBS:microcontrollers
-LIBS:microchip_pic32mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic10mcu
-LIBS:microchip_dspic33dsc
-LIBS:microchip
-LIBS:memory
-LIBS:maxim
-LIBS:logo
-LIBS:linear
-LIBS:ir
-LIBS:interface
-LIBS:intel
-LIBS:hc11
-LIBS:graphic
-LIBS:gennum
-LIBS:ftdi
-LIBS:elec-unifil
-LIBS:dsp
-LIBS:display
-LIBS:diode
-LIBS:digital-audio
-LIBS:device
-LIBS:dc-dc
-LIBS:cypress
-LIBS:contrib
-LIBS:conn
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:brooktre
-LIBS:audio
-LIBS:atmel
-LIBS:analog_switches
-LIBS:analog_devices
-LIBS:adc-dac
-LIBS:actel
-LIBS:ac-dc
-LIBS:Zilog
-LIBS:Xicor
-LIBS:Power_Management
-LIBS:Oscillators
-LIBS:Lattice
-LIBS:ESD_Protection
-LIBS:Altera
-LIBS:74xx
-LIBS:74xgxx
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
+EESchema Schematic File Version 3
 LIBS:espitall
 LIBS:Cocolor-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -266,17 +181,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 5000 2100 1900
 Connection ~ 2100 1900
-$Comp
-L LTC4316 U2
-U 1 1 573CCB68
-P 3700 4750
-F 0 "U2" H 3850 5300 60  0000 C CNN
-F 1 "LTC4316" H 3950 4200 60  0000 C CNN
-F 2 "" H 3700 4750 60  0000 C CNN
-F 3 "" H 3700 4750 60  0000 C CNN
-	1    3700 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3150 4500 3050 4500
 Wire Wire Line
@@ -290,42 +194,9 @@ U 1 1 573CCC48
 P 4650 3900
 F 0 "R3" V 4730 3900 50  0000 C CNN
 F 1 "R" V 4650 3900 50  0000 C CNN
-F 2 "" H 4650 3900 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 4650 3900 50  0001 C CNN
 F 3 "" H 4650 3900 50  0000 C CNN
 	1    4650 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R5
-U 1 1 573CCC89
-P 4650 4550
-F 0 "R5" V 4730 4550 50  0000 C CNN
-F 1 "R" V 4650 4550 50  0000 C CNN
-F 2 "" H 4650 4550 50  0000 C CNN
-F 3 "" H 4650 4550 50  0000 C CNN
-	1    4650 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R6
-U 1 1 573CCCC4
-P 4900 4550
-F 0 "R6" V 4980 4550 50  0000 C CNN
-F 1 "R" V 4900 4550 50  0000 C CNN
-F 2 "" H 4900 4550 50  0000 C CNN
-F 3 "" H 4900 4550 50  0000 C CNN
-	1    4900 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R4
-U 1 1 573CCCF6
-P 4900 3900
-F 0 "R4" V 4980 3900 50  0000 C CNN
-F 1 "R" V 4900 3900 50  0000 C CNN
-F 2 "" H 4900 3900 50  0000 C CNN
-F 3 "" H 4900 3900 50  0000 C CNN
-	1    4900 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -421,17 +292,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 2050 5350 2200
 $Comp
-L TCS3472 U1
-U 1 1 573CD6D5
-P 6600 4200
-F 0 "U1" H 6750 4550 60  0000 C CNN
-F 1 "TCS3472" H 6850 3800 60  0000 C CNN
-F 2 "" H 6600 4200 60  0000 C CNN
-F 3 "" H 6600 4200 60  0000 C CNN
-	1    6600 4200
-	1    0    0    -1  
-$EndComp
-$Comp
 L +3V3 #PWR017
 U 1 1 573CD7A4
 P 6600 3550
@@ -487,7 +347,7 @@ U 1 1 573CDE59
 P 1250 1900
 F 0 "P1" H 1250 2200 50  0000 C CNN
 F 1 "CONN_01X05" V 1350 1900 50  0000 C CNN
-F 2 "" H 1250 1900 50  0000 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight" H 1250 1900 50  0001 C CNN
 F 3 "" H 1250 1900 50  0000 C CNN
 	1    1250 1900
 	-1   0    0    -1  
@@ -524,7 +384,7 @@ U 1 1 573CE201
 P 2750 1900
 F 0 "P2" H 2750 2200 50  0000 C CNN
 F 1 "CONN_01X05" V 2850 1900 50  0000 C CNN
-F 2 "" H 2750 1900 50  0000 C CNN
+F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight" H 2750 1900 50  0001 C CNN
 F 3 "" H 2750 1900 50  0000 C CNN
 	1    2750 1900
 	1    0    0    -1  
@@ -533,17 +393,6 @@ Wire Wire Line
 	2500 1300 2500 1700
 Wire Wire Line
 	2500 1700 2550 1700
-$Comp
-L LED D2
-U 1 1 573CE5E1
-P 8400 4400
-F 0 "D2" H 8400 4500 50  0000 C CNN
-F 1 "LED" H 8400 4300 50  0000 C CNN
-F 2 "" H 8400 4400 50  0000 C CNN
-F 3 "" H 8400 4400 50  0000 C CNN
-	1    8400 4400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L GND #PWR021
 U 1 1 573CE676
@@ -568,17 +417,6 @@ F 3 "" H 8400 3350 50  0000 C CNN
 	1    8400 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R2
-U 1 1 573CE7BD
-P 8400 3750
-F 0 "R2" V 8480 3750 50  0000 C CNN
-F 1 "330" V 8400 3750 50  0000 C CNN
-F 2 "" H 8400 3750 50  0000 C CNN
-F 3 "" H 8400 3750 50  0000 C CNN
-	1    8400 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8400 3900 8400 4200
 Wire Wire Line
@@ -589,7 +427,7 @@ U 1 1 573CEA8D
 P 7700 4400
 F 0 "D1" H 7700 4500 50  0000 C CNN
 F 1 "LED" H 7700 4300 50  0000 C CNN
-F 2 "" H 7700 4400 50  0000 C CNN
+F 2 "espitall:LED_1206" H 7700 4400 50  0001 C CNN
 F 3 "" H 7700 4400 50  0000 C CNN
 	1    7700 4400
 	0    -1   -1   0   
@@ -624,7 +462,7 @@ U 1 1 573CEAA0
 P 7700 3750
 F 0 "R1" V 7780 3750 50  0000 C CNN
 F 1 "330" V 7700 3750 50  0000 C CNN
-F 2 "" H 7700 3750 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 7700 3750 50  0001 C CNN
 F 3 "" H 7700 3750 50  0000 C CNN
 	1    7700 3750
 	1    0    0    -1  
@@ -639,7 +477,7 @@ U 1 1 573CD7BD
 P 7300 1300
 F 0 "H1" H 7300 1400 50  0000 C CNN
 F 1 "CONN_01X01" V 7400 1300 50  0000 C CNN
-F 2 "" H 7300 1300 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 7300 1300 50  0001 C CNN
 F 3 "" H 7300 1300 50  0000 C CNN
 	1    7300 1300
 	0    -1   -1   0   
@@ -650,7 +488,7 @@ U 1 1 573CD8BA
 P 7900 1300
 F 0 "H2" H 7900 1400 50  0000 C CNN
 F 1 "CONN_01X01" V 8000 1300 50  0000 C CNN
-F 2 "" H 7900 1300 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 7900 1300 50  0001 C CNN
 F 3 "" H 7900 1300 50  0000 C CNN
 	1    7900 1300
 	0    -1   -1   0   
@@ -662,23 +500,12 @@ NoConn ~ 7050 4200
 NoConn ~ 7300 1500
 NoConn ~ 7900 1500
 $Comp
-L C C3
-U 1 1 573CD222
-P 5350 1900
-F 0 "C3" V 5450 2050 50  0000 C CNN
-F 1 "100n" V 5450 1750 50  0000 C CNN
-F 2 "" H 5350 1900 50  0000 C CNN
-F 3 "" H 5350 1900 50  0000 C CNN
-	1    5350 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C2
 U 1 1 573CB7A2
 P 4700 1900
 F 0 "C2" V 4800 2050 50  0000 C CNN
 F 1 "100n" V 4800 1750 50  0000 C CNN
-F 2 "" H 4700 1900 50  0000 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 4700 1900 50  0001 C CNN
 F 3 "" H 4700 1900 50  0000 C CNN
 	1    4700 1900
 	1    0    0    -1  
@@ -689,7 +516,7 @@ U 1 1 573CB74D
 P 4050 1900
 F 0 "C1" V 4150 2050 50  0000 C CNN
 F 1 "10u" V 4150 1750 50  0000 C CNN
-F 2 "" H 4050 1900 50  0000 C CNN
+F 2 "espitall:C_0805_HandSoldering" H 4050 1900 50  0001 C CNN
 F 3 "" H 4050 1900 50  0000 C CNN
 	1    4050 1900
 	1    0    0    -1  
@@ -698,4 +525,92 @@ Wire Wire Line
 	4650 4700 4650 4800
 Wire Wire Line
 	4900 4800 4900 4700
+$Comp
+L C C3
+U 1 1 57893CF6
+P 5350 1900
+F 0 "C3" V 5450 2050 50  0000 C CNN
+F 1 "100n" V 5450 1750 50  0000 C CNN
+F 2 "espitall:C_0603_HandSoldering" H 5350 1900 50  0001 C CNN
+F 3 "" H 5350 1900 50  0000 C CNN
+	1    5350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 57893FB8
+P 4900 3900
+F 0 "R4" V 4980 3900 50  0000 C CNN
+F 1 "R" V 4900 3900 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 4900 3900 50  0001 C CNN
+F 3 "" H 4900 3900 50  0000 C CNN
+	1    4900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 57893FFD
+P 4900 4550
+F 0 "R6" V 4980 4550 50  0000 C CNN
+F 1 "R" V 4900 4550 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 4900 4550 50  0001 C CNN
+F 3 "" H 4900 4550 50  0000 C CNN
+	1    4900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 57894047
+P 4650 4550
+F 0 "R5" V 4730 4550 50  0000 C CNN
+F 1 "R" V 4650 4550 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 4650 4550 50  0001 C CNN
+F 3 "" H 4650 4550 50  0000 C CNN
+	1    4650 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 578942A4
+P 8400 3750
+F 0 "R2" V 8480 3750 50  0000 C CNN
+F 1 "330" V 8400 3750 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 8400 3750 50  0001 C CNN
+F 3 "" H 8400 3750 50  0000 C CNN
+	1    8400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 57894509
+P 8400 4400
+F 0 "D2" H 8400 4500 50  0000 C CNN
+F 1 "LED" H 8400 4300 50  0000 C CNN
+F 2 "espitall:LED_1206" H 8400 4400 50  0001 C CNN
+F 3 "" H 8400 4400 50  0000 C CNN
+	1    8400 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LTC4316 U2
+U 1 1 59EC9CAF
+P 3700 4750
+F 0 "U2" H 3700 5650 60  0000 C CNN
+F 1 "LTC4316" H 3700 5544 60  0000 C CNN
+F 2 "espitall:MSOP-10" H 3750 5200 60  0001 C CNN
+F 3 "" H 3700 4750 60  0000 C CNN
+	1    3700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L TCS3472 U1
+U 1 1 59ECA076
+P 6600 4200
+F 0 "U1" H 7091 4253 60  0000 L CNN
+F 1 "TCS3472" H 7091 4147 60  0000 L CNN
+F 2 "espitall:DFN-6" H 6650 4450 60  0001 C CNN
+F 3 "" H 6600 4200 60  0000 C CNN
+	1    6600 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
