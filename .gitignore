@@ -9,3 +9,4 @@ _autosave-*
 .dsn
 *.xml
 *.csv
+*.v4

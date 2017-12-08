@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name motor-rescue)(type Legacy)(uri ${KIPRJMOD}/motor-rescue.lib)(options "")(descr ""))
+  (lib (name espitall)(type Legacy)(uri /home/damien/prog/cocobot/hardware/espitall.lib)(options "")(descr ""))
+)
