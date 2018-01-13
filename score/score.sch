@@ -753,102 +753,102 @@ F 3 "" H 9850 3690 50  0001 L CNN
 	1    9850 3700
 	1    0    0    -1  
 $EndComp
-Text Label 6650 4650 1    60   ~ 0
+Text Label 6650 6050 1    60   ~ 0
 ch0_3v3
 Wire Wire Line
-	6650 4150 6650 4700
-Text Label 6750 4650 1    60   ~ 0
+	6650 4150 6650 4250
+Text Label 6750 6050 1    60   ~ 0
 ch1_3v3
 Wire Wire Line
-	6750 4150 6750 4700
-Text Label 6850 4650 1    60   ~ 0
+	6750 4150 6750 4500
+Text Label 6850 6050 1    60   ~ 0
 ch2_3v3
 Wire Wire Line
-	6850 4150 6850 4700
-Text Label 6950 4650 1    60   ~ 0
+	6850 4150 6850 4750
+Text Label 6950 6050 1    60   ~ 0
 ch3_3v3
 Wire Wire Line
-	6950 4150 6950 4700
-Text Label 7050 4650 1    60   ~ 0
+	6950 4150 6950 5000
+Text Label 7050 6050 1    60   ~ 0
 ch4_3v3
 Wire Wire Line
-	7050 4150 7050 4700
-Text Label 7150 4650 1    60   ~ 0
+	7050 4150 7050 4250
+Text Label 7150 6050 1    60   ~ 0
 ch5_3v3
 Wire Wire Line
-	7150 4150 7150 4700
-Text Label 7250 4650 1    60   ~ 0
+	7150 4150 7150 4500
+Text Label 7250 6050 1    60   ~ 0
 ch6_3v3
 Wire Wire Line
-	7250 4150 7250 4700
-Text Label 7450 4650 1    60   ~ 0
+	7250 4150 7250 4750
+Text Label 7450 6050 1    60   ~ 0
 ch7_3v3
 Wire Wire Line
-	7450 4150 7450 4700
-Text Label 8050 4600 1    60   ~ 0
+	7450 4150 7450 5000
+Text Label 8050 6000 1    60   ~ 0
 ch8_3v3
 Wire Wire Line
-	8050 4100 8050 4650
-Text Label 8150 4600 1    60   ~ 0
+	8050 4100 8050 4250
+Text Label 8150 6000 1    60   ~ 0
 ch9_3v3
 Wire Wire Line
-	8150 4100 8150 4650
-Text Label 8250 4600 1    60   ~ 0
+	8150 4100 8150 4500
+Text Label 8250 6000 1    60   ~ 0
 ch10_3v3
 Wire Wire Line
-	8250 4100 8250 4650
-Text Label 8350 4600 1    60   ~ 0
+	8250 4100 8250 4700
+Text Label 8350 6000 1    60   ~ 0
 ch11_3v3
 Wire Wire Line
-	8350 4100 8350 4650
-Text Label 8450 4600 1    60   ~ 0
+	8350 4100 8350 4950
+Text Label 8450 6000 1    60   ~ 0
 ch12_3v3
 Wire Wire Line
-	8450 4100 8450 4650
-Text Label 8550 4600 1    60   ~ 0
+	8450 4100 8450 4250
+Text Label 8550 6000 1    60   ~ 0
 ch13_3v3
 Wire Wire Line
-	8550 4100 8550 4650
-Text Label 8650 4600 1    60   ~ 0
+	8550 4100 8550 4500
+Text Label 8650 6000 1    60   ~ 0
 ch14_3v3
 Wire Wire Line
-	8650 4100 8650 4650
-Text Label 8850 4600 1    60   ~ 0
+	8650 4100 8650 4700
+Text Label 8850 6000 1    60   ~ 0
 ch15_3v3
 Wire Wire Line
-	8850 4100 8850 4650
-Text Label 9450 4600 1    60   ~ 0
+	8850 4100 8850 4950
+Text Label 9450 6000 1    60   ~ 0
 ch16_3v3
 Wire Wire Line
-	9450 4100 9450 4650
-Text Label 9550 4600 1    60   ~ 0
+	9450 4100 9450 4250
+Text Label 9550 6000 1    60   ~ 0
 ch17_3v3
 Wire Wire Line
-	9550 4100 9550 4650
-Text Label 9650 4600 1    60   ~ 0
+	9550 4100 9550 4500
+Text Label 9650 6000 1    60   ~ 0
 ch18_3v3
 Wire Wire Line
-	9650 4100 9650 4650
-Text Label 9750 4600 1    60   ~ 0
+	9650 4100 9650 4750
+Text Label 9750 6000 1    60   ~ 0
 ch19_3v3
 Wire Wire Line
-	9750 4100 9750 4650
-Text Label 9850 4600 1    60   ~ 0
+	9750 4100 9750 5000
+Text Label 9850 6000 1    60   ~ 0
 ch20_3v3
 Wire Wire Line
-	9850 4100 9850 4650
-Text Label 9950 4600 1    60   ~ 0
+	9850 4100 9850 4250
+Text Label 9950 6000 1    60   ~ 0
 ch21_3v3
 Wire Wire Line
-	9950 4100 9950 4650
-Text Label 10050 4600 1    60   ~ 0
+	9950 4100 9950 4500
+Text Label 10050 6000 1    60   ~ 0
 ch22_3v3
 Wire Wire Line
-	10050 4100 10050 4650
-Text Label 10250 4600 1    60   ~ 0
+	10050 4100 10050 4750
+Text Label 10250 6000 1    60   ~ 0
 ch23_3v3
 Wire Wire Line
-	10250 4100 10250 4650
+	10250 4100 10250 5000
 $Comp
 L power:+3.3VP #PWR023
 U 1 1 5A358370
@@ -1096,4 +1096,316 @@ F 3 "" H 9800 1800 50  0000 C CNN
 	1    9800 1800
 	0    -1   -1   0   
 $EndComp
+$Comp
+L device:R R3
+U 1 1 5A5B03EC
+P 6650 4400
+F 0 "R3" V 6730 4400 50  0000 C CNN
+F 1 "220" V 6650 4400 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 6650 4400 50  0001 C CNN
+F 3 "" H 6650 4400 50  0000 C CNN
+	1    6650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4550 6650 6100
+$Comp
+L device:R R9
+U 1 1 5A5BC618
+P 6750 4650
+F 0 "R9" V 6830 4650 50  0000 C CNN
+F 1 "220" V 6750 4650 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 6750 4650 50  0001 C CNN
+F 3 "" H 6750 4650 50  0000 C CNN
+	1    6750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4800 6750 6100
+$Comp
+L device:R R17
+U 1 1 5A5BC65E
+P 6850 4900
+F 0 "R17" V 6930 4900 50  0000 C CNN
+F 1 "220" V 6850 4900 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 6850 4900 50  0001 C CNN
+F 3 "" H 6850 4900 50  0000 C CNN
+	1    6850 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 5050 6850 6100
+$Comp
+L device:R R23
+U 1 1 5A5C8B4F
+P 6950 5150
+F 0 "R23" V 7030 5150 50  0000 C CNN
+F 1 "220" V 6950 5150 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 6950 5150 50  0001 C CNN
+F 3 "" H 6950 5150 50  0000 C CNN
+	1    6950 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5300 6950 6100
+$Comp
+L device:R R4
+U 1 1 5A5DBA06
+P 7050 4400
+F 0 "R4" V 7130 4400 50  0000 C CNN
+F 1 "220" V 7050 4400 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 7050 4400 50  0001 C CNN
+F 3 "" H 7050 4400 50  0000 C CNN
+	1    7050 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4550 7050 6100
+$Comp
+L device:R R10
+U 1 1 5A5DBA72
+P 7150 4650
+F 0 "R10" V 7230 4650 50  0000 C CNN
+F 1 "220" V 7150 4650 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 7150 4650 50  0001 C CNN
+F 3 "" H 7150 4650 50  0000 C CNN
+	1    7150 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4800 7150 6100
+$Comp
+L device:R R18
+U 1 1 5A5DBAD4
+P 7250 4900
+F 0 "R18" V 7330 4900 50  0000 C CNN
+F 1 "220" V 7250 4900 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 7250 4900 50  0001 C CNN
+F 3 "" H 7250 4900 50  0000 C CNN
+	1    7250 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5050 7250 6100
+$Comp
+L device:R R24
+U 1 1 5A5DBB52
+P 7450 5150
+F 0 "R24" V 7530 5150 50  0000 C CNN
+F 1 "220" V 7450 5150 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 7450 5150 50  0001 C CNN
+F 3 "" H 7450 5150 50  0000 C CNN
+	1    7450 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5300 7450 6100
+$Comp
+L device:R R5
+U 1 1 5A5DBBBA
+P 8050 4400
+F 0 "R5" V 8130 4400 50  0000 C CNN
+F 1 "220" V 8050 4400 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 8050 4400 50  0001 C CNN
+F 3 "" H 8050 4400 50  0000 C CNN
+	1    8050 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4550 8050 6050
+$Comp
+L device:R R11
+U 1 1 5A5DBC3E
+P 8150 4650
+F 0 "R11" V 8230 4650 50  0000 C CNN
+F 1 "220" V 8150 4650 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 8150 4650 50  0001 C CNN
+F 3 "" H 8150 4650 50  0000 C CNN
+	1    8150 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4800 8150 6050
+$Comp
+L device:R R15
+U 1 1 5A5DBCC6
+P 8250 4850
+F 0 "R15" V 8330 4850 50  0000 C CNN
+F 1 "220" V 8250 4850 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 8250 4850 50  0001 C CNN
+F 3 "" H 8250 4850 50  0000 C CNN
+	1    8250 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5000 8250 6050
+$Comp
+L device:R R21
+U 1 1 5A5DBD46
+P 8350 5100
+F 0 "R21" V 8430 5100 50  0000 C CNN
+F 1 "220" V 8350 5100 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 8350 5100 50  0001 C CNN
+F 3 "" H 8350 5100 50  0000 C CNN
+	1    8350 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 5250 8350 6050
+$Comp
+L device:R R6
+U 1 1 5A5DBDD4
+P 8450 4400
+F 0 "R6" V 8530 4400 50  0000 C CNN
+F 1 "220" V 8450 4400 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 8450 4400 50  0001 C CNN
+F 3 "" H 8450 4400 50  0000 C CNN
+	1    8450 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4550 8450 6050
+$Comp
+L device:R R12
+U 1 1 5A5DBE44
+P 8550 4650
+F 0 "R12" V 8630 4650 50  0000 C CNN
+F 1 "220" V 8550 4650 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 8550 4650 50  0001 C CNN
+F 3 "" H 8550 4650 50  0000 C CNN
+	1    8550 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4800 8550 6050
+$Comp
+L device:R R16
+U 1 1 5A5DBEB0
+P 8650 4850
+F 0 "R16" V 8730 4850 50  0000 C CNN
+F 1 "220" V 8650 4850 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 8650 4850 50  0001 C CNN
+F 3 "" H 8650 4850 50  0000 C CNN
+	1    8650 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5000 8650 6050
+$Comp
+L device:R R22
+U 1 1 5A5DBF26
+P 8850 5100
+F 0 "R22" V 8930 5100 50  0000 C CNN
+F 1 "220" V 8850 5100 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 8850 5100 50  0001 C CNN
+F 3 "" H 8850 5100 50  0000 C CNN
+	1    8850 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5250 8850 6050
+$Comp
+L device:R R7
+U 1 1 5A5DBF9E
+P 9450 4400
+F 0 "R7" V 9530 4400 50  0000 C CNN
+F 1 "220" V 9450 4400 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 9450 4400 50  0001 C CNN
+F 3 "" H 9450 4400 50  0000 C CNN
+	1    9450 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 4550 9450 6050
+$Comp
+L device:R R13
+U 1 1 5A5DC030
+P 9550 4650
+F 0 "R13" V 9630 4650 50  0000 C CNN
+F 1 "220" V 9550 4650 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 9550 4650 50  0001 C CNN
+F 3 "" H 9550 4650 50  0000 C CNN
+	1    9550 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4800 9550 6050
+$Comp
+L device:R R19
+U 1 1 5A5DC0BC
+P 9650 4900
+F 0 "R19" V 9730 4900 50  0000 C CNN
+F 1 "220" V 9650 4900 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 9650 4900 50  0001 C CNN
+F 3 "" H 9650 4900 50  0000 C CNN
+	1    9650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 5050 9650 6050
+$Comp
+L device:R R25
+U 1 1 5A5DC14A
+P 9750 5150
+F 0 "R25" V 9830 5150 50  0000 C CNN
+F 1 "220" V 9750 5150 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 9750 5150 50  0001 C CNN
+F 3 "" H 9750 5150 50  0000 C CNN
+	1    9750 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 5300 9750 6050
+$Comp
+L device:R R8
+U 1 1 5A5DC1CC
+P 9850 4400
+F 0 "R8" V 9930 4400 50  0000 C CNN
+F 1 "220" V 9850 4400 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 9850 4400 50  0001 C CNN
+F 3 "" H 9850 4400 50  0000 C CNN
+	1    9850 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 4550 9850 6050
+$Comp
+L device:R R14
+U 1 1 5A5DC246
+P 9950 4650
+F 0 "R14" V 10030 4650 50  0000 C CNN
+F 1 "220" V 9950 4650 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 9950 4650 50  0001 C CNN
+F 3 "" H 9950 4650 50  0000 C CNN
+	1    9950 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 4800 9950 6050
+$Comp
+L device:R R20
+U 1 1 5A5DC2C0
+P 10050 4900
+F 0 "R20" V 10130 4900 50  0000 C CNN
+F 1 "220" V 10050 4900 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 10050 4900 50  0001 C CNN
+F 3 "" H 10050 4900 50  0000 C CNN
+	1    10050 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5050 10050 6050
+$Comp
+L device:R R26
+U 1 1 5A5DC34A
+P 10250 5150
+F 0 "R26" V 10330 5150 50  0000 C CNN
+F 1 "220" V 10250 5150 50  0000 C CNN
+F 2 "espitall:R_0603_HandSoldering" H 10250 5150 50  0001 C CNN
+F 3 "" H 10250 5150 50  0000 C CNN
+	1    10250 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 5300 10250 6050
 $EndSCHEMATC
