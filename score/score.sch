@@ -41,7 +41,7 @@ F 3 "" H 6300 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R1
+L score-rescue:R-device R1
 U 1 1 573CEAA0
 P 6300 1550
 F 0 "R1" V 6380 1550 50  0000 C CNN
@@ -78,7 +78,7 @@ Mouting holes
 NoConn ~ 9200 1500
 NoConn ~ 9800 1500
 $Comp
-L device:C C1
+L score-rescue:C-device C1
 U 1 1 573CB74D
 P 4450 1900
 F 0 "C1" V 4550 2050 50  0000 C CNN
@@ -111,7 +111,7 @@ Wire Notes Line
 Wire Wire Line
 	1050 2100 1250 2100
 $Comp
-L espitall:74HC595T16-13 U1
+L score-rescue:74HC595T16-13-espitall U1
 U 1 1 5787DC8B
 P 2250 4050
 F 0 "U1" H 2600 4450 50  0000 C CNN
@@ -265,7 +265,7 @@ $EndComp
 NoConn ~ 9200 2000
 NoConn ~ 9800 2000
 $Comp
-L device:C C2
+L score-rescue:C-device C2
 U 1 1 5935296B
 P 2950 3300
 F 0 "C2" H 3050 3400 50  0000 C CNN
@@ -286,7 +286,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 1700 2550 1700
 $Comp
-L power:GND #PWR01
+L score-rescue:GND-power #PWR01
 U 1 1 5A2F7B7E
 P 1250 2250
 F 0 "#PWR01" H 1250 2000 50  0001 C CNN
@@ -297,7 +297,7 @@ F 3 "" H 1250 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L score-rescue:GND-power #PWR02
 U 1 1 5A2F7F39
 P 2350 2250
 F 0 "#PWR02" H 2350 2000 50  0001 C CNN
@@ -308,7 +308,7 @@ F 3 "" H 2350 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR03
+L score-rescue:+3V3-power #PWR03
 U 1 1 5A2F8189
 P 1250 1400
 F 0 "#PWR03" H 1250 1250 50  0001 C CNN
@@ -319,7 +319,7 @@ F 3 "" H 1250 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR04
+L score-rescue:+3V3-power #PWR04
 U 1 1 5A2F8279
 P 2350 1400
 F 0 "#PWR04" H 2350 1250 50  0001 C CNN
@@ -330,7 +330,7 @@ F 3 "" H 2350 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR06
+L score-rescue:+3V3-power #PWR06
 U 1 1 5A2F8550
 P 2100 3100
 F 0 "#PWR06" H 2100 2950 50  0001 C CNN
@@ -341,7 +341,7 @@ F 3 "" H 2100 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR07
+L score-rescue:+3V3-power #PWR07
 U 1 1 5A2F8601
 P 2950 3100
 F 0 "#PWR07" H 2950 2950 50  0001 C CNN
@@ -352,7 +352,7 @@ F 3 "" H 2950 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L score-rescue:GND-power #PWR08
 U 1 1 5A2F86B2
 P 2950 3500
 F 0 "#PWR08" H 2950 3250 50  0001 C CNN
@@ -363,7 +363,7 @@ F 3 "" H 2950 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR09
+L score-rescue:+3V3-power #PWR09
 U 1 1 5A2F879B
 P 4450 1400
 F 0 "#PWR09" H 4450 1250 50  0001 C CNN
@@ -374,7 +374,7 @@ F 3 "" H 4450 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L score-rescue:GND-power #PWR010
 U 1 1 5A2F88C3
 P 4450 2250
 F 0 "#PWR010" H 4450 2000 50  0001 C CNN
@@ -389,7 +389,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 1400 4450 1750
 $Comp
-L power:GND #PWR011
+L score-rescue:GND-power #PWR011
 U 1 1 5A31A308
 P 1650 5100
 F 0 "#PWR011" H 1650 4850 50  0001 C CNN
@@ -400,7 +400,7 @@ F 3 "" H 1650 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L score-rescue:GND-power #PWR012
 U 1 1 5A31A494
 P 2100 5100
 F 0 "#PWR012" H 2100 4850 50  0001 C CNN
@@ -411,7 +411,7 @@ F 3 "" H 2100 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L espitall:74HC595T16-13 U6
+L score-rescue:74HC595T16-13-espitall U6
 U 1 1 5A31E344
 P 2250 6550
 F 0 "U6" H 2600 6950 50  0000 C CNN
@@ -477,7 +477,7 @@ Connection ~ 2100 5700
 Wire Wire Line
 	2700 7350 3300 7350
 $Comp
-L device:C C4
+L score-rescue:C-device C4
 U 1 1 5A31E368
 P 2950 5800
 F 0 "C4" H 3050 5900 50  0000 C CNN
@@ -494,7 +494,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 5700 2100 5750
 $Comp
-L power:+3V3 #PWR013
+L score-rescue:+3V3-power #PWR013
 U 1 1 5A31E371
 P 2100 5600
 F 0 "#PWR013" H 2100 5450 50  0001 C CNN
@@ -505,7 +505,7 @@ F 3 "" H 2100 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR014
+L score-rescue:+3V3-power #PWR014
 U 1 1 5A31E377
 P 2950 5600
 F 0 "#PWR014" H 2950 5450 50  0001 C CNN
@@ -516,7 +516,7 @@ F 3 "" H 2950 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L score-rescue:GND-power #PWR015
 U 1 1 5A31E37D
 P 2950 6000
 F 0 "#PWR015" H 2950 5750 50  0001 C CNN
@@ -527,7 +527,7 @@ F 3 "" H 2950 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L score-rescue:GND-power #PWR016
 U 1 1 5A31E383
 P 1650 7600
 F 0 "#PWR016" H 1650 7350 50  0001 C CNN
@@ -538,7 +538,7 @@ F 3 "" H 1650 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L score-rescue:GND-power #PWR017
 U 1 1 5A31E389
 P 2100 7600
 F 0 "#PWR017" H 2100 7350 50  0001 C CNN
@@ -549,7 +549,7 @@ F 3 "" H 2100 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L espitall:74HC595T16-13 U5
+L score-rescue:74HC595T16-13-espitall U5
 U 1 1 5A31FB0C
 P 4500 4050
 F 0 "U5" H 4850 4450 50  0000 C CNN
@@ -615,7 +615,7 @@ Connection ~ 4350 3200
 Wire Wire Line
 	4950 4850 5550 4850
 $Comp
-L device:C C3
+L score-rescue:C-device C3
 U 1 1 5A31FB30
 P 5200 3300
 F 0 "C3" H 5300 3400 50  0000 C CNN
@@ -632,7 +632,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 3200 4350 3250
 $Comp
-L power:+3V3 #PWR018
+L score-rescue:+3V3-power #PWR018
 U 1 1 5A31FB39
 P 4350 3100
 F 0 "#PWR018" H 4350 2950 50  0001 C CNN
@@ -643,7 +643,7 @@ F 3 "" H 4350 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR019
+L score-rescue:+3V3-power #PWR019
 U 1 1 5A31FB3F
 P 5200 3100
 F 0 "#PWR019" H 5200 2950 50  0001 C CNN
@@ -654,7 +654,7 @@ F 3 "" H 5200 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR020
+L score-rescue:GND-power #PWR020
 U 1 1 5A31FB45
 P 5200 3500
 F 0 "#PWR020" H 5200 3250 50  0001 C CNN
@@ -665,7 +665,7 @@ F 3 "" H 5200 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L score-rescue:GND-power #PWR021
 U 1 1 5A31FB4B
 P 3900 5100
 F 0 "#PWR021" H 3900 4850 50  0001 C CNN
@@ -676,7 +676,7 @@ F 3 "" H 3900 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
+L score-rescue:GND-power #PWR022
 U 1 1 5A31FB51
 P 4350 5100
 F 0 "#PWR022" H 4350 4850 50  0001 C CNN
@@ -721,7 +721,7 @@ Connection ~ 1450 2700
 Wire Wire Line
 	1450 2700 1450 3850
 $Comp
-L espitall:HDSP-C8A1 U4
+L score-rescue:HDSP-C8A1-espitall U4
 U 1 1 5A33F8B5
 P 7050 3750
 F 0 "U4" H 7530 3796 50  0000 L CNN
@@ -732,7 +732,7 @@ F 3 "" H 7050 3740 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L espitall:HDSP-C8A1 U2
+L score-rescue:HDSP-C8A1-espitall U2
 U 1 1 5A33F909
 P 8450 3700
 F 0 "U2" H 8930 3746 50  0000 L CNN
@@ -743,7 +743,7 @@ F 3 "" H 8450 3690 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L espitall:HDSP-C8A1 U3
+L score-rescue:HDSP-C8A1-espitall U3
 U 1 1 5A33F989
 P 9850 3700
 F 0 "U3" H 10330 3746 50  0000 L CNN
@@ -850,7 +850,7 @@ ch23_3v3
 Wire Wire Line
 	10250 4100 10250 5000
 $Comp
-L power:+3.3VP #PWR023
+L score-rescue:+3.3VP-power #PWR023
 U 1 1 5A358370
 P 7050 2850
 F 0 "#PWR023" H 7200 2800 50  0001 C CNN
@@ -870,7 +870,7 @@ Connection ~ 7050 3250
 Wire Wire Line
 	7050 3250 7050 3350
 $Comp
-L power:+3.3VP #PWR024
+L score-rescue:+3.3VP-power #PWR024
 U 1 1 5A35FB50
 P 8450 2800
 F 0 "#PWR024" H 8600 2750 50  0001 C CNN
@@ -890,7 +890,7 @@ Connection ~ 8450 3200
 Wire Wire Line
 	8450 3200 8450 3300
 $Comp
-L power:+3.3VP #PWR025
+L score-rescue:+3.3VP-power #PWR025
 U 1 1 5A363C66
 P 9850 2800
 F 0 "#PWR025" H 10000 2750 50  0001 C CNN
@@ -910,7 +910,7 @@ Connection ~ 9850 3200
 Wire Wire Line
 	9850 3200 9850 3300
 $Comp
-L espitall:TSR1-2433 U7
+L score-rescue:TSR1-2433-espitall U7
 U 1 1 5A368415
 P 5000 6550
 F 0 "U7" H 5000 6887 60  0000 C CNN
@@ -921,7 +921,7 @@ F 3 "" H 5000 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR026
+L score-rescue:GND-power #PWR026
 U 1 1 5A368465
 P 5000 7100
 F 0 "#PWR026" H 5000 6850 50  0001 C CNN
@@ -932,7 +932,7 @@ F 3 "" H 5000 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x02 J1
+L score-rescue:Conn_01x02-conn J1
 U 1 1 5A36864D
 P 4100 6500
 F 0 "J1" H 4180 6492 50  0000 L CNN
@@ -945,7 +945,7 @@ $EndComp
 Wire Wire Line
 	4600 6500 4300 6500
 $Comp
-L power:GND #PWR028
+L score-rescue:GND-power #PWR028
 U 1 1 5A36CD1F
 P 4500 7100
 F 0 "#PWR028" H 4500 6850 50  0001 C CNN
@@ -962,7 +962,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 6800 5000 7100
 $Comp
-L power:+3.3VP #PWR029
+L score-rescue:+3.3VP-power #PWR029
 U 1 1 5A37F097
 P 5600 6200
 F 0 "#PWR029" H 5750 6150 50  0001 C CNN
@@ -973,7 +973,7 @@ F 3 "" H 5600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C5
+L score-rescue:C-device C5
 U 1 1 5A37F1F8
 P 5800 6850
 F 0 "C5" V 5900 7000 50  0000 C CNN
@@ -984,7 +984,7 @@ F 3 "" H 5800 6850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR030
+L score-rescue:GND-power #PWR030
 U 1 1 5A37F308
 P 5800 7100
 F 0 "#PWR030" H 5800 6850 50  0001 C CNN
@@ -1028,7 +1028,7 @@ F 3 "" H 7000 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L score-rescue:R-device R2
 U 1 1 5A39771C
 P 7000 1550
 F 0 "R2" V 7080 1550 50  0000 C CNN
@@ -1045,7 +1045,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 1300 7000 1400
 $Comp
-L power:+3.3VP #PWR032
+L score-rescue:+3.3VP-power #PWR032
 U 1 1 5A39C9B3
 P 7000 1300
 F 0 "#PWR032" H 7150 1250 50  0001 C CNN
@@ -1097,7 +1097,7 @@ F 3 "" H 9800 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R3
+L score-rescue:R-device R3
 U 1 1 5A5B03EC
 P 6650 4400
 F 0 "R3" V 6730 4400 50  0000 C CNN
@@ -1110,7 +1110,7 @@ $EndComp
 Wire Wire Line
 	6650 4550 6650 6100
 $Comp
-L device:R R9
+L score-rescue:R-device R9
 U 1 1 5A5BC618
 P 6750 4650
 F 0 "R9" V 6830 4650 50  0000 C CNN
@@ -1123,7 +1123,7 @@ $EndComp
 Wire Wire Line
 	6750 4800 6750 6100
 $Comp
-L device:R R17
+L score-rescue:R-device R17
 U 1 1 5A5BC65E
 P 6850 4900
 F 0 "R17" V 6930 4900 50  0000 C CNN
@@ -1136,7 +1136,7 @@ $EndComp
 Wire Wire Line
 	6850 5050 6850 6100
 $Comp
-L device:R R23
+L score-rescue:R-device R23
 U 1 1 5A5C8B4F
 P 6950 5150
 F 0 "R23" V 7030 5150 50  0000 C CNN
@@ -1149,7 +1149,7 @@ $EndComp
 Wire Wire Line
 	6950 5300 6950 6100
 $Comp
-L device:R R4
+L score-rescue:R-device R4
 U 1 1 5A5DBA06
 P 7050 4400
 F 0 "R4" V 7130 4400 50  0000 C CNN
@@ -1162,7 +1162,7 @@ $EndComp
 Wire Wire Line
 	7050 4550 7050 6100
 $Comp
-L device:R R10
+L score-rescue:R-device R10
 U 1 1 5A5DBA72
 P 7150 4650
 F 0 "R10" V 7230 4650 50  0000 C CNN
@@ -1175,7 +1175,7 @@ $EndComp
 Wire Wire Line
 	7150 4800 7150 6100
 $Comp
-L device:R R18
+L score-rescue:R-device R18
 U 1 1 5A5DBAD4
 P 7250 4900
 F 0 "R18" V 7330 4900 50  0000 C CNN
@@ -1188,7 +1188,7 @@ $EndComp
 Wire Wire Line
 	7250 5050 7250 6100
 $Comp
-L device:R R24
+L score-rescue:R-device R24
 U 1 1 5A5DBB52
 P 7450 5150
 F 0 "R24" V 7530 5150 50  0000 C CNN
@@ -1201,7 +1201,7 @@ $EndComp
 Wire Wire Line
 	7450 5300 7450 6100
 $Comp
-L device:R R5
+L score-rescue:R-device R5
 U 1 1 5A5DBBBA
 P 8050 4400
 F 0 "R5" V 8130 4400 50  0000 C CNN
@@ -1214,7 +1214,7 @@ $EndComp
 Wire Wire Line
 	8050 4550 8050 6050
 $Comp
-L device:R R11
+L score-rescue:R-device R11
 U 1 1 5A5DBC3E
 P 8150 4650
 F 0 "R11" V 8230 4650 50  0000 C CNN
@@ -1227,7 +1227,7 @@ $EndComp
 Wire Wire Line
 	8150 4800 8150 6050
 $Comp
-L device:R R15
+L score-rescue:R-device R15
 U 1 1 5A5DBCC6
 P 8250 4850
 F 0 "R15" V 8330 4850 50  0000 C CNN
@@ -1240,7 +1240,7 @@ $EndComp
 Wire Wire Line
 	8250 5000 8250 6050
 $Comp
-L device:R R21
+L score-rescue:R-device R21
 U 1 1 5A5DBD46
 P 8350 5100
 F 0 "R21" V 8430 5100 50  0000 C CNN
@@ -1253,7 +1253,7 @@ $EndComp
 Wire Wire Line
 	8350 5250 8350 6050
 $Comp
-L device:R R6
+L score-rescue:R-device R6
 U 1 1 5A5DBDD4
 P 8450 4400
 F 0 "R6" V 8530 4400 50  0000 C CNN
@@ -1266,7 +1266,7 @@ $EndComp
 Wire Wire Line
 	8450 4550 8450 6050
 $Comp
-L device:R R12
+L score-rescue:R-device R12
 U 1 1 5A5DBE44
 P 8550 4650
 F 0 "R12" V 8630 4650 50  0000 C CNN
@@ -1279,7 +1279,7 @@ $EndComp
 Wire Wire Line
 	8550 4800 8550 6050
 $Comp
-L device:R R16
+L score-rescue:R-device R16
 U 1 1 5A5DBEB0
 P 8650 4850
 F 0 "R16" V 8730 4850 50  0000 C CNN
@@ -1292,7 +1292,7 @@ $EndComp
 Wire Wire Line
 	8650 5000 8650 6050
 $Comp
-L device:R R22
+L score-rescue:R-device R22
 U 1 1 5A5DBF26
 P 8850 5100
 F 0 "R22" V 8930 5100 50  0000 C CNN
@@ -1305,7 +1305,7 @@ $EndComp
 Wire Wire Line
 	8850 5250 8850 6050
 $Comp
-L device:R R7
+L score-rescue:R-device R7
 U 1 1 5A5DBF9E
 P 9450 4400
 F 0 "R7" V 9530 4400 50  0000 C CNN
@@ -1318,7 +1318,7 @@ $EndComp
 Wire Wire Line
 	9450 4550 9450 6050
 $Comp
-L device:R R13
+L score-rescue:R-device R13
 U 1 1 5A5DC030
 P 9550 4650
 F 0 "R13" V 9630 4650 50  0000 C CNN
@@ -1331,7 +1331,7 @@ $EndComp
 Wire Wire Line
 	9550 4800 9550 6050
 $Comp
-L device:R R19
+L score-rescue:R-device R19
 U 1 1 5A5DC0BC
 P 9650 4900
 F 0 "R19" V 9730 4900 50  0000 C CNN
@@ -1344,7 +1344,7 @@ $EndComp
 Wire Wire Line
 	9650 5050 9650 6050
 $Comp
-L device:R R25
+L score-rescue:R-device R25
 U 1 1 5A5DC14A
 P 9750 5150
 F 0 "R25" V 9830 5150 50  0000 C CNN
@@ -1357,7 +1357,7 @@ $EndComp
 Wire Wire Line
 	9750 5300 9750 6050
 $Comp
-L device:R R8
+L score-rescue:R-device R8
 U 1 1 5A5DC1CC
 P 9850 4400
 F 0 "R8" V 9930 4400 50  0000 C CNN
@@ -1370,7 +1370,7 @@ $EndComp
 Wire Wire Line
 	9850 4550 9850 6050
 $Comp
-L device:R R14
+L score-rescue:R-device R14
 U 1 1 5A5DC246
 P 9950 4650
 F 0 "R14" V 10030 4650 50  0000 C CNN
@@ -1383,7 +1383,7 @@ $EndComp
 Wire Wire Line
 	9950 4800 9950 6050
 $Comp
-L device:R R20
+L score-rescue:R-device R20
 U 1 1 5A5DC2C0
 P 10050 4900
 F 0 "R20" V 10130 4900 50  0000 C CNN
@@ -1396,7 +1396,7 @@ $EndComp
 Wire Wire Line
 	10050 5050 10050 6050
 $Comp
-L device:R R26
+L score-rescue:R-device R26
 U 1 1 5A5DC34A
 P 10250 5150
 F 0 "R26" V 10330 5150 50  0000 C CNN
