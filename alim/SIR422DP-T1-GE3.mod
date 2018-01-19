@@ -1,0 +1,99 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+TRANS_SIR422DP-T1-GE3
+$EndINDEX
+$MODULE TRANS_SIR422DP-T1-GE3
+Po 0 0 0 15 00000000 00000000 ~~
+Li TRANS_SIR422DP-T1-GE3
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.460881 -3.642 1.00193 1.00193 0 0.05 N V 21 "TRANS_SIR422DP-T1-GE3"
+T1 0.175219 3.8701 1.00132 1.00132 0 0.05 N V 21 "VAL**"
+DS -3.075 -2.575 3.075 -2.575 0.2 21
+DS 3.075 -2.575 3.075 2.575 0.2 24
+DS 3.075 2.575 -3.075 2.575 0.2 21
+DS -3.075 2.575 -3.075 -2.575 0.2 24
+DS -3.55 -2.85 3.55 -2.85 0.05 24
+DS 3.55 -2.85 3.55 2.85 0.05 24
+DS 3.55 2.85 -3.55 2.85 0.05 24
+DS -3.55 2.85 -3.55 -2.85 0.05 24
+DC -3.9 -1.95 -3.7 -1.95 0 21
+$PAD
+Sh "1" R 1.27 0.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.67 -1.905
+$EndPAD
+$PAD
+Sh "2" R 1.27 0.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.67 -0.635
+$EndPAD
+$PAD
+Sh "3" R 1.27 0.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.67 0.635
+$EndPAD
+$PAD
+Sh "4" R 1.27 0.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.67 1.905
+$EndPAD
+$PAD
+Sh "8" R 1.02 0.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.795 -1.905
+$EndPAD
+$PAD
+Sh "7" R 1.02 0.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.795 -0.635
+$EndPAD
+$PAD
+Sh "6" R 1.02 0.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.795 0.635
+$EndPAD
+$PAD
+Sh "5" R 1.02 0.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.795 1.905
+$EndPAD
+$PAD
+Sh "9" R 3.81 3.91 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.69 0
+$EndPAD
+$EndMODULE TRANS_SIR422DP-T1-GE3
