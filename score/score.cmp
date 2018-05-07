@@ -1,0 +1,379 @@
+Cmp-Mod V01 Created by PcbNew   date = 07/05/2018 12:43:03
+
+BeginCmp
+TimeStamp = 5A2CFE90
+Path = /5787DC8B
+Reference = U1;
+ValeurCmp = 74HC595T16-13;
+IdModule  = espitall:TSSOP-16_4.4x5mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFEB0
+Path = /5A31FB0C
+Reference = U5;
+ValeurCmp = 74HC595T16-13;
+IdModule  = espitall:TSSOP-16_4.4x5mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2D11AD
+Path = /5A33F8B5
+Reference = U4;
+ValeurCmp = HDSP-C8A1;
+IdModule  = espitall:HDSP-C8A1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4FE8
+Path = /5A5DBA72
+Reference = R10;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4723
+Path = /5A5DC0BC
+Reference = R19;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4712
+Path = /5A5DBC3E
+Reference = R11;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4701
+Path = /5A5DBE44
+Reference = R12;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A46F0
+Path = /5A5DC030
+Reference = R13;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A46DF
+Path = /5A5DC246
+Reference = R14;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4C1E
+Path = /5A5DBCC6
+Reference = R15;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A46BD
+Path = /5A5DBEB0
+Reference = R16;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A46AC
+Path = /5A5BC65E
+Reference = R17;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A469B
+Path = /5A5DBAD4
+Reference = R18;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A468A
+Path = /5A5DC14A
+Reference = R25;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4679
+Path = /5A5DC2C0
+Reference = R20;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4668
+Path = /5A5DC34A
+Reference = R26;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4657
+Path = /5A5DC1CC
+Reference = R8;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4646
+Path = /5A5DBF9E
+Reference = R7;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4635
+Path = /5A5DBDD4
+Reference = R6;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4624
+Path = /5A5DBBBA
+Reference = R5;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4613
+Path = /5A5DBA06
+Reference = R4;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A4602
+Path = /5A5B03EC
+Reference = R3;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A45B1
+Path = /5A5BC618
+Reference = R9;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A45A0
+Path = /5A5C8B4F
+Reference = R23;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A458F
+Path = /5A5DBF26
+Reference = R22;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A457E
+Path = /5A5DBB52
+Reference = R24;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A456D
+Path = /5A5DBD46
+Reference = R21;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2D1179
+Path = /5A33F909
+Reference = U2;
+ValeurCmp = HDSP-C8A1;
+IdModule  = espitall:HDSP-C8A1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B319B
+Path = /5A33F989
+Reference = U3;
+ValeurCmp = HDSP-C8A1;
+IdModule  = espitall:HDSP-C8A1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFD9E
+Path = /573CB74D
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = espitall:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFDAF
+Path = /5935296B
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = espitall:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFDC0
+Path = /5A31FB30
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = espitall:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFDD1
+Path = /5A31E368
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = espitall:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFDE2
+Path = /5A37F1F8
+Reference = C5;
+ValeurCmp = 10u;
+IdModule  = espitall:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFDFA
+Path = /5A39770F
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = espitall:D_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFE12
+Path = /573CEA8D
+Reference = D16;
+ValeurCmp = LED;
+IdModule  = espitall:D_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFE1A
+Path = /573CD7BD
+Reference = H1;
+ValeurCmp = CONN_01X01;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFE22
+Path = /573CD8BA
+Reference = H2;
+ValeurCmp = CONN_01X01;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFE2A
+Path = /57889E4C
+Reference = H3;
+ValeurCmp = CONN_01X01;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFE3C
+Path = /57886EC1
+Reference = P8;
+ValeurCmp = CONN_01X07;
+IdModule  = espitall:Socket_MOLEX-KK-RM2-54mm_Lock_7pin_straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFE4E
+Path = /57886FB7
+Reference = P9;
+ValeurCmp = CONN_01X07;
+IdModule  = espitall:Socket_MOLEX-KK-RM2-54mm_Lock_7pin_straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFE5F
+Path = /573CEAA0
+Reference = R1;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2CFE70
+Path = /5A39771C
+Reference = R2;
+ValeurCmp = 220;
+IdModule  = espitall:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AF00865
+Path = /5A31E344
+Reference = U6;
+ValeurCmp = 74HC595T16-13;
+IdModule  = espitall:TSSOP-16_4.4x5mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2D0BB8
+Path = /5A36864D
+Reference = J1;
+ValeurCmp = Conn_01x02;
+IdModule  = espitall:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B44DE
+Path = /5A368415
+Reference = U7;
+ValeurCmp = TSR1-2433;
+IdModule  = espitall:TSR-1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A2D2B6B
+Path = /5A2FD95D
+Reference = H4;
+ValeurCmp = CONN_01X01;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+EndListe
