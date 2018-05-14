@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:espitall
+EESchema Schematic File Version 4
 LIBS:Cocom-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L XBEE_868_LP U2
+L espitall:XBEE_868_LP U2
 U 1 1 575D6616
 P 5500 2900
 F 0 "U2" H 5050 4150 60  0000 C CNN
@@ -56,7 +26,7 @@ F 3 "" H 7300 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L device:R R1
 U 1 1 575D66C5
 P 4400 1850
 F 0 "R1" V 4480 1850 50  0000 C CNN
@@ -67,7 +37,7 @@ F 3 "" H 4400 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 575D6769
 P 6900 4550
 F 0 "#PWR01" H 6900 4300 50  0001 C CNN
@@ -78,7 +48,7 @@ F 3 "" H 6900 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR02
+L power:+3.3V #PWR02
 U 1 1 575D67A9
 P 4700 1350
 F 0 "#PWR02" H 4700 1200 50  0001 C CNN
@@ -93,7 +63,7 @@ UART_TX
 Text Label 4100 2450 0    60   ~ 0
 UART_RX
 $Comp
-L C C3
+L device:C C3
 U 1 1 575D6A69
 P 2950 2050
 F 0 "C3" H 2975 2150 50  0000 L CNN
@@ -104,7 +74,7 @@ F 3 "" H 2950 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L device:C C2
 U 1 1 575D6B1C
 P 2650 2050
 F 0 "C2" H 2675 2150 50  0000 L CNN
@@ -115,7 +85,7 @@ F 3 "" H 2650 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L device:C C1
 U 1 1 575D6B63
 P 2350 2050
 F 0 "C1" H 2375 2150 50  0000 L CNN
@@ -126,7 +96,7 @@ F 3 "" H 2350 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 575D6CA6
 P 2650 2450
 F 0 "#PWR03" H 2650 2200 50  0001 C CNN
@@ -137,7 +107,7 @@ F 3 "" H 2650 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR04
+L power:+3.3V #PWR04
 U 1 1 575D6CC4
 P 2650 1650
 F 0 "#PWR04" H 2650 1500 50  0001 C CNN
@@ -168,7 +138,7 @@ UART_XBEE_RTS
 Text Label 1950 3500 0    60   ~ 0
 UART_XBEE_CTS
 $Comp
-L +3.3V #PWR05
+L power:+3.3V #PWR05
 U 1 1 57651A1C
 P 2350 3050
 F 0 "#PWR05" H 2350 2900 50  0001 C CNN
@@ -179,7 +149,7 @@ F 3 "" H 2350 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 57651A3A
 P 1950 3650
 F 0 "#PWR06" H 1950 3400 50  0001 C CNN
@@ -190,7 +160,7 @@ F 3 "" H 1950 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 P2
+L Cocom-rescue:CONN_01X06-RESCUE-Cocom P2
 U 1 1 57651AEE
 P 1400 3350
 F 0 "P2" H 1400 3700 50  0000 C CNN
@@ -201,7 +171,7 @@ F 3 "" H 1400 3350 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P4
+L Cocom-rescue:CONN_01X02-RESCUE-Cocom P4
 U 1 1 57651E65
 P 1400 4100
 F 0 "P4" H 1400 4250 50  0000 C CNN
@@ -214,7 +184,7 @@ $EndComp
 Text Label 3700 2050 0    60   ~ 0
 XBEE_RESET
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 57652701
 P 1800 4300
 F 0 "#PWR07" H 1800 4050 50  0001 C CNN
@@ -227,7 +197,7 @@ $EndComp
 Text Label 2300 4050 0    60   ~ 0
 XBEE_RESET
 $Comp
-L FTDI_232R U1
+L espitall:FTDI_232R U1
 U 1 1 5785DDA4
 P 2950 5850
 F 0 "U1" H 2950 5850 60  0000 C CNN
@@ -246,7 +216,7 @@ UART_XBEE_RTS
 Text Label 4150 5650 0    60   ~ 0
 UART_XBEE_CTS
 $Comp
-L TSR1-2433 U3
+L espitall:TSR1-2433 U3
 U 1 1 5785EA0C
 P 5500 5250
 F 0 "U3" H 5650 5054 60  0000 C CNN
@@ -257,7 +227,7 @@ F 3 "" H 5500 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5785EBDB
 P 5500 6050
 F 0 "#PWR08" H 5500 5800 50  0001 C CNN
@@ -268,7 +238,7 @@ F 3 "" H 5500 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR09
+L power:+3.3V #PWR09
 U 1 1 5785ECAB
 P 6700 5050
 F 0 "#PWR09" H 6700 4900 50  0001 C CNN
@@ -279,7 +249,7 @@ F 3 "" H 6700 5050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR010
+L power:+5V #PWR010
 U 1 1 5785F10F
 P 4850 5000
 F 0 "#PWR010" H 4850 4850 50  0001 C CNN
@@ -290,7 +260,7 @@ F 3 "" H 4850 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L device:C C4
 U 1 1 5785F1FF
 P 4950 5600
 F 0 "C4" H 4975 5700 50  0000 L CNN
@@ -301,7 +271,7 @@ F 3 "" H 4950 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L device:C C5
 U 1 1 5785F2E7
 P 6100 5600
 F 0 "C5" H 6125 5700 50  0000 L CNN
@@ -312,7 +282,7 @@ F 3 "" H 6100 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 5785F353
 P 6100 6050
 F 0 "#PWR011" H 6100 5800 50  0001 C CNN
@@ -323,7 +293,7 @@ F 3 "" H 6100 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5785F39A
 P 4950 6050
 F 0 "#PWR012" H 4950 5800 50  0001 C CNN
@@ -334,7 +304,7 @@ F 3 "" H 4950 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR013
+L power:+3.3V #PWR013
 U 1 1 5785FA14
 P 2950 4900
 F 0 "#PWR013" H 2950 4750 50  0001 C CNN
@@ -345,7 +315,7 @@ F 3 "" H 2950 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5785FC92
 P 3000 7300
 F 0 "#PWR014" H 3000 7050 50  0001 C CNN
@@ -356,7 +326,7 @@ F 3 "" H 3000 7300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG P1
+L Cocom-rescue:USB_OTG-RESCUE-Cocom P1
 U 1 1 578600B2
 P 850 5600
 F 0 "P1" H 1175 5475 50  0000 C CNN
@@ -367,7 +337,7 @@ F 3 "" V 800 5500 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 57860790
 P 750 6050
 F 0 "#PWR015" H 750 5800 50  0001 C CNN
@@ -378,7 +348,7 @@ F 3 "" H 750 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L power:GND #PWR016
 U 1 1 578607C2
 P 1450 5900
 F 0 "#PWR016" H 1450 5650 50  0001 C CNN
@@ -389,7 +359,7 @@ F 3 "" H 1450 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR017
+L power:+5V #PWR017
 U 1 1 57860828
 P 1450 5300
 F 0 "#PWR017" H 1450 5150 50  0001 C CNN
@@ -408,7 +378,7 @@ D-
 Text Label 1950 5550 0    60   ~ 0
 D-
 $Comp
-L D D4
+L device:D D4
 U 1 1 57861004
 P 6500 5200
 F 0 "D4" H 6500 5300 50  0000 C CNN
@@ -419,7 +389,7 @@ F 3 "" H 6500 5200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R3
+L device:R R3
 U 1 1 578C75BB
 P 5500 6800
 F 0 "R3" V 5580 6800 50  0000 C CNN
@@ -430,7 +400,7 @@ F 3 "" H 5500 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L Cocom-rescue:LED-RESCUE-Cocom D3
 U 1 1 578C762C
 P 5500 7250
 F 0 "D3" H 5500 7350 50  0000 C CNN
@@ -441,7 +411,7 @@ F 3 "" H 5500 7250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R2
+L device:R R2
 U 1 1 578C7A39
 P 5200 6800
 F 0 "R2" V 5280 6800 50  0000 C CNN
@@ -452,7 +422,7 @@ F 3 "" H 5200 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L Cocom-rescue:LED-RESCUE-Cocom D1
 U 1 1 578C7A8F
 P 5200 7250
 F 0 "D1" H 5200 7350 50  0000 C CNN
@@ -467,11 +437,11 @@ Wire Wire Line
 Wire Wire Line
 	4700 1900 4800 1900
 Wire Wire Line
-	4700 1350 4700 1900
+	4700 1350 4700 1650
 Connection ~ 4700 1800
 Connection ~ 4700 1650
 Wire Wire Line
-	6900 4050 6900 4550
+	6900 4050 6900 4150
 Wire Wire Line
 	6900 4050 6500 4050
 Wire Wire Line
@@ -493,20 +463,20 @@ Wire Wire Line
 Wire Wire Line
 	2950 1800 2950 1900
 Wire Wire Line
-	2350 1800 2950 1800
+	2350 1800 2650 1800
 Wire Wire Line
 	2350 1800 2350 1900
 Wire Wire Line
-	2650 1650 2650 1900
+	2650 1650 2650 1800
 Connection ~ 2650 1800
 Wire Wire Line
 	2350 2200 2350 2300
 Wire Wire Line
-	2350 2300 2950 2300
+	2350 2300 2650 2300
 Wire Wire Line
 	2950 2300 2950 2200
 Wire Wire Line
-	2650 2200 2650 2450
+	2650 2200 2650 2300
 Connection ~ 2650 2300
 Wire Wire Line
 	4400 2000 4400 2050
@@ -515,7 +485,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 1650 4700 1650
 Wire Wire Line
-	3700 2050 4800 2050
+	3700 2050 4400 2050
 Wire Wire Line
 	4800 3300 4100 3300
 Wire Wire Line
@@ -554,11 +524,11 @@ Wire Wire Line
 Wire Wire Line
 	4150 5750 3750 5750
 Wire Wire Line
-	4850 5200 5100 5200
+	4850 5200 4950 5200
 Wire Wire Line
 	4850 5200 4850 5000
 Wire Wire Line
-	5900 5200 6350 5200
+	5900 5200 6100 5200
 Wire Wire Line
 	5500 5500 5500 6050
 Wire Wire Line
@@ -568,7 +538,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 5750 6100 6050
 Wire Wire Line
-	2950 4900 2950 5050
+	2950 4900 2950 5000
 Wire Wire Line
 	3100 5050 3100 5000
 Wire Wire Line
@@ -577,7 +547,7 @@ Connection ~ 2950 5000
 Wire Wire Line
 	2800 7150 2800 7300
 Wire Wire Line
-	2800 7300 3200 7300
+	2800 7300 2900 7300
 Wire Wire Line
 	2900 7150 2900 7300
 Connection ~ 2900 7300
@@ -622,7 +592,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 6650 5200 6550
 Wire Wire Line
-	5200 6550 5500 6550
+	5200 6550 5350 6550
 Wire Wire Line
 	5500 6550 5500 6650
 Wire Wire Line
@@ -645,7 +615,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 6650 4450 6650
 $Comp
-L +3.3V #PWR018
+L power:+3.3V #PWR018
 U 1 1 578C8B6B
 P 5350 6450
 F 0 "#PWR018" H 5350 6300 50  0001 C CNN
@@ -656,7 +626,7 @@ F 3 "" H 5350 6450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2
+L device:D D2
 U 1 1 59352BEC
 P 1900 3100
 F 0 "D2" H 1900 3200 50  0000 C CNN
@@ -669,7 +639,7 @@ $EndComp
 Wire Wire Line
 	2050 3100 2350 3100
 $Comp
-L R R5
+L device:R R5
 U 1 1 593542E6
 P 4100 3950
 F 0 "R5" V 4180 3950 50  0000 C CNN
@@ -680,7 +650,7 @@ F 3 "" H 4100 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D6
+L Cocom-rescue:LED-RESCUE-Cocom D6
 U 1 1 59354475
 P 4100 4400
 F 0 "D6" H 4100 4500 50  0000 C CNN
@@ -691,7 +661,7 @@ F 3 "" H 4100 4400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 593546AF
 P 4100 4650
 F 0 "#PWR019" H 4100 4400 50  0001 C CNN
@@ -710,7 +680,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 3700 4100 3800
 $Comp
-L R R4
+L device:R R4
 U 1 1 5935485B
 P 3750 3450
 F 0 "R4" V 3830 3450 50  0000 C CNN
@@ -721,7 +691,7 @@ F 3 "" H 3750 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D5
+L Cocom-rescue:LED-RESCUE-Cocom D5
 U 1 1 593548C8
 P 3750 3850
 F 0 "D5" H 3750 3950 50  0000 C CNN
@@ -732,7 +702,7 @@ F 3 "" H 3750 3850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR020
+L power:GND #PWR020
 U 1 1 59354978
 P 3750 4100
 F 0 "#PWR020" H 3750 3850 50  0001 C CNN
@@ -750,4 +720,40 @@ Wire Wire Line
 	3750 3300 3750 3200
 Wire Wire Line
 	3750 3200 4800 3200
+Wire Wire Line
+	4700 1800 4700 1900
+Wire Wire Line
+	4700 1650 4700 1800
+Wire Wire Line
+	6900 4150 6900 4250
+Wire Wire Line
+	6900 4250 6900 4350
+Wire Wire Line
+	6900 4350 6900 4450
+Wire Wire Line
+	6900 4450 6900 4550
+Wire Wire Line
+	2650 1800 2950 1800
+Wire Wire Line
+	2650 1800 2650 1900
+Wire Wire Line
+	2650 2300 2950 2300
+Wire Wire Line
+	2650 2300 2650 2450
+Wire Wire Line
+	4400 2050 4800 2050
+Wire Wire Line
+	2950 5000 2950 5050
+Wire Wire Line
+	2900 7300 3000 7300
+Wire Wire Line
+	3000 7300 3100 7300
+Wire Wire Line
+	3100 7300 3200 7300
+Wire Wire Line
+	6100 5200 6350 5200
+Wire Wire Line
+	4950 5200 5100 5200
+Wire Wire Line
+	5350 6550 5500 6550
 $EndSCHEMATC
