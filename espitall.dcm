@@ -5,4 +5,9 @@ D Generic 7 segment display, common anode
 K LED
 $ENDCMP
 #
+$CMP XGURUGX10D
+D LED dual, common cathode
+K led diode bicolor dual
+$ENDCMP
+#
 #End Doc Library
