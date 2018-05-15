@@ -1,0 +1,161 @@
+EESchema Schematic File Version 4
+LIBS:com-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L espitall:SPSGRF-868 U1
+U 1 1 5AFB197B
+P 9750 3750
+F 0 "U1" H 10078 3846 50  0000 L CNN
+F 1 "SPSGRF-868" H 10078 3755 50  0000 L CNN
+F 2 "espitall:SPSGRF-868" H 9950 4400 50  0001 C CNN
+F 3 "" H 9750 3750 50  0001 C CNN
+	1    9750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5AFB1A47
+P 9950 4750
+F 0 "#PWR01" H 9950 4500 50  0001 C CNN
+F 1 "GND" H 9955 4577 50  0000 C CNN
+F 2 "" H 9950 4750 50  0001 C CNN
+F 3 "" H 9950 4750 50  0001 C CNN
+	1    9950 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 4750 9950 4550
+$Comp
+L device:C C1
+U 1 1 5AFB1A84
+P 10250 2600
+F 0 "C1" H 10365 2646 50  0000 L CNN
+F 1 "10u" H 10365 2555 50  0000 L CNN
+F 2 "" H 10288 2450 50  0001 C CNN
+F 3 "" H 10250 2600 50  0001 C CNN
+	1    10250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR02
+U 1 1 5AFB1B2D
+P 9950 2300
+F 0 "#PWR02" H 9950 2150 50  0001 C CNN
+F 1 "+3V3" H 9965 2473 50  0000 C CNN
+F 2 "" H 9950 2300 50  0001 C CNN
+F 3 "" H 9950 2300 50  0001 C CNN
+	1    9950 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2300 9950 2350
+Wire Wire Line
+	9950 2350 10250 2350
+Wire Wire Line
+	10250 2350 10250 2450
+Connection ~ 9950 2350
+Wire Wire Line
+	9950 2350 9950 2850
+$Comp
+L power:GND #PWR03
+U 1 1 5AFB1BBE
+P 10250 2850
+F 0 "#PWR03" H 10250 2600 50  0001 C CNN
+F 1 "GND" H 10255 2677 50  0000 C CNN
+F 2 "" H 10250 2850 50  0001 C CNN
+F 3 "" H 10250 2850 50  0001 C CNN
+	1    10250 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 2850 10250 2750
+$Comp
+L device:C C2
+U 1 1 5AFB1C41
+P 10650 2600
+F 0 "C2" H 10765 2646 50  0000 L CNN
+F 1 "100n" H 10765 2555 50  0000 L CNN
+F 2 "" H 10688 2450 50  0001 C CNN
+F 3 "" H 10650 2600 50  0001 C CNN
+	1    10650 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5AFB1C81
+P 10650 2850
+F 0 "#PWR04" H 10650 2600 50  0001 C CNN
+F 1 "GND" H 10655 2677 50  0000 C CNN
+F 2 "" H 10650 2850 50  0001 C CNN
+F 3 "" H 10650 2850 50  0001 C CNN
+	1    10650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 2850 10650 2750
+Wire Wire Line
+	10650 2450 10650 2350
+Wire Wire Line
+	10650 2350 10250 2350
+Connection ~ 10250 2350
+$Sheet
+S 6450 3050 1800 1400
+U 5AFB1EE6
+F0 "uc" 50
+F1 "uc.sch" 50
+F2 "rf_spi_sck_3v3" O R 8250 4050 50 
+F3 "rf_spi_miso_3v3" I R 8250 3950 50 
+F4 "rf_spi_mosi_3v3" O R 8250 3850 50 
+F5 "tx_3v3" O L 6450 3300 50 
+F6 "rx_3v3" I L 6450 3400 50 
+F7 "rf_spi_cs_3v3" O R 8250 3750 50 
+F8 "rf_gpio3_3v3" O R 8250 3250 50 
+F9 "rf_gpio2_3v3" O R 8250 3350 50 
+F10 "rf_gpio1_3v3" O R 8250 3450 50 
+F11 "rf_gpio0_3v3" O R 8250 3550 50 
+F12 "rf_sdn_3v3" O R 8250 4250 50 
+$EndSheet
+Wire Wire Line
+	9250 3950 8250 3950
+Wire Wire Line
+	8250 4050 9250 4050
+Wire Wire Line
+	9250 3850 8250 3850
+Wire Wire Line
+	8250 3750 9250 3750
+Wire Wire Line
+	9250 3550 8250 3550
+Wire Wire Line
+	8250 3450 9250 3450
+Wire Wire Line
+	9250 3350 8250 3350
+Wire Wire Line
+	8250 3250 9250 3250
+Wire Wire Line
+	9250 4250 8250 4250
+$Sheet
+S 2700 1800 1850 1100
+U 5B7F7949
+F0 "Computer" 50
+F1 "computer.sch" 50
+$EndSheet
+$Sheet
+S 2700 3550 1850 1100
+U 5B7F794F
+F0 "Robot" 50
+F1 "robot.sch" 50
+$EndSheet
+$EndSCHEMATC
