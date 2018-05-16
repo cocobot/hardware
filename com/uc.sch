@@ -26,7 +26,7 @@ F 3 "" H 6150 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555F25EB
 P 6400 1650
 AR Path="/555F25EB" Ref="C?"  Part="1" 
@@ -40,7 +40,7 @@ F 3 "" H 6400 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555F29FA
 P 6700 1650
 AR Path="/555F29FA" Ref="C?"  Part="1" 
@@ -68,7 +68,7 @@ F 3 "" H 6400 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555F3447
 P 9300 9150
 AR Path="/555F3447" Ref="C?"  Part="1" 
@@ -82,7 +82,7 @@ F 3 "" H 9300 9150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555F3587
 P 9800 9150
 AR Path="/555F3587" Ref="C?"  Part="1" 
@@ -194,7 +194,7 @@ F 3 "" H 8000 9400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Crystal Y1
+L com-rescue:Crystal-device Y1
 U 1 1 555F434D
 P 2650 3950
 F 0 "Y1" H 2650 4100 50  0000 C CNN
@@ -205,7 +205,7 @@ F 3 "" H 2650 3950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555F442C
 P 2650 4450
 AR Path="/555F442C" Ref="C?"  Part="1" 
@@ -219,7 +219,7 @@ F 3 "" H 2650 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555F44BA
 P 2350 4450
 AR Path="/555F44BA" Ref="C?"  Part="1" 
@@ -283,7 +283,7 @@ F 3 "" H 1750 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R?
 U 1 1 555F559E
 P 1350 2250
 AR Path="/555F559E" Ref="R?"  Part="1" 
@@ -297,7 +297,7 @@ F 3 "" H 1350 2250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R?
 U 1 1 555F56D6
 P 1750 2250
 AR Path="/555F56D6" Ref="R?"  Part="1" 
@@ -347,7 +347,7 @@ BOOT1_3v3
 Text Label 2500 3250 0    60   ~ 0
 BOOT0_3v3
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555FD46E
 P 7000 1650
 AR Path="/555FD46E" Ref="C?"  Part="1" 
@@ -361,7 +361,7 @@ F 3 "" H 7000 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555FD4B0
 P 7300 1650
 AR Path="/555FD4B0" Ref="C?"  Part="1" 
@@ -375,7 +375,7 @@ F 3 "" H 7300 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555FD4F0
 P 7600 1650
 AR Path="/555FD4F0" Ref="C?"  Part="1" 
@@ -389,7 +389,7 @@ F 3 "" H 7600 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555FD532
 P 7900 1650
 AR Path="/555FD532" Ref="C?"  Part="1" 
@@ -403,7 +403,7 @@ F 3 "" H 7900 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555FD576
 P 8200 1650
 AR Path="/555FD576" Ref="C?"  Part="1" 
@@ -417,7 +417,7 @@ F 3 "" H 8200 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555FD5BC
 P 8500 1650
 AR Path="/555FD5BC" Ref="C?"  Part="1" 
@@ -431,7 +431,7 @@ F 3 "" H 8500 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555FD604
 P 8800 1650
 AR Path="/555FD604" Ref="C?"  Part="1" 
@@ -445,7 +445,7 @@ F 3 "" H 8800 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555FD64E
 P 9100 1650
 AR Path="/555FD64E" Ref="C?"  Part="1" 
@@ -473,7 +473,7 @@ F 3 "" H 2000 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 555FFD07
 P 2000 4450
 AR Path="/555FFD07" Ref="C?"  Part="1" 
@@ -525,7 +525,7 @@ F 3 "" H 1150 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 556039BC
 P 650 5300
 AR Path="/556039BC" Ref="C?"  Part="1" 
@@ -533,13 +533,13 @@ AR Path="/555F206D/556039BC" Ref="C83"  Part="1"
 AR Path="/5AFB1EE6/556039BC" Ref="C83"  Part="1" 
 F 0 "C83" H 675 5400 50  0000 L CNN
 F 1 "4u7" H 675 5200 50  0000 L CNN
-F 2 "espitall:C_0603" V 550 5300 30  0001 C CNN
+F 2 "espitall:C_0805" V 550 5300 30  0001 C CNN
 F 3 "" H 650 5300 60  0000 C CNN
 	1    650  5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L com-rescue:C-device C?
 U 1 1 5560406E
 P 900 5300
 AR Path="/5560406E" Ref="C?"  Part="1" 
@@ -547,7 +547,7 @@ AR Path="/555F206D/5560406E" Ref="C84"  Part="1"
 AR Path="/5AFB1EE6/5560406E" Ref="C84"  Part="1" 
 F 0 "C84" H 925 5400 50  0000 L CNN
 F 1 "4u7" H 925 5200 50  0000 L CNN
-F 2 "espitall:C_0603" V 800 5300 30  0001 C CNN
+F 2 "espitall:C_0805" V 800 5300 30  0001 C CNN
 F 3 "" H 900 5300 60  0000 C CNN
 	1    900  5300
 	1    0    0    -1  
@@ -804,10 +804,10 @@ Wire Wire Line
 Wire Wire Line
 	6400 1400 6700 1400
 $Comp
-L conn:Conn_01x02 J?
+L com-rescue:Conn_01x02-conn J2
 U 1 1 5AFC0A4B
 P 1950 1300
-F 0 "J?" H 2030 1292 50  0000 L CNN
+F 0 "J2" H 2030 1292 50  0000 L CNN
 F 1 "Conn_01x02" H 2030 1201 50  0000 L CNN
 F 2 "" H 1950 1300 50  0001 C CNN
 F 3 "~" H 1950 1300 50  0001 C CNN
@@ -827,10 +827,10 @@ Wire Wire Line
 Wire Wire Line
 	1350 1750 1350 2100
 $Comp
-L conn:Conn_01x02 J?
+L com-rescue:Conn_01x02-conn J1
 U 1 1 5B018662
 P 1150 1300
-F 0 "J?" H 1230 1292 50  0000 L CNN
+F 0 "J1" H 1230 1292 50  0000 L CNN
 F 1 "Conn_01x02" H 1230 1201 50  0000 L CNN
 F 2 "" H 1150 1300 50  0001 C CNN
 F 3 "~" H 1150 1300 50  0001 C CNN
@@ -842,10 +842,10 @@ Wire Wire Line
 Wire Wire Line
 	1350 1400 1350 1750
 $Comp
-L conn:Conn_01x05 J?
+L com-rescue:Conn_01x05-conn J3
 U 1 1 5B044264
 P 900 6050
-F 0 "J?" H 980 6092 50  0000 L CNN
+F 0 "J3" H 980 6092 50  0000 L CNN
 F 1 "Conn_01x05" H 980 6001 50  0000 L CNN
 F 2 "" H 900 6050 50  0001 C CNN
 F 3 "~" H 900 6050 50  0001 C CNN
@@ -924,10 +924,10 @@ Wire Wire Line
 Wire Wire Line
 	6400 1400 6400 1500
 $Comp
-L espitall:XGURUGX10D D?
+L espitall:XGURUGX10D D1
 U 1 1 5B1CF593
 P 900 10900
-F 0 "D?" H 673 11246 50  0000 R CNN
+F 0 "D1" H 673 11246 50  0000 R CNN
 F 1 "XGURUGX10D" H 673 11155 50  0000 R CNN
 F 2 "" V 900 11200 50  0001 C CNN
 F 3 "" V 900 11200 50  0001 C CNN
@@ -935,230 +935,230 @@ F 3 "" V 900 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R1
 U 1 1 5B1E429B
 P 800 10100
-F 0 "R?" V 900 10000 50  0000 L CNN
+F 0 "R1" V 900 10000 50  0000 L CNN
 F 1 "220" V 800 10050 50  0000 L CNN
-F 2 "" V 730 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 730 10100 50  0001 C CNN
 F 3 "" H 800 10100 50  0001 C CNN
 	1    800  10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R2
 U 1 1 5B1E477F
 P 1000 10100
-F 0 "R?" V 1100 10000 50  0000 L CNN
+F 0 "R2" V 1100 10000 50  0000 L CNN
 F 1 "220" V 1000 10050 50  0000 L CNN
-F 2 "" V 930 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 930 10100 50  0001 C CNN
 F 3 "" H 1000 10100 50  0001 C CNN
 	1    1000 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R3
 U 1 1 5B1E489C
 P 1200 10100
-F 0 "R?" V 1300 10000 50  0000 L CNN
+F 0 "R3" V 1300 10000 50  0000 L CNN
 F 1 "220" V 1200 10050 50  0000 L CNN
-F 2 "" V 1130 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 1130 10100 50  0001 C CNN
 F 3 "" H 1200 10100 50  0001 C CNN
 	1    1200 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R4
 U 1 1 5B1E48F4
 P 1400 10100
-F 0 "R?" V 1500 10000 50  0000 L CNN
+F 0 "R4" V 1500 10000 50  0000 L CNN
 F 1 "220" V 1400 10050 50  0000 L CNN
-F 2 "" V 1330 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 1330 10100 50  0001 C CNN
 F 3 "" H 1400 10100 50  0001 C CNN
 	1    1400 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R5
 U 1 1 5B1E4950
 P 1600 10100
-F 0 "R?" V 1700 10000 50  0000 L CNN
+F 0 "R5" V 1700 10000 50  0000 L CNN
 F 1 "220" V 1600 10050 50  0000 L CNN
-F 2 "" V 1530 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 1530 10100 50  0001 C CNN
 F 3 "" H 1600 10100 50  0001 C CNN
 	1    1600 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R6
 U 1 1 5B1E49AC
 P 1800 10100
-F 0 "R?" V 1900 10000 50  0000 L CNN
+F 0 "R6" V 1900 10000 50  0000 L CNN
 F 1 "220" V 1800 10050 50  0000 L CNN
-F 2 "" V 1730 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 1730 10100 50  0001 C CNN
 F 3 "" H 1800 10100 50  0001 C CNN
 	1    1800 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R7
 U 1 1 5B1E4A0A
 P 2000 10100
-F 0 "R?" V 2100 10000 50  0000 L CNN
+F 0 "R7" V 2100 10000 50  0000 L CNN
 F 1 "220" V 2000 10050 50  0000 L CNN
-F 2 "" V 1930 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 1930 10100 50  0001 C CNN
 F 3 "" H 2000 10100 50  0001 C CNN
 	1    2000 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R8
 U 1 1 5B1E4A6A
 P 2200 10100
-F 0 "R?" V 2300 10000 50  0000 L CNN
+F 0 "R8" V 2300 10000 50  0000 L CNN
 F 1 "220" V 2200 10050 50  0000 L CNN
-F 2 "" V 2130 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 2130 10100 50  0001 C CNN
 F 3 "" H 2200 10100 50  0001 C CNN
 	1    2200 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R9
 U 1 1 5B1E4ACC
 P 2400 10100
-F 0 "R?" V 2500 10000 50  0000 L CNN
+F 0 "R9" V 2500 10000 50  0000 L CNN
 F 1 "220" V 2400 10050 50  0000 L CNN
-F 2 "" V 2330 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 2330 10100 50  0001 C CNN
 F 3 "" H 2400 10100 50  0001 C CNN
 	1    2400 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R10
 U 1 1 5B1E4B30
 P 2600 10100
-F 0 "R?" V 2700 10000 50  0000 L CNN
+F 0 "R10" V 2700 10000 50  0000 L CNN
 F 1 "220" V 2600 10050 50  0000 L CNN
-F 2 "" V 2530 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 2530 10100 50  0001 C CNN
 F 3 "" H 2600 10100 50  0001 C CNN
 	1    2600 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R11
 U 1 1 5B1E4B96
 P 2800 10100
-F 0 "R?" V 2900 10000 50  0000 L CNN
+F 0 "R11" V 2900 10000 50  0000 L CNN
 F 1 "220" V 2800 10050 50  0000 L CNN
-F 2 "" V 2730 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 2730 10100 50  0001 C CNN
 F 3 "" H 2800 10100 50  0001 C CNN
 	1    2800 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R12
 U 1 1 5B1E4BFE
 P 3000 10100
-F 0 "R?" V 3100 10000 50  0000 L CNN
+F 0 "R12" V 3100 10000 50  0000 L CNN
 F 1 "220" V 3000 10050 50  0000 L CNN
-F 2 "" V 2930 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 2930 10100 50  0001 C CNN
 F 3 "" H 3000 10100 50  0001 C CNN
 	1    3000 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R13
 U 1 1 5B1E4D95
 P 3200 10100
-F 0 "R?" V 3300 10000 50  0000 L CNN
+F 0 "R13" V 3300 10000 50  0000 L CNN
 F 1 "220" V 3200 10050 50  0000 L CNN
-F 2 "" V 3130 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 3130 10100 50  0001 C CNN
 F 3 "" H 3200 10100 50  0001 C CNN
 	1    3200 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R14
 U 1 1 5B1E4E05
 P 3400 10100
-F 0 "R?" V 3500 10000 50  0000 L CNN
+F 0 "R14" V 3500 10000 50  0000 L CNN
 F 1 "220" V 3400 10050 50  0000 L CNN
-F 2 "" V 3330 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 3330 10100 50  0001 C CNN
 F 3 "" H 3400 10100 50  0001 C CNN
 	1    3400 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R15
 U 1 1 5B1E4E73
 P 3600 10100
-F 0 "R?" V 3700 10000 50  0000 L CNN
+F 0 "R15" V 3700 10000 50  0000 L CNN
 F 1 "220" V 3600 10050 50  0000 L CNN
-F 2 "" V 3530 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 3530 10100 50  0001 C CNN
 F 3 "" H 3600 10100 50  0001 C CNN
 	1    3600 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R16
 U 1 1 5B1E4EE3
 P 3800 10100
-F 0 "R?" V 3900 10000 50  0000 L CNN
+F 0 "R16" V 3900 10000 50  0000 L CNN
 F 1 "220" V 3800 10050 50  0000 L CNN
-F 2 "" V 3730 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 3730 10100 50  0001 C CNN
 F 3 "" H 3800 10100 50  0001 C CNN
 	1    3800 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R17
 U 1 1 5B1E4F55
 P 4000 10100
-F 0 "R?" V 4100 10000 50  0000 L CNN
+F 0 "R17" V 4100 10000 50  0000 L CNN
 F 1 "220" V 4000 10050 50  0000 L CNN
-F 2 "" V 3930 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 3930 10100 50  0001 C CNN
 F 3 "" H 4000 10100 50  0001 C CNN
 	1    4000 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R18
 U 1 1 5B1E4FCD
 P 4200 10100
-F 0 "R?" V 4300 10000 50  0000 L CNN
+F 0 "R18" V 4300 10000 50  0000 L CNN
 F 1 "220" V 4200 10050 50  0000 L CNN
-F 2 "" V 4130 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 4130 10100 50  0001 C CNN
 F 3 "" H 4200 10100 50  0001 C CNN
 	1    4200 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R19
 U 1 1 5B1E5043
 P 4400 10100
-F 0 "R?" V 4500 10000 50  0000 L CNN
+F 0 "R19" V 4500 10000 50  0000 L CNN
 F 1 "220" V 4400 10050 50  0000 L CNN
-F 2 "" V 4330 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 4330 10100 50  0001 C CNN
 F 3 "" H 4400 10100 50  0001 C CNN
 	1    4400 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L com-rescue:R-device R20
 U 1 1 5B1E50BD
 P 4600 10100
-F 0 "R?" V 4700 10000 50  0000 L CNN
+F 0 "R20" V 4700 10000 50  0000 L CNN
 F 1 "220" V 4600 10050 50  0000 L CNN
-F 2 "" V 4530 10100 50  0001 C CNN
+F 2 "espitall:R_0603" V 4530 10100 50  0001 C CNN
 F 3 "" H 4600 10100 50  0001 C CNN
 	1    4600 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 5B1E52F9
 P 900 11050
-F 0 "#PWR?" H 900 10800 50  0001 C CNN
+F 0 "#PWR07" H 900 10800 50  0001 C CNN
 F 1 "GND" H 905 10877 50  0000 C CNN
 F 2 "" H 900 11050 50  0001 C CNN
 F 3 "" H 900 11050 50  0001 C CNN
@@ -1435,10 +1435,10 @@ Wire Wire Line
 Wire Wire Line
 	4600 8600 4600 9950
 $Comp
-L switches:SW_DIP_x08 SW?
+L com-rescue:SW_DIP_x08-switches SW1
 U 1 1 5B613C51
 P 14150 3650
-F 0 "SW?" H 14150 4317 50  0000 C CNN
+F 0 "SW1" H 14150 4317 50  0000 C CNN
 F 1 "SW_DIP_x08" H 14150 4226 50  0000 C CNN
 F 2 "" H 14150 3650 50  0001 C CNN
 F 3 "" H 14150 3650 50  0001 C CNN
@@ -1462,10 +1462,10 @@ Wire Wire Line
 Wire Wire Line
 	13850 3950 13400 3950
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 5B6B87CE
 P 14850 4800
-F 0 "#PWR?" H 14850 4550 50  0001 C CNN
+F 0 "#PWR08" H 14850 4550 50  0001 C CNN
 F 1 "GND" H 14855 4627 50  0000 C CNN
 F 2 "" H 14850 4800 50  0001 C CNN
 F 3 "" H 14850 4800 50  0001 C CNN
