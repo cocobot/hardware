@@ -192,7 +192,7 @@ U 1 1 5AFEE66F
 P 6950 1950
 F 0 "U2" H 6950 2287 60  0000 C CNN
 F 1 "TSR1-2433" H 6950 2181 60  0000 C CNN
-F 2 "" H 6950 1950 60  0000 C CNN
+F 2 "espitall:TSR-1" H 6950 1950 60  0001 C CNN
 F 3 "" H 6950 1950 60  0000 C CNN
 	1    6950 1950
 	1    0    0    -1  
@@ -234,4 +234,48 @@ Wire Wire Line
 Connection ~ 5800 1900
 Wire Wire Line
 	5800 1900 6550 1900
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5B046ECC
+P 900 7050
+F 0 "J6" H 820 6825 50  0000 C CNN
+F 1 "Conn_01x01" H 820 6916 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 900 7050 50  0001 C CNN
+F 3 "~" H 900 7050 50  0001 C CNN
+	1    900  7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 5B046F52
+P 900 7400
+F 0 "J8" H 820 7175 50  0000 C CNN
+F 1 "Conn_01x01" H 820 7266 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 900 7400 50  0001 C CNN
+F 3 "~" H 900 7400 50  0001 C CNN
+	1    900  7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5B046F92
+P 1500 7050
+F 0 "J7" H 1420 6825 50  0000 C CNN
+F 1 "Conn_01x01" H 1420 6916 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1500 7050 50  0001 C CNN
+F 3 "~" H 1500 7050 50  0001 C CNN
+	1    1500 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 5B046FEE
+P 1500 7400
+F 0 "J9" H 1420 7175 50  0000 C CNN
+F 1 "Conn_01x01" H 1420 7266 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1500 7400 50  0001 C CNN
+F 3 "~" H 1500 7400 50  0001 C CNN
+	1    1500 7400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
