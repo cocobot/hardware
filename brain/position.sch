@@ -1,6 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:brain-rescue
-LIBS:espitall
+EESchema Schematic File Version 4
 LIBS:brain-cache
 EELAYER 26 0
 EELAYER END
@@ -17,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_5 ENCL1
+L brain-rescue:CONN_5-RESCUE-brain ENCL1
 U 1 1 5562C1E2
 P 10200 1150
 F 0 "ENCL1" V 10150 1150 50  0000 C CNN
@@ -28,7 +26,7 @@ F 3 "" H 10200 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR075
+L brain-rescue:GND-RESCUE-brain #PWR075
 U 1 1 5562C257
 P 9600 1550
 F 0 "#PWR075" H 9600 1550 30  0001 C CNN
@@ -39,7 +37,7 @@ F 3 "" H 9600 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR076
+L power:+5V #PWR076
 U 1 1 5562C27A
 P 9550 650
 F 0 "#PWR076" H 9550 740 20  0001 C CNN
@@ -56,7 +54,7 @@ POS_SPI_SCK_5v
 Text Label 9000 1350 0    60   ~ 0
 POS_SPI_MISO_5v
 $Comp
-L C-RESCUE-brain C26
+L brain-rescue:C-RESCUE-brain C26
 U 1 1 5562C54E
 P 10500 900
 F 0 "C26" H 10500 1000 40  0000 L CNN
@@ -67,7 +65,7 @@ F 3 "" H 10500 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR077
+L brain-rescue:GND-RESCUE-brain #PWR077
 U 1 1 5562C591
 P 10500 1550
 F 0 "#PWR077" H 10500 1550 30  0001 C CNN
@@ -78,7 +76,7 @@ F 3 "" H 10500 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_5 ENCR1
+L brain-rescue:CONN_5-RESCUE-brain ENCR1
 U 1 1 5562C68C
 P 10200 2700
 F 0 "ENCR1" V 10150 2700 50  0000 C CNN
@@ -89,7 +87,7 @@ F 3 "" H 10200 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR078
+L brain-rescue:GND-RESCUE-brain #PWR078
 U 1 1 5562C692
 P 9600 3100
 F 0 "#PWR078" H 9600 3100 30  0001 C CNN
@@ -100,7 +98,7 @@ F 3 "" H 9600 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR079
+L power:+5V #PWR079
 U 1 1 5562C698
 P 9550 2200
 F 0 "#PWR079" H 9550 2290 20  0001 C CNN
@@ -117,7 +115,7 @@ POS_SPI_SCK_5v
 Text Label 9000 2900 0    60   ~ 0
 POS_SPI_MISO_5v
 $Comp
-L C-RESCUE-brain C29
+L brain-rescue:C-RESCUE-brain C29
 U 1 1 5562C6A8
 P 10500 2450
 F 0 "C29" H 10500 2550 40  0000 L CNN
@@ -128,7 +126,7 @@ F 3 "" H 10500 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR080
+L brain-rescue:GND-RESCUE-brain #PWR080
 U 1 1 5562C6AE
 P 10500 3100
 F 0 "#PWR080" H 10500 3100 30  0001 C CNN
@@ -188,7 +186,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 2600 9800 2600
 Wire Wire Line
-	9550 2200 9550 2500
+	9550 2200 9550 2250
 Wire Wire Line
 	9550 2500 9800 2500
 Connection ~ 9550 700 
@@ -207,11 +205,11 @@ Wire Wire Line
 Wire Wire Line
 	8600 1050 9800 1050
 Wire Wire Line
-	9550 650  9550 950 
+	9550 650  9550 700 
 Wire Wire Line
 	9550 950  9800 950 
 $Comp
-L CONN_5 MOTL1
+L brain-rescue:CONN_5-RESCUE-brain MOTL1
 U 1 1 55633DD1
 P 6450 5800
 F 0 "MOTL1" V 6400 5800 50  0000 C CNN
@@ -222,7 +220,7 @@ F 3 "" H 6450 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 5700 5150 7200
+	5150 5700 5150 6950
 Wire Wire Line
 	5150 5700 6050 5700
 Wire Wire Line
@@ -234,7 +232,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 5900 5350 7500
 $Comp
-L GND-RESCUE-brain #PWR081
+L brain-rescue:GND-RESCUE-brain #PWR081
 U 1 1 55633FDC
 P 6000 6200
 F 0 "#PWR081" H 6000 6200 30  0001 C CNN
@@ -245,7 +243,7 @@ F 3 "" H 6000 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR082
+L power:+5V #PWR082
 U 1 1 55633FFB
 P 6000 5350
 F 0 "#PWR082" H 6000 5440 20  0001 C CNN
@@ -256,7 +254,7 @@ F 3 "" H 6000 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C31
+L brain-rescue:C-RESCUE-brain C31
 U 1 1 5563401A
 P 6800 5800
 F 0 "C31" H 6800 5900 40  0000 L CNN
@@ -267,7 +265,7 @@ F 3 "" H 6800 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR083
+L brain-rescue:GND-RESCUE-brain #PWR083
 U 1 1 55634096
 P 6800 6200
 F 0 "#PWR083" H 6800 6200 30  0001 C CNN
@@ -284,7 +282,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 5400 6000 5400
 Wire Wire Line
-	6000 5350 6000 5600
+	6000 5350 6000 5400
 Wire Wire Line
 	6000 5600 6050 5600
 Connection ~ 6000 5400
@@ -293,7 +291,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 6000 6000 6200
 $Comp
-L CONN_5 MOTR1
+L brain-rescue:CONN_5-RESCUE-brain MOTR1
 U 1 1 55634312
 P 6450 7050
 F 0 "MOTR1" V 6400 7050 50  0000 C CNN
@@ -304,7 +302,7 @@ F 3 "" H 6450 7050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR084
+L brain-rescue:GND-RESCUE-brain #PWR084
 U 1 1 5563431B
 P 6000 7450
 F 0 "#PWR084" H 6000 7450 30  0001 C CNN
@@ -315,7 +313,7 @@ F 3 "" H 6000 7450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR085
+L power:+5V #PWR085
 U 1 1 55634321
 P 6000 6600
 F 0 "#PWR085" H 6000 6690 20  0001 C CNN
@@ -326,7 +324,7 @@ F 3 "" H 6000 6600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C34
+L brain-rescue:C-RESCUE-brain C34
 U 1 1 55634327
 P 6800 7050
 F 0 "C34" H 6800 7150 40  0000 L CNN
@@ -337,7 +335,7 @@ F 3 "" H 6800 7050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR086
+L brain-rescue:GND-RESCUE-brain #PWR086
 U 1 1 5563432D
 P 6800 7450
 F 0 "#PWR086" H 6800 7450 30  0001 C CNN
@@ -354,7 +352,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 6650 6000 6650
 Wire Wire Line
-	6000 6600 6000 6850
+	6000 6600 6000 6650
 Wire Wire Line
 	6000 6850 6050 6850
 Connection ~ 6000 6650
@@ -374,7 +372,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 7150 5550 7600
 $Comp
-L +5V #PWR087
+L power:+5V #PWR087
 U 1 1 55634D8A
 P 3650 700
 F 0 "#PWR087" H 3650 790 20  0001 C CNN
@@ -385,7 +383,7 @@ F 3 "" H 3650 700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C28
+L brain-rescue:C-RESCUE-brain C28
 U 1 1 55634D96
 P 3950 1100
 F 0 "C28" H 3950 1200 40  0000 L CNN
@@ -396,7 +394,7 @@ F 3 "" H 3950 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR088
+L brain-rescue:GND-RESCUE-brain #PWR088
 U 1 1 55634DA8
 P 3950 1300
 F 0 "#PWR088" H 3950 1300 30  0001 C CNN
@@ -411,7 +409,7 @@ POS_SPI_SCK_5v
 Text Label 6950 3500 0    60   ~ 0
 POS_SPI_MISO_5v
 $Comp
-L GND-RESCUE-brain #PWR089
+L brain-rescue:GND-RESCUE-brain #PWR089
 U 1 1 55634DB0
 P 3650 3300
 F 0 "#PWR089" H 3650 3300 30  0001 C CNN
@@ -442,7 +440,7 @@ POS_SPI_CSR_5v
 Wire Wire Line
 	4350 2150 5750 2150
 Wire Wire Line
-	5000 3500 6350 3500
+	5000 3500 6200 3500
 Wire Wire Line
 	3000 2350 1900 2350
 Wire Wire Line
@@ -450,7 +448,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 1950 1900 1950
 Wire Wire Line
-	3650 2950 3650 3300
+	3650 2950 3650 3050
 Wire Wire Line
 	4350 2050 5750 2050
 Wire Wire Line
@@ -476,7 +474,7 @@ POS_SPI_MOSI_3v3
 Text HLabel 1900 2550 0    60   Input ~ 0
 POS_SPI_MOSI_3v3
 $Comp
-L SN74AHCT125PW U3
+L espitall:SN74AHCT125PW U3
 U 1 1 58D98F44
 P 3650 2150
 F 0 "U3" H 3800 2600 60  0000 C CNN
@@ -489,7 +487,7 @@ $EndComp
 Wire Wire Line
 	2900 3050 3650 3050
 Wire Wire Line
-	2900 1850 2900 3050
+	2900 1850 2900 2050
 Wire Wire Line
 	2900 1850 3000 1850
 Connection ~ 3650 3050
@@ -503,7 +501,7 @@ Wire Wire Line
 	3000 2450 2900 2450
 Connection ~ 2900 2450
 $Comp
-L R R45
+L device:R R45
 U 1 1 58D999E6
 P 6500 3500
 F 0 "R45" V 6580 3500 50  0000 C CNN
@@ -514,7 +512,7 @@ F 3 "" H 6500 3500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R46
+L device:R R46
 U 1 1 58D99A40
 P 6200 3750
 F 0 "R46" V 6280 3750 50  0000 C CNN
@@ -525,7 +523,7 @@ F 3 "" H 6200 3750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR090
+L brain-rescue:GND-RESCUE-brain #PWR090
 U 1 1 58D99A8A
 P 6200 4000
 F 0 "#PWR090" H 6200 4000 30  0001 C CNN
@@ -541,7 +539,7 @@ Wire Wire Line
 	6200 3500 6200 3600
 Connection ~ 6200 3500
 $Comp
-L GND-RESCUE-brain #PWR091
+L brain-rescue:GND-RESCUE-brain #PWR091
 U 1 1 5929DFCD
 P 9650 4450
 F 0 "#PWR091" H 9650 4450 30  0001 C CNN
@@ -556,7 +554,7 @@ POS_SPI_SCK_5v
 Text Label 9050 4100 0    60   ~ 0
 POS_SPI_MISO_5v
 $Comp
-L C-RESCUE-brain C2
+L brain-rescue:C-RESCUE-brain C2
 U 1 1 5929DFDC
 P 10550 3650
 F 0 "C2" H 10550 3750 40  0000 L CNN
@@ -567,7 +565,7 @@ F 3 "" H 10550 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR092
+L brain-rescue:GND-RESCUE-brain #PWR092
 U 1 1 5929DFE2
 P 10550 4450
 F 0 "#PWR092" H 10550 4450 30  0001 C CNN
@@ -593,11 +591,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 3800 9850 3800
 Wire Wire Line
-	9600 3400 9600 3700
+	9600 3400 9600 3450
 Wire Wire Line
 	9600 3700 9850 3700
 $Comp
-L CONN_6 GYRO1
+L brain-rescue:CONN_6-RESCUE-brain GYRO1
 U 1 1 5929E01E
 P 10200 3950
 F 0 "GYRO1" V 10150 3950 60  0000 C CNN
@@ -618,7 +616,7 @@ Wire Notes Line
 Wire Notes Line
 	4900 6600 4900 5000
 $Comp
-L +5V #PWR093
+L power:+5V #PWR093
 U 1 1 5929FD76
 P 3650 3750
 F 0 "#PWR093" H 3650 3840 20  0001 C CNN
@@ -629,7 +627,7 @@ F 3 "" H 3650 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C27
+L brain-rescue:C-RESCUE-brain C27
 U 1 1 5929FD7C
 P 3950 4150
 F 0 "C27" H 3950 4250 40  0000 L CNN
@@ -640,7 +638,7 @@ F 3 "" H 3950 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR094
+L brain-rescue:GND-RESCUE-brain #PWR094
 U 1 1 5929FD82
 P 3950 4350
 F 0 "#PWR094" H 3950 4350 30  0001 C CNN
@@ -651,7 +649,7 @@ F 3 "" H 3950 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR095
+L brain-rescue:GND-RESCUE-brain #PWR095
 U 1 1 5929FD89
 P 3650 6350
 F 0 "#PWR095" H 3650 6350 30  0001 C CNN
@@ -670,7 +668,7 @@ POS_SPI_CSG_5v
 Wire Wire Line
 	3000 5000 1900 5000
 Wire Wire Line
-	3650 6000 3650 6350
+	3650 6000 3650 6100
 Wire Wire Line
 	4350 4900 8350 4900
 Wire Wire Line
@@ -680,7 +678,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 3750 3650 4500
 $Comp
-L SN74AHCT125PW U4
+L espitall:SN74AHCT125PW U4
 U 1 1 5929FDA8
 P 3650 5200
 F 0 "U4" H 3800 5650 60  0000 C CNN
@@ -693,7 +691,7 @@ $EndComp
 Wire Wire Line
 	2900 6100 3650 6100
 Wire Wire Line
-	2900 4900 2900 6100
+	2900 4900 2900 5100
 Wire Wire Line
 	2900 4900 3000 4900
 Connection ~ 3650 6100
@@ -709,7 +707,7 @@ Connection ~ 2900 5500
 Wire Wire Line
 	8350 4900 8350 3800
 $Comp
-L +5V #PWR096
+L power:+5V #PWR096
 U 1 1 592B1B39
 P 9600 3400
 F 0 "#PWR096" H 9600 3490 20  0001 C CNN
@@ -719,4 +717,34 @@ F 3 "" H 9600 3400 60  0000 C CNN
 	1    9600 3400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9550 2250 9550 2500
+Wire Wire Line
+	9550 700  9550 950 
+Wire Wire Line
+	6000 5400 6000 5600
+Wire Wire Line
+	6000 6650 6000 6850
+Wire Wire Line
+	5150 6950 5150 7200
+Wire Wire Line
+	3650 3050 3650 3300
+Wire Wire Line
+	2900 2050 2900 2250
+Wire Wire Line
+	2900 2250 2900 2450
+Wire Wire Line
+	2900 2450 2900 3050
+Wire Wire Line
+	6200 3500 6350 3500
+Wire Wire Line
+	9600 3450 9600 3700
+Wire Wire Line
+	3650 6100 3650 6350
+Wire Wire Line
+	2900 5100 2900 5300
+Wire Wire Line
+	2900 5300 2900 5500
+Wire Wire Line
+	2900 5500 2900 6100
 $EndSCHEMATC

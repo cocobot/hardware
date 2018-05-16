@@ -1,6 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:brain-rescue
-LIBS:espitall
+EESchema Schematic File Version 4
 LIBS:brain-cache
 EELAYER 26 0
 EELAYER END
@@ -37,7 +35,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 4700 4000 4700
 $Comp
-L CONN_5 DCM0
+L brain-rescue:CONN_5-RESCUE-brain DCM0
 U 1 1 592BFB9E
 P 8250 3300
 F 0 "DCM0" V 8200 3300 50  0000 C CNN
@@ -60,7 +58,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 3400 7150 5000
 $Comp
-L GND-RESCUE-brain #PWR0225
+L brain-rescue:GND-RESCUE-brain #PWR0225
 U 1 1 592BFBAB
 P 7800 3700
 F 0 "#PWR0225" H 7800 3700 30  0001 C CNN
@@ -71,7 +69,7 @@ F 3 "" H 7800 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0226
+L power:+5V #PWR0226
 U 1 1 592BFBB1
 P 7800 2850
 F 0 "#PWR0226" H 7800 2940 20  0001 C CNN
@@ -82,7 +80,7 @@ F 3 "" H 7800 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C30
+L brain-rescue:C-RESCUE-brain C30
 U 1 1 592BFBB7
 P 8600 3300
 F 0 "C30" H 8600 3400 40  0000 L CNN
@@ -93,7 +91,7 @@ F 3 "" H 8600 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0227
+L brain-rescue:GND-RESCUE-brain #PWR0227
 U 1 1 592BFBBE
 P 8600 3700
 F 0 "#PWR0227" H 8600 3700 30  0001 C CNN
@@ -119,7 +117,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 3500 7800 3700
 $Comp
-L GND-RESCUE-brain #PWR0228
+L brain-rescue:GND-RESCUE-brain #PWR0228
 U 1 1 592BFBD3
 P 7800 4950
 F 0 "#PWR0228" H 7800 4950 30  0001 C CNN
@@ -130,7 +128,7 @@ F 3 "" H 7800 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0229
+L power:+5V #PWR0229
 U 1 1 592BFBD9
 P 7800 4100
 F 0 "#PWR0229" H 7800 4190 20  0001 C CNN
@@ -141,7 +139,7 @@ F 3 "" H 7800 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0230
+L brain-rescue:GND-RESCUE-brain #PWR0230
 U 1 1 592BFBE6
 P 8600 4950
 F 0 "#PWR0230" H 8600 4950 30  0001 C CNN

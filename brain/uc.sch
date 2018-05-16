@@ -1,6 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:brain-rescue
-LIBS:espitall
+EESchema Schematic File Version 4
 LIBS:brain-cache
 EELAYER 26 0
 EELAYER END
@@ -17,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +3V3 #PWR0179
+L power:+3V3 #PWR0179
 U 1 1 555F2532
 P 6150 1200
 F 0 "#PWR0179" H 6150 1050 50  0001 C CNN
@@ -28,7 +26,7 @@ F 3 "" H 6150 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555F25EB
 P 6400 1650
 AR Path="/555F25EB" Ref="C?"  Part="1" 
@@ -41,7 +39,7 @@ F 3 "" H 6400 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555F29FA
 P 6700 1650
 AR Path="/555F29FA" Ref="C?"  Part="1" 
@@ -54,7 +52,7 @@ F 3 "" H 6700 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F2BAD
 P 6400 2000
 AR Path="/555F2BAD" Ref="#PWR?"  Part="1" 
@@ -67,7 +65,7 @@ F 3 "" H 6400 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555F3447
 P 9300 9150
 AR Path="/555F3447" Ref="C?"  Part="1" 
@@ -80,7 +78,7 @@ F 3 "" H 9300 9150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555F3587
 P 9800 9150
 AR Path="/555F3587" Ref="C?"  Part="1" 
@@ -93,7 +91,7 @@ F 3 "" H 9800 9150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F35B4
 P 9300 9400
 AR Path="/555F35B4" Ref="#PWR?"  Part="1" 
@@ -106,7 +104,7 @@ F 3 "" H 9300 9400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F35D5
 P 9800 9400
 AR Path="/555F35D5" Ref="#PWR?"  Part="1" 
@@ -119,7 +117,7 @@ F 3 "" H 9800 9400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F3C43
 P 8800 9400
 AR Path="/555F3C43" Ref="#PWR?"  Part="1" 
@@ -132,7 +130,7 @@ F 3 "" H 8800 9400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F3C6F
 P 8600 9400
 AR Path="/555F3C6F" Ref="#PWR?"  Part="1" 
@@ -145,7 +143,7 @@ F 3 "" H 8600 9400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F3C94
 P 8400 9400
 AR Path="/555F3C94" Ref="#PWR?"  Part="1" 
@@ -158,7 +156,7 @@ F 3 "" H 8400 9400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F3CD3
 P 8200 9400
 AR Path="/555F3CD3" Ref="#PWR?"  Part="1" 
@@ -171,7 +169,7 @@ F 3 "" H 8200 9400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F3D12
 P 8000 9400
 AR Path="/555F3D12" Ref="#PWR?"  Part="1" 
@@ -184,7 +182,7 @@ F 3 "" H 8000 9400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal Y1
+L device:Crystal Y1
 U 1 1 555F434D
 P 2650 3950
 F 0 "Y1" H 2650 4100 50  0000 C CNN
@@ -195,7 +193,7 @@ F 3 "" H 2650 3950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555F442C
 P 2650 4450
 AR Path="/555F442C" Ref="C?"  Part="1" 
@@ -208,7 +206,7 @@ F 3 "" H 2650 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555F44BA
 P 2350 4450
 AR Path="/555F44BA" Ref="C?"  Part="1" 
@@ -221,7 +219,7 @@ F 3 "" H 2350 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F44FC
 P 2650 4700
 AR Path="/555F44FC" Ref="#PWR?"  Part="1" 
@@ -234,7 +232,7 @@ F 3 "" H 2650 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F4537
 P 2350 4700
 AR Path="/555F4537" Ref="#PWR?"  Part="1" 
@@ -247,7 +245,7 @@ F 3 "" H 2350 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-brain R?
+L brain-rescue:R-RESCUE-brain R?
 U 1 1 555F48B0
 P 3100 4250
 AR Path="/555F48B0" Ref="R?"  Part="1" 
@@ -260,7 +258,7 @@ F 3 "" H 3100 4250 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L JUMPER BOOT0
+L brain-rescue:JUMPER-RESCUE-brain BOOT0
 U 1 1 555F5356
 P 1350 1350
 F 0 "BOOT0" H 1350 1500 50  0000 C CNN
@@ -271,7 +269,7 @@ F 3 "" H 1350 1350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L JUMPER BOOT1
+L brain-rescue:JUMPER-RESCUE-brain BOOT1
 U 1 1 555F54DF
 P 1750 1350
 F 0 "BOOT1" H 1750 1500 50  0000 C CNN
@@ -282,7 +280,7 @@ F 3 "" H 1750 1350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR0190
+L power:+3V3 #PWR0190
 U 1 1 555F5529
 P 1350 1000
 F 0 "#PWR0190" H 1350 850 50  0001 C CNN
@@ -293,7 +291,7 @@ F 3 "" H 1350 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0191
+L power:+3V3 #PWR0191
 U 1 1 555F555A
 P 1750 1000
 F 0 "#PWR0191" H 1750 850 50  0001 C CNN
@@ -304,7 +302,7 @@ F 3 "" H 1750 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-brain R?
+L brain-rescue:R-RESCUE-brain R?
 U 1 1 555F559E
 P 1350 2250
 AR Path="/555F559E" Ref="R?"  Part="1" 
@@ -317,7 +315,7 @@ F 3 "" H 1350 2250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-brain R?
+L brain-rescue:R-RESCUE-brain R?
 U 1 1 555F56D6
 P 1750 2250
 AR Path="/555F56D6" Ref="R?"  Part="1" 
@@ -330,7 +328,7 @@ F 3 "" H 1750 2250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F5720
 P 1350 2600
 AR Path="/555F5720" Ref="#PWR?"  Part="1" 
@@ -343,7 +341,7 @@ F 3 "" H 1350 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555F5755
 P 1750 2600
 AR Path="/555F5755" Ref="#PWR?"  Part="1" 
@@ -364,7 +362,7 @@ BOOT1_3v3
 Text Label 2500 3250 0    60   ~ 0
 BOOT0_3v3
 $Comp
-L HE10-20 JTAG1
+L conn:HE10-20 JTAG1
 U 1 1 555F9641
 P 1500 10050
 F 0 "JTAG1" H 1500 10600 70  0000 C CNN
@@ -375,7 +373,7 @@ F 3 "" H 1500 10050 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0194
+L power:+3V3 #PWR0194
 U 1 1 555F9C09
 P 800 9450
 F 0 "#PWR0194" H 800 9300 50  0001 C CNN
@@ -386,7 +384,7 @@ F 3 "" H 800 9450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0195
+L power:+3V3 #PWR0195
 U 1 1 555FABE0
 P 2200 9450
 F 0 "#PWR0195" H 2200 9300 50  0001 C CNN
@@ -415,7 +413,7 @@ DBGRQ_3v3
 Text Label 2200 10500 0    60   ~ 0
 DBGACK_3v3
 $Comp
-L R-RESCUE-brain R?
+L brain-rescue:R-RESCUE-brain R?
 U 1 1 555FB869
 P 2950 10750
 AR Path="/555FB869" Ref="R?"  Part="1" 
@@ -428,7 +426,7 @@ F 3 "" H 2950 10750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-brain R?
+L brain-rescue:R-RESCUE-brain R?
 U 1 1 555FC358
 P 3200 10750
 AR Path="/555FC358" Ref="R?"  Part="1" 
@@ -441,7 +439,7 @@ F 3 "" H 3200 10750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-brain R?
+L brain-rescue:R-RESCUE-brain R?
 U 1 1 555FC3A8
 P 3450 10750
 AR Path="/555FC3A8" Ref="R?"  Part="1" 
@@ -454,7 +452,7 @@ F 3 "" H 3450 10750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555FC3FA
 P 2950 11000
 AR Path="/555FC3FA" Ref="#PWR?"  Part="1" 
@@ -467,7 +465,7 @@ F 3 "" H 2950 11000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555FC437
 P 3200 11000
 AR Path="/555FC437" Ref="#PWR?"  Part="1" 
@@ -480,7 +478,7 @@ F 3 "" H 3200 11000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555FC474
 P 3450 11000
 AR Path="/555FC474" Ref="#PWR?"  Part="1" 
@@ -493,7 +491,7 @@ F 3 "" H 3450 11000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555FC4B1
 P 800 11000
 AR Path="/555FC4B1" Ref="#PWR?"  Part="1" 
@@ -506,7 +504,7 @@ F 3 "" H 800 11000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555FD46E
 P 7000 1650
 AR Path="/555FD46E" Ref="C?"  Part="1" 
@@ -519,7 +517,7 @@ F 3 "" H 7000 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555FD4B0
 P 7300 1650
 AR Path="/555FD4B0" Ref="C?"  Part="1" 
@@ -532,7 +530,7 @@ F 3 "" H 7300 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555FD4F0
 P 7600 1650
 AR Path="/555FD4F0" Ref="C?"  Part="1" 
@@ -545,7 +543,7 @@ F 3 "" H 7600 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555FD532
 P 7900 1650
 AR Path="/555FD532" Ref="C?"  Part="1" 
@@ -558,7 +556,7 @@ F 3 "" H 7900 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555FD576
 P 8200 1650
 AR Path="/555FD576" Ref="C?"  Part="1" 
@@ -571,7 +569,7 @@ F 3 "" H 8200 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555FD5BC
 P 8500 1650
 AR Path="/555FD5BC" Ref="C?"  Part="1" 
@@ -584,7 +582,7 @@ F 3 "" H 8500 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555FD604
 P 8800 1650
 AR Path="/555FD604" Ref="C?"  Part="1" 
@@ -597,7 +595,7 @@ F 3 "" H 8800 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555FD64E
 P 9100 1650
 AR Path="/555FD64E" Ref="C?"  Part="1" 
@@ -620,7 +618,7 @@ TCK_3v3
 Text Label 2500 7150 0    60   ~ 0
 TDO_3v3
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 555FFCCA
 P 2000 4700
 AR Path="/555FFCCA" Ref="#PWR?"  Part="1" 
@@ -633,7 +631,7 @@ F 3 "" H 2000 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 555FFD07
 P 2000 4450
 AR Path="/555FFD07" Ref="C?"  Part="1" 
@@ -648,9 +646,11 @@ $EndComp
 Text Label 2500 3450 0    60   ~ 0
 nSRST_3v3
 $Comp
-L CONN_01X05 UART_DBG1
+L brain-rescue:CONN_01X05-RESCUE-brain UART_DBG1
 U 1 1 556028CA
 P 900 6050
+AR Path="/556028CA" Ref="UART_DBG1"  Part="1" 
+AR Path="/555F206D/556028CA" Ref="UART_DBG1"  Part="1" 
 F 0 "UART_DBG1" H 900 6350 50  0000 C CNN
 F 1 "CONN_01X05" V 1000 6050 50  0000 C CNN
 F 2 "espitall:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight" H 900 6050 60  0001 C CNN
@@ -659,7 +659,7 @@ F 3 "" H 900 6050 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 55602E85
 P 1200 6400
 AR Path="/55602E85" Ref="#PWR?"  Part="1" 
@@ -672,7 +672,7 @@ F 3 "" H 1200 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0202
+L power:+3V3 #PWR0202
 U 1 1 556032A1
 P 1300 5600
 F 0 "#PWR0202" H 1300 5450 50  0001 C CNN
@@ -683,7 +683,7 @@ F 3 "" H 1300 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0203
+L power:+5V #PWR0203
 U 1 1 556032C9
 P 1150 5400
 F 0 "#PWR0203" H 1150 5250 50  0001 C CNN
@@ -694,7 +694,7 @@ F 3 "" H 1150 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 556039BC
 P 650 5300
 AR Path="/556039BC" Ref="C?"  Part="1" 
@@ -707,7 +707,7 @@ F 3 "" H 650 5300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C?
+L brain-rescue:C-RESCUE-brain C?
 U 1 1 5560406E
 P 900 5300
 AR Path="/5560406E" Ref="C?"  Part="1" 
@@ -720,7 +720,7 @@ F 3 "" H 900 5300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0204
+L power:+5V #PWR0204
 U 1 1 556040C0
 P 650 5000
 F 0 "#PWR0204" H 650 4850 50  0001 C CNN
@@ -731,7 +731,7 @@ F 3 "" H 650 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0205
+L power:+3V3 #PWR0205
 U 1 1 55604105
 P 900 5050
 F 0 "#PWR0205" H 900 4900 50  0001 C CNN
@@ -742,7 +742,7 @@ F 3 "" H 900 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 5560414A
 P 900 5550
 AR Path="/5560414A" Ref="#PWR?"  Part="1" 
@@ -755,7 +755,7 @@ F 3 "" H 900 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR?
+L brain-rescue:GND-RESCUE-brain #PWR?
 U 1 1 5560418F
 P 650 5550
 AR Path="/5560418F" Ref="#PWR?"  Part="1" 
@@ -860,7 +860,7 @@ I2C_SCL_3v3
 Text Label 2500 7550 0    60   ~ 0
 I2C_SDA_3v3
 $Comp
-L R-RESCUE-brain R?
+L brain-rescue:R-RESCUE-brain R?
 U 1 1 55615D7E
 P 1300 7100
 AR Path="/55615D7E" Ref="R?"  Part="1" 
@@ -873,7 +873,7 @@ F 3 "" H 1300 7100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-brain R?
+L brain-rescue:R-RESCUE-brain R?
 U 1 1 55616272
 P 1500 7100
 AR Path="/55616272" Ref="R?"  Part="1" 
@@ -886,7 +886,7 @@ F 3 "" H 1500 7100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0208
+L power:+3V3 #PWR0208
 U 1 1 55616E5D
 P 1300 6800
 F 0 "#PWR0208" H 1300 6650 50  0001 C CNN
@@ -897,7 +897,7 @@ F 3 "" H 1300 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0209
+L power:+3V3 #PWR0209
 U 1 1 5561701A
 P 1500 6800
 F 0 "#PWR0209" H 1500 6650 50  0001 C CNN
@@ -922,7 +922,7 @@ IR_CH3_0_3v3
 Text Label 2500 5050 0    60   ~ 0
 BAT_MON_0_3v3
 $Comp
-L GND-RESCUE-brain #PWR0210
+L brain-rescue:GND-RESCUE-brain #PWR0210
 U 1 1 555FA75A
 P 2800 2600
 F 0 "#PWR0210" H 2800 2350 50  0001 C CNN
@@ -933,7 +933,7 @@ F 3 "" H 2800 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-brain R36
+L brain-rescue:R-RESCUE-brain R36
 U 1 1 555FA7C2
 P 2800 2300
 F 0 "R36" V 2880 2300 50  0000 C CNN
@@ -944,7 +944,7 @@ F 3 "" H 2800 2300 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-brain R29
+L brain-rescue:R-RESCUE-brain R29
 U 1 1 555FA878
 P 2800 1300
 F 0 "R29" V 2880 1300 50  0000 C CNN
@@ -955,7 +955,7 @@ F 3 "" H 2800 1300 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR0211
+L power:+BATT #PWR0211
 U 1 1 555FA8C9
 P 2800 700
 F 0 "#PWR0211" H 2800 650 20  0001 C CNN
@@ -1044,7 +1044,7 @@ LED1_3v3
 Text Label 2500 8050 0    60   ~ 0
 LED2_3v3
 $Comp
-L R-RESCUE-brain R30
+L brain-rescue:R-RESCUE-brain R30
 U 1 1 55691664
 P 11350 1550
 F 0 "R30" V 11430 1550 40  0000 C CNN
@@ -1055,7 +1055,7 @@ F 3 "" H 11350 1550 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-brain LED0
+L brain-rescue:LED-RESCUE-brain LED0
 U 1 1 55691764
 P 11350 2100
 F 0 "LED0" H 11350 2200 50  0000 C CNN
@@ -1066,7 +1066,7 @@ F 3 "" H 11350 2100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0212
+L brain-rescue:GND-RESCUE-brain #PWR0212
 U 1 1 556917B2
 P 11350 2450
 F 0 "#PWR0212" H 11350 2450 30  0001 C CNN
@@ -1079,7 +1079,7 @@ $EndComp
 Text Label 10700 1050 0    60   ~ 0
 LED0_3v3
 $Comp
-L R-RESCUE-brain R31
+L brain-rescue:R-RESCUE-brain R31
 U 1 1 55691AFC
 P 12200 1550
 F 0 "R31" V 12280 1550 40  0000 C CNN
@@ -1090,7 +1090,7 @@ F 3 "" H 12200 1550 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-brain LED1
+L brain-rescue:LED-RESCUE-brain LED1
 U 1 1 55691B02
 P 12200 2100
 F 0 "LED1" H 12200 2200 50  0000 C CNN
@@ -1101,7 +1101,7 @@ F 3 "" H 12200 2100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0213
+L brain-rescue:GND-RESCUE-brain #PWR0213
 U 1 1 55691B08
 P 12200 2450
 F 0 "#PWR0213" H 12200 2450 30  0001 C CNN
@@ -1114,7 +1114,7 @@ $EndComp
 Text Label 11550 1050 0    60   ~ 0
 LED1_3v3
 $Comp
-L R-RESCUE-brain R32
+L brain-rescue:R-RESCUE-brain R32
 U 1 1 55691E98
 P 13100 1550
 F 0 "R32" V 13180 1550 40  0000 C CNN
@@ -1125,7 +1125,7 @@ F 3 "" H 13100 1550 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-brain LED2
+L brain-rescue:LED-RESCUE-brain LED2
 U 1 1 55691E9E
 P 13100 2100
 F 0 "LED2" H 13100 2200 50  0000 C CNN
@@ -1136,7 +1136,7 @@ F 3 "" H 13100 2100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0214
+L brain-rescue:GND-RESCUE-brain #PWR0214
 U 1 1 55691EA4
 P 13100 2450
 F 0 "#PWR0214" H 13100 2450 30  0001 C CNN
@@ -1149,9 +1149,9 @@ $EndComp
 Text Label 12450 1050 0    60   ~ 0
 LED2_3v3
 Wire Wire Line
-	6150 1200 6150 2800
+	6150 1200 6150 1400
 Wire Wire Line
-	6150 2650 9650 2650
+	6150 2650 6650 2650
 Wire Wire Line
 	9650 2650 9650 2800
 Connection ~ 6150 2650
@@ -1188,11 +1188,11 @@ Wire Wire Line
 Wire Wire Line
 	8800 9400 8800 8800
 Wire Wire Line
-	2350 3650 3400 3650
+	2350 3650 2650 3650
 Wire Wire Line
-	1750 1650 1750 2000
+	1750 1650 1750 1850
 Wire Wire Line
-	1350 1650 1350 2000
+	1350 1650 1350 1750
 Wire Wire Line
 	1350 1750 2350 1750
 Connection ~ 1350 1750
@@ -1212,7 +1212,7 @@ Wire Wire Line
 Wire Wire Line
 	800  9600 800  9450
 Wire Wire Line
-	800  9700 800  11000
+	800  9700 800  9800
 Wire Wire Line
 	800  9700 900  9700
 Wire Wire Line
@@ -1324,9 +1324,9 @@ Wire Wire Line
 Wire Wire Line
 	13400 3850 14450 3850
 Wire Wire Line
-	1150 7450 3400 7450
+	1150 7450 1300 7450
 Wire Wire Line
-	1150 7550 3400 7550
+	1150 7550 1500 7550
 Connection ~ 1300 7450
 Connection ~ 1500 7550
 Wire Wire Line
@@ -1344,7 +1344,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 2550 2800 2600
 Wire Wire Line
-	2800 2050 2800 1550
+	2800 2050 2800 1950
 Wire Wire Line
 	2800 1950 4050 1950
 Connection ~ 2800 1950
@@ -1372,9 +1372,9 @@ Wire Wire Line
 Wire Wire Line
 	2650 4700 2650 4650
 Wire Wire Line
-	6400 1850 6400 2000
+	6400 1850 6400 1900
 Wire Wire Line
-	6400 1900 9100 1900
+	6400 1900 6700 1900
 Wire Wire Line
 	9100 1900 9100 1850
 Connection ~ 6400 1900
@@ -1403,7 +1403,7 @@ Wire Wire Line
 	6700 1850 6700 1900
 Connection ~ 6700 1900
 Wire Wire Line
-	6150 1400 9100 1400
+	6150 1400 6400 1400
 Wire Wire Line
 	9100 1400 9100 1450
 Wire Wire Line
@@ -1643,7 +1643,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 5650 14450 5650
 $Comp
-L STM32F407VG U8
+L espitall:STM32F407VG U8
 U 1 1 556F4014
 P 8400 5800
 F 0 "U8" H 8400 5800 60  0000 C CNN
@@ -1665,4 +1665,86 @@ Text HLabel 14450 7550 2    60   Output ~ 0
 DCM_DIR_1_3v3
 Wire Wire Line
 	14450 7550 13400 7550
+Wire Wire Line
+	6150 2650 6150 2800
+Wire Wire Line
+	9150 2650 9650 2650
+Wire Wire Line
+	8850 2650 9150 2650
+Wire Wire Line
+	8550 2650 8850 2650
+Wire Wire Line
+	8250 2650 8550 2650
+Wire Wire Line
+	7950 2650 8250 2650
+Wire Wire Line
+	7650 2650 7950 2650
+Wire Wire Line
+	6650 2650 7650 2650
+Wire Wire Line
+	6150 1400 6150 2650
+Wire Wire Line
+	1350 1750 1350 2000
+Wire Wire Line
+	1750 1850 1750 2000
+Wire Wire Line
+	800  9800 800  9900
+Wire Wire Line
+	800  9900 800  10000
+Wire Wire Line
+	800  10000 800  10100
+Wire Wire Line
+	800  10100 800  10200
+Wire Wire Line
+	800  10200 800  10300
+Wire Wire Line
+	800  10300 800  10400
+Wire Wire Line
+	800  10400 800  10500
+Wire Wire Line
+	800  10500 800  11000
+Wire Wire Line
+	1300 7450 3400 7450
+Wire Wire Line
+	1500 7550 3400 7550
+Wire Wire Line
+	2800 1950 2800 1550
+Wire Wire Line
+	2650 3650 3400 3650
+Wire Wire Line
+	6400 1900 6400 2000
+Wire Wire Line
+	8800 1900 9100 1900
+Wire Wire Line
+	8500 1900 8800 1900
+Wire Wire Line
+	8200 1900 8500 1900
+Wire Wire Line
+	7900 1900 8200 1900
+Wire Wire Line
+	7600 1900 7900 1900
+Wire Wire Line
+	7300 1900 7600 1900
+Wire Wire Line
+	7000 1900 7300 1900
+Wire Wire Line
+	6700 1900 7000 1900
+Wire Wire Line
+	8800 1400 9100 1400
+Wire Wire Line
+	8500 1400 8800 1400
+Wire Wire Line
+	8200 1400 8500 1400
+Wire Wire Line
+	7900 1400 8200 1400
+Wire Wire Line
+	7600 1400 7900 1400
+Wire Wire Line
+	7300 1400 7600 1400
+Wire Wire Line
+	7000 1400 7300 1400
+Wire Wire Line
+	6700 1400 7000 1400
+Wire Wire Line
+	6400 1400 6700 1400
 $EndSCHEMATC

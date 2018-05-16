@@ -1,6 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:brain-rescue
-LIBS:espitall
+EESchema Schematic File Version 4
 LIBS:brain-cache
 EELAYER 26 0
 EELAYER END
@@ -196,11 +194,11 @@ Wire Wire Line
 Wire Wire Line
 	2200 4000 4000 4000
 Wire Wire Line
-	2200 3900 4000 3900
+	2200 3900 3700 3900
 Wire Wire Line
-	2200 3800 4000 3800
+	2200 3800 3450 3800
 Wire Wire Line
-	2200 3700 4000 3700
+	2200 3700 3600 3700
 Wire Wire Line
 	2200 4500 4000 4500
 Wire Wire Line
@@ -228,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 5050 7200 5050
 Wire Wire Line
-	6400 4950 7200 4950
+	6400 4950 6750 4950
 Wire Wire Line
 	7200 3300 3700 3300
 Wire Wire Line
@@ -312,7 +310,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3500 2200 3500
 $Comp
-L CONN_1 H1
+L brain-rescue:CONN_1-RESCUE-brain H1
 U 1 1 5566D8A1
 P 10250 750
 F 0 "H1" H 10330 750 40  0000 L CNN
@@ -323,7 +321,7 @@ F 3 "" H 10250 750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_1 H2
+L brain-rescue:CONN_1-RESCUE-brain H2
 U 1 1 5566FA8C
 P 10400 750
 F 0 "H2" H 10480 750 40  0000 L CNN
@@ -334,7 +332,7 @@ F 3 "" H 10400 750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_1 H3
+L brain-rescue:CONN_1-RESCUE-brain H3
 U 1 1 5566FC24
 P 10550 750
 F 0 "H3" H 10630 750 40  0000 L CNN
@@ -345,7 +343,7 @@ F 3 "" H 10550 750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_1 H4
+L brain-rescue:CONN_1-RESCUE-brain H4
 U 1 1 5566FDBE
 P 10700 750
 F 0 "H4" H 10780 750 40  0000 L CNN
@@ -384,4 +382,12 @@ Wire Wire Line
 Wire Wire Line
 	3450 3100 3450 3800
 Connection ~ 3450 3800
+Wire Wire Line
+	3700 3900 4000 3900
+Wire Wire Line
+	3600 3700 4000 3700
+Wire Wire Line
+	6750 4950 7200 4950
+Wire Wire Line
+	3450 3800 4000 3800
 $EndSCHEMATC

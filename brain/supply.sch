@@ -1,6 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:brain-rescue
-LIBS:espitall
+EESchema Schematic File Version 4
 LIBS:brain-cache
 EELAYER 26 0
 EELAYER END
@@ -17,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_2 PWR1
+L brain-rescue:CONN_2-RESCUE-brain PWR1
 U 1 1 556E624F
 P 3750 3700
 F 0 "PWR1" V 3700 3700 40  0000 C CNN
@@ -28,7 +26,7 @@ F 3 "" H 3750 3700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0215
+L brain-rescue:GND-RESCUE-brain #PWR0215
 U 1 1 556E62AE
 P 4200 4100
 F 0 "#PWR0215" H 4200 4100 30  0001 C CNN
@@ -39,7 +37,7 @@ F 3 "" H 4200 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR0216
+L power:+BATT #PWR0216
 U 1 1 556E62C3
 P 4250 3150
 F 0 "#PWR0216" H 4250 3100 20  0001 C CNN
@@ -50,15 +48,15 @@ F 3 "" H 4250 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 3150 4250 3600
+	4250 3150 4250 3350
 Wire Wire Line
 	4250 3600 4100 3600
 Wire Wire Line
 	4100 3800 4200 3800
 Wire Wire Line
-	4200 3800 4200 4100
+	4200 3800 4200 3950
 $Comp
-L C-RESCUE-brain C88
+L brain-rescue:C-RESCUE-brain C88
 U 1 1 556E6F4F
 P 4450 3650
 F 0 "C88" H 4450 3750 40  0000 L CNN
@@ -79,7 +77,7 @@ Wire Wire Line
 	4450 3350 4250 3350
 Connection ~ 4250 3350
 $Comp
-L TSR1-2450 U9
+L espitall:TSR1-2450 U9
 U 1 1 556E764E
 P 6450 2850
 AR Path="/556E764E" Ref="U9"  Part="1" 
@@ -92,7 +90,7 @@ F 3 "" H 6450 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0217
+L brain-rescue:GND-RESCUE-brain #PWR0217
 U 1 1 556E7685
 P 6450 3500
 F 0 "#PWR0217" H 6450 3500 30  0001 C CNN
@@ -103,7 +101,7 @@ F 3 "" H 6450 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C87
+L brain-rescue:C-RESCUE-brain C87
 U 1 1 556E7699
 P 7150 3150
 F 0 "C87" H 7150 3250 40  0000 L CNN
@@ -114,7 +112,7 @@ F 3 "" H 7150 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR0218
+L power:+BATT #PWR0218
 U 1 1 556E76EB
 P 5850 2650
 F 0 "#PWR0218" H 5850 2600 20  0001 C CNN
@@ -131,7 +129,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 3100 6450 3500
 $Comp
-L GND-RESCUE-brain #PWR0219
+L brain-rescue:GND-RESCUE-brain #PWR0219
 U 1 1 556E7736
 P 7150 3450
 F 0 "#PWR0219" H 7150 3450 30  0001 C CNN
@@ -144,11 +142,11 @@ $EndComp
 Wire Wire Line
 	7150 3450 7150 3350
 Wire Wire Line
-	7150 2550 7150 2950
+	7150 2550 7150 2800
 Wire Wire Line
 	7150 2800 6850 2800
 $Comp
-L GND-RESCUE-brain #PWR0220
+L brain-rescue:GND-RESCUE-brain #PWR0220
 U 1 1 556E78DB
 P 6450 4750
 F 0 "#PWR0220" H 6450 4750 30  0001 C CNN
@@ -159,7 +157,7 @@ F 3 "" H 6450 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C89
+L brain-rescue:C-RESCUE-brain C89
 U 1 1 556E78E1
 P 7150 4400
 F 0 "C89" H 7150 4500 40  0000 L CNN
@@ -170,7 +168,7 @@ F 3 "" H 7150 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR0221
+L power:+BATT #PWR0221
 U 1 1 556E78E7
 P 5850 3900
 F 0 "#PWR0221" H 5850 3850 20  0001 C CNN
@@ -187,7 +185,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 4350 6450 4750
 $Comp
-L GND-RESCUE-brain #PWR0222
+L brain-rescue:GND-RESCUE-brain #PWR0222
 U 1 1 556E78F0
 P 7150 4700
 F 0 "#PWR0222" H 7150 4700 30  0001 C CNN
@@ -200,11 +198,11 @@ $EndComp
 Wire Wire Line
 	7150 4700 7150 4600
 Wire Wire Line
-	7150 4000 7150 4200
+	7150 4000 7150 4050
 Wire Wire Line
 	7150 4050 6850 4050
 $Comp
-L TSR1-2433 U10
+L espitall:TSR1-2433 U10
 U 1 1 556E7AB0
 P 6450 4100
 AR Path="/556E7AB0" Ref="U10"  Part="1" 
@@ -217,7 +215,7 @@ F 3 "" H 6450 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0223
+L power:+5V #PWR0223
 U 1 1 556E7ACF
 P 7150 2550
 F 0 "#PWR0223" H 7150 2640 20  0001 C CNN
@@ -228,7 +226,7 @@ F 3 "" H 7150 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0224
+L power:+3V3 #PWR0224
 U 1 1 556E7AE9
 P 7150 4000
 F 0 "#PWR0224" H 7150 3850 50  0001 C CNN
@@ -240,4 +238,12 @@ F 3 "" H 7150 4000 60  0000 C CNN
 $EndComp
 Connection ~ 7150 4050
 Connection ~ 7150 2800
+Wire Wire Line
+	4200 3950 4200 4100
+Wire Wire Line
+	4250 3350 4250 3600
+Wire Wire Line
+	7150 4050 7150 4200
+Wire Wire Line
+	7150 2800 7150 2950
 $EndSCHEMATC

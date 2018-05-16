@@ -1,6 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:brain-rescue
-LIBS:espitall
+EESchema Schematic File Version 4
 LIBS:brain-cache
 EELAYER 26 0
 EELAYER END
@@ -17,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +3V3 #PWR097
+L power:+3V3 #PWR097
 U 1 1 5563D19B
 P 2600 1100
 F 0 "#PWR097" H 2600 950 50  0001 C CNN
@@ -28,7 +26,7 @@ F 3 "" H 2600 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR098
+L power:+5V #PWR098
 U 1 1 5563D1B0
 P 2900 750
 F 0 "#PWR098" H 2900 840 20  0001 C CNN
@@ -39,7 +37,7 @@ F 3 "" H 2900 750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C39
+L brain-rescue:C-RESCUE-brain C39
 U 1 1 5563D1C5
 P 2300 1500
 F 0 "C39" H 2300 1600 40  0000 L CNN
@@ -50,7 +48,7 @@ F 3 "" H 2300 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C40
+L brain-rescue:C-RESCUE-brain C40
 U 1 1 5563D21A
 P 3150 1500
 F 0 "C40" H 3150 1600 40  0000 L CNN
@@ -61,7 +59,7 @@ F 3 "" H 3150 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR099
+L brain-rescue:GND-RESCUE-brain #PWR099
 U 1 1 5563D286
 P 2300 1700
 F 0 "#PWR099" H 2300 1700 30  0001 C CNN
@@ -72,7 +70,7 @@ F 3 "" H 2300 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0100
+L brain-rescue:GND-RESCUE-brain #PWR0100
 U 1 1 5563D29D
 P 3150 1700
 F 0 "#PWR0100" H 3150 1700 30  0001 C CNN
@@ -83,7 +81,7 @@ F 3 "" H 3150 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0101
+L brain-rescue:GND-RESCUE-brain #PWR0101
 U 1 1 5563D2B4
 P 2750 2850
 F 0 "#PWR0101" H 2750 2850 30  0001 C CNN
@@ -98,7 +96,7 @@ I2C_SCL_3v3
 Text HLabel 1300 2450 0    60   BiDi ~ 0
 I2C_SDA_3v3
 $Comp
-L R-RESCUE-brain R10
+L brain-rescue:R-RESCUE-brain R10
 U 1 1 5563E278
 P 2900 1150
 F 0 "R10" V 2980 1150 40  0000 C CNN
@@ -117,7 +115,7 @@ I2C_SCL_5v
 Text Label 3600 2450 0    60   ~ 0
 I2C_SDA_5v
 $Comp
-L R-RESCUE-brain R11
+L brain-rescue:R-RESCUE-brain R11
 U 1 1 5563E346
 P 3800 1150
 F 0 "R11" V 3880 1150 40  0000 C CNN
@@ -128,7 +126,7 @@ F 3 "" H 3800 1150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-brain R12
+L brain-rescue:R-RESCUE-brain R12
 U 1 1 5563E3BC
 P 4000 1150
 F 0 "R12" V 4080 1150 40  0000 C CNN
@@ -139,7 +137,7 @@ F 3 "" H 4000 1150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0102
+L power:+5V #PWR0102
 U 1 1 5563E3E2
 P 3800 750
 F 0 "#PWR0102" H 3800 840 20  0001 C CNN
@@ -150,7 +148,7 @@ F 3 "" H 3800 750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0103
+L power:+5V #PWR0103
 U 1 1 5563E3F9
 P 4000 750
 F 0 "#PWR0103" H 4000 840 20  0001 C CNN
@@ -161,7 +159,7 @@ F 3 "" H 4000 750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0104
+L brain-rescue:GND-RESCUE-brain #PWR0104
 U 1 1 5563E5FD
 P 4150 2750
 F 0 "#PWR0104" H 4150 2750 30  0001 C CNN
@@ -172,7 +170,7 @@ F 3 "" H 4150 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_4 I2C5V1
+L brain-rescue:CONN_4-RESCUE-brain I2C5V1
 U 1 1 5563E618
 P 4600 2400
 F 0 "I2C5V1" V 4550 2400 50  0000 C CNN
@@ -183,7 +181,7 @@ F 3 "" H 4600 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C41
+L brain-rescue:C-RESCUE-brain C41
 U 1 1 5563E68B
 P 4350 1850
 F 0 "C41" H 4350 1950 40  0000 L CNN
@@ -194,7 +192,7 @@ F 3 "" H 4350 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0105
+L brain-rescue:GND-RESCUE-brain #PWR0105
 U 1 1 5563E6BE
 P 4350 2050
 F 0 "#PWR0105" H 4350 2050 30  0001 C CNN
@@ -205,7 +203,7 @@ F 3 "" H 4350 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0106
+L power:+5V #PWR0106
 U 1 1 5563E6F3
 P 4150 1550
 F 0 "#PWR0106" H 4150 1640 20  0001 C CNN
@@ -216,7 +214,7 @@ F 3 "" H 4150 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_5 I2C3v3
+L brain-rescue:CONN_5-RESCUE-brain I2C3v3
 U 1 1 5563E89C
 P 3000 3900
 F 0 "I2C3v3" V 2950 3900 50  0000 C CNN
@@ -227,7 +225,7 @@ F 3 "" H 3000 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C47
+L brain-rescue:C-RESCUE-brain C47
 U 1 1 5563E9B2
 P 2650 3400
 F 0 "C47" H 2650 3500 40  0000 L CNN
@@ -238,7 +236,7 @@ F 3 "" H 2650 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0107
+L brain-rescue:GND-RESCUE-brain #PWR0107
 U 1 1 5563E9B8
 P 2650 3600
 F 0 "#PWR0107" H 2650 3600 30  0001 C CNN
@@ -249,7 +247,7 @@ F 3 "" H 2650 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0108
+L power:+5V #PWR0108
 U 1 1 5563E9BE
 P 2450 3000
 F 0 "#PWR0108" H 2450 3090 20  0001 C CNN
@@ -260,7 +258,7 @@ F 3 "" H 2450 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0109
+L power:+3V3 #PWR0109
 U 1 1 5563EA5E
 P 2250 3100
 F 0 "#PWR0109" H 2250 2950 50  0001 C CNN
@@ -271,7 +269,7 @@ F 3 "" H 2250 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C46
+L brain-rescue:C-RESCUE-brain C46
 U 1 1 5563EB03
 P 2100 3400
 F 0 "C46" H 2100 3500 40  0000 L CNN
@@ -282,7 +280,7 @@ F 3 "" H 2100 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0110
+L brain-rescue:GND-RESCUE-brain #PWR0110
 U 1 1 5563EB8C
 P 2100 3600
 F 0 "#PWR0110" H 2100 3600 30  0001 C CNN
@@ -293,7 +291,7 @@ F 3 "" H 2100 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0111
+L brain-rescue:GND-RESCUE-brain #PWR0111
 U 1 1 5563ECB8
 P 2500 4200
 F 0 "#PWR0111" H 2500 4200 30  0001 C CNN
@@ -304,7 +302,7 @@ F 3 "" H 2500 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCA9306 U5
+L brain-rescue:PCA9306-RESCUE-brain U5
 U 1 1 5563FD6D
 P 2750 2250
 F 0 "U5" H 3000 2550 60  0000 C CNN
@@ -315,7 +313,7 @@ F 3 "" H 2750 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCA9685 U6
+L espitall:PCA9685 U6
 U 1 1 5563FFFB
 P 3900 6450
 F 0 "U6" H 4150 7350 60  0000 C CNN
@@ -326,7 +324,7 @@ F 3 "" H 3900 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0112
+L brain-rescue:GND-RESCUE-brain #PWR0112
 U 1 1 5564007E
 P 3900 7500
 F 0 "#PWR0112" H 3900 7500 30  0001 C CNN
@@ -337,7 +335,7 @@ F 3 "" H 3900 7500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0113
+L brain-rescue:GND-RESCUE-brain #PWR0113
 U 1 1 556400E9
 P 3050 5400
 F 0 "#PWR0113" H 3050 5400 30  0001 C CNN
@@ -348,7 +346,7 @@ F 3 "" H 3050 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-brain C52
+L brain-rescue:C-RESCUE-brain C52
 U 1 1 5564028A
 P 3050 5150
 F 0 "C52" H 3050 5250 40  0000 L CNN
@@ -359,7 +357,7 @@ F 3 "" H 3050 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0114
+L power:+5V #PWR0114
 U 1 1 55640425
 P 3900 4750
 F 0 "#PWR0114" H 3900 4840 20  0001 C CNN
@@ -370,7 +368,7 @@ F 3 "" H 3900 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0115
+L brain-rescue:GND-RESCUE-brain #PWR0115
 U 1 1 55640885
 P 2950 7500
 F 0 "#PWR0115" H 2950 7500 30  0001 C CNN
@@ -381,7 +379,7 @@ F 3 "" H 2950 7500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 1100 2600 1700
+	2600 1100 2600 1200
 Wire Wire Line
 	2300 1300 2300 1200
 Wire Wire Line
@@ -392,7 +390,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 1400 3050 1250
 Wire Wire Line
-	3050 1250 3550 1250
+	3050 1250 3150 1250
 Wire Wire Line
 	3550 1250 3550 2150
 Wire Wire Line
@@ -419,7 +417,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 2550 4250 2550
 Wire Wire Line
-	4150 1550 4150 2250
+	4150 1550 4150 1600
 Wire Wire Line
 	4150 2250 4250 2250
 Wire Wire Line
@@ -428,14 +426,14 @@ Wire Wire Line
 	4350 1600 4150 1600
 Connection ~ 4150 1600
 Wire Wire Line
-	2450 3000 2450 3700
+	2450 3000 2450 3050
 Wire Wire Line
 	2650 3050 2650 3200
 Wire Wire Line
 	2650 3050 2450 3050
 Connection ~ 2450 3050
 Wire Wire Line
-	2250 3100 2250 3800
+	2250 3100 2250 3150
 Wire Wire Line
 	2250 3800 2600 3800
 Wire Wire Line
@@ -456,9 +454,9 @@ Wire Wire Line
 Wire Wire Line
 	2500 4100 2600 4100
 Wire Wire Line
-	3900 4750 3900 5300
+	3900 4750 3900 4800
 Wire Wire Line
-	2850 4800 3900 4800
+	2850 4800 3050 4800
 Wire Wire Line
 	3050 4800 3050 4950
 Connection ~ 3900 4800
@@ -471,7 +469,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 6150 2950 6150
 Wire Wire Line
-	2950 6150 2950 7500
+	2950 6150 2950 6350
 Wire Wire Line
 	3150 6350 2950 6350
 Connection ~ 2950 6350
@@ -487,7 +485,7 @@ Connection ~ 2950 6750
 Wire Wire Line
 	3150 6850 2850 6850
 Wire Wire Line
-	2850 4800 2850 7050
+	2850 4800 2850 6850
 Connection ~ 3050 4800
 Wire Wire Line
 	2850 6950 3150 6950
@@ -504,13 +502,13 @@ Wire Wire Line
 Wire Wire Line
 	4750 6450 5800 6450
 Wire Wire Line
-	3450 2450 4250 2450
+	3450 2450 3600 2450
 Wire Wire Line
-	3450 2350 4250 2350
+	3450 2350 3700 2350
 Wire Wire Line
-	1300 2450 2100 2450
+	1300 2450 1700 2450
 Wire Wire Line
-	1300 2350 2100 2350
+	1300 2350 1800 2350
 Wire Notes Line
 	500  4300 4800 4300
 Wire Notes Line
@@ -531,9 +529,6 @@ Wire Wire Line
 Connection ~ 3600 2450
 Wire Wire Line
 	1800 3900 1800 2350
-Wire Wire Line
-	1800 2350 1850 2350
-Connection ~ 1850 2350
 Wire Wire Line
 	1700 4000 1700 2450
 Wire Wire Line
@@ -599,7 +594,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 3600 10100 3600
 $Comp
-L CONN_5 SERVO_0-3
+L brain-rescue:CONN_5-RESCUE-brain SERVO_0-3
 U 1 1 592C15A7
 P 10500 2900
 F 0 "SERVO_0-3" V 10450 2900 50  0000 C CNN
@@ -610,7 +605,7 @@ F 3 "" H 10500 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_5 SERVO_4-7
+L brain-rescue:CONN_5-RESCUE-brain SERVO_4-7
 U 1 1 592C16AE
 P 10500 3500
 F 0 "SERVO_4-7" V 10450 3500 50  0000 C CNN
@@ -621,7 +616,7 @@ F 3 "" H 10500 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_5 SERVO_8-13
+L brain-rescue:CONN_5-RESCUE-brain SERVO_8-13
 U 1 1 592C16FA
 P 10500 4100
 F 0 "SERVO_8-13" V 10450 4100 50  0000 C CNN
@@ -632,7 +627,7 @@ F 3 "" H 10500 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-brain #PWR0116
+L brain-rescue:GND-RESCUE-brain #PWR0116
 U 1 1 592C2528
 P 10000 4750
 F 0 "#PWR0116" H 10000 4750 30  0001 C CNN
@@ -643,7 +638,7 @@ F 3 "" H 10000 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 3100 10000 4750
+	10000 3100 10000 3700
 Wire Wire Line
 	10000 4300 10100 4300
 Wire Wire Line
@@ -656,4 +651,46 @@ Wire Wire Line
 	5000 2700 10100 2700
 Wire Wire Line
 	5100 2800 10100 2800
+Wire Wire Line
+	2600 1200 2600 1700
+Wire Wire Line
+	3150 1250 3550 1250
+Wire Wire Line
+	4000 2450 4250 2450
+Wire Wire Line
+	3800 2350 4250 2350
+Wire Wire Line
+	4150 1600 4150 2250
+Wire Wire Line
+	2450 3050 2450 3700
+Wire Wire Line
+	2250 3150 2250 3800
+Wire Wire Line
+	1700 2450 2100 2450
+Wire Wire Line
+	3900 4800 3900 5300
+Wire Wire Line
+	2950 6350 2950 6550
+Wire Wire Line
+	2950 6550 2950 6650
+Wire Wire Line
+	2950 6650 2950 6750
+Wire Wire Line
+	2950 6750 2950 7500
+Wire Wire Line
+	3050 4800 3900 4800
+Wire Wire Line
+	2850 6850 2850 6950
+Wire Wire Line
+	2850 6950 2850 7050
+Wire Wire Line
+	3700 2350 3800 2350
+Wire Wire Line
+	3600 2450 4000 2450
+Wire Wire Line
+	10000 4300 10000 4750
+Wire Wire Line
+	10000 3700 10000 4300
+Wire Wire Line
+	1800 2350 2100 2350
 $EndSCHEMATC
