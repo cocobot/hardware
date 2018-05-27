@@ -5,9 +5,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 5
-Title "Brain"
-Date "2017-05-28"
-Rev "2018"
+Title "Com"
+Date "2018-05-27"
+Rev "2019"
 Comp "Cocobot"
 Comment1 "Board for eurobot 2018 (French edition)"
 Comment2 ""
@@ -723,7 +723,7 @@ L espitall:XGURUGX10D D1
 U 1 1 5B1CF593
 P 900 10900
 F 0 "D1" H 673 11246 50  0000 R CNN
-F 1 "XGURUGX10D" H 673 11155 50  0000 R CNN
+F 1 "XGURUGX10D" H 5100 11000 50  0000 R CNN
 F 2 "espitall:XGURUGX10D" V 900 11200 50  0001 C CNN
 F 3 "" V 900 11200 50  0001 C CNN
 	1    900  10900
@@ -1131,7 +1131,7 @@ U 1 1 5B613C51
 P 14800 1450
 F 0 "SW1" H 14800 2117 50  0000 C CNN
 F 1 "SW_DIP_x08" H 14800 2026 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_DIP_x8_W7.62mm_Slide" H 14800 1450 50  0001 C CNN
+F 2 "espitall:SW_DIP_x8_W7.62mm_Slide" H 14800 1450 50  0001 C CNN
 F 3 "" H 14800 1450 50  0001 C CNN
 	1    14800 1450
 	1    0    0    -1  

@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 2 5
+Title "Com"
+Date "2018-05-27"
+Rev "2019"
+Comp "Cocobot"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -31,7 +31,7 @@ U 1 1 5AFE6483
 P 2100 3400
 F 0 "J4" H 2155 3867 50  0000 C CNN
 F 1 "USB_B_Micro" H 2155 3776 50  0000 C CNN
-F 2 "Connectors:USB_Micro-B_10103594-0001LF" H 2250 3350 50  0001 C CNN
+F 2 "espitall:USB_Micro-B_10103594-0001LF" H 2250 3350 50  0001 C CNN
 F 3 "~" H 2250 3350 50  0001 C CNN
 	1    2100 3400
 	1    0    0    -1  

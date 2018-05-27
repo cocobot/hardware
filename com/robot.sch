@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Com"
+Date "2018-05-27"
+Rev "2019"
+Comp "Cocobot"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -20,7 +20,7 @@ U 1 1 5B7F7A0D
 P 2550 3300
 F 0 "J5" H 2630 3292 50  0000 L CNN
 F 1 "Conn_01x04" H 2630 3201 50  0000 L CNN
-F 2 "Connectors_JST:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled" H 2550 3300 50  0001 C CNN
+F 2 "espitall:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled" H 2550 3300 50  0001 C CNN
 F 3 "~" H 2550 3300 50  0001 C CNN
 	1    2550 3300
 	-1   0    0    -1  
