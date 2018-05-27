@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -20,7 +20,7 @@ U 1 1 5AFE4D3E
 P 7000 3600
 F 0 "U3" H 7450 4500 50  0000 C CNN
 F 1 "FT232RL" H 7550 2700 50  0000 C CNN
-F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 7000 3600 50  0001 C CNN
+F 2 "Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm" H 7000 3600 50  0001 C CNN
 F 3 "http://www.ftdichip.com/Products/ICs/FT232RL.htm" H 7000 3600 50  0001 C CNN
 	1    7000 3600
 	1    0    0    -1  

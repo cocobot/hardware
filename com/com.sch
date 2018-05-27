@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -111,23 +111,6 @@ Wire Wire Line
 Wire Wire Line
 	10650 2350 10250 2350
 Connection ~ 10250 2350
-$Sheet
-S 6450 3050 1800 1400
-U 5AFB1EE6
-F0 "uc" 50
-F1 "uc.sch" 50
-F2 "rf_spi_sck_3v3" O R 8250 4050 50 
-F3 "rf_spi_miso_3v3" I R 8250 3950 50 
-F4 "rf_spi_mosi_3v3" O R 8250 3850 50 
-F5 "tx_3v3" O L 6450 3300 50 
-F6 "rx_3v3" I L 6450 3400 50 
-F7 "rf_spi_cs_3v3" O R 8250 3750 50 
-F8 "rf_gpio3_3v3" O R 8250 3250 50 
-F9 "rf_gpio2_3v3" O R 8250 3350 50 
-F10 "rf_gpio1_3v3" O R 8250 3450 50 
-F11 "rf_gpio0_3v3" O R 8250 3550 50 
-F12 "rf_sdn_3v3" O R 8250 4250 50 
-$EndSheet
 Wire Wire Line
 	9250 3950 8250 3950
 Wire Wire Line
@@ -163,6 +146,8 @@ F1 "robot.sch" 50
 F2 "rx_3v3" O R 4550 3900 50 
 F3 "tx_3v3" I R 4550 3800 50 
 F4 "5v" O R 4550 3650 50 
+F5 "can_h" B L 2700 4300 50 
+F6 "can_l" B L 2700 4400 50 
 $EndSheet
 Wire Wire Line
 	4550 3800 5600 3800
@@ -278,4 +263,49 @@ F 3 "~" H 1500 7400 50  0001 C CNN
 	1    1500 7400
 	-1   0    0    1   
 $EndComp
+$Sheet
+S 6450 3050 1800 3000
+U 5AFB1EE6
+F0 "uc" 50
+F1 "uc.sch" 50
+F2 "rf_spi_sck_3v3" O R 8250 4050 50 
+F3 "rf_spi_miso_3v3" I R 8250 3950 50 
+F4 "rf_spi_mosi_3v3" O R 8250 3850 50 
+F5 "tx_3v3" O L 6450 3300 50 
+F6 "rx_3v3" I L 6450 3400 50 
+F7 "rf_spi_cs_3v3" O R 8250 3750 50 
+F8 "rf_gpio3_3v3" O R 8250 3250 50 
+F9 "rf_gpio2_3v3" O R 8250 3350 50 
+F10 "rf_gpio1_3v3" O R 8250 3450 50 
+F11 "rf_gpio0_3v3" O R 8250 3550 50 
+F12 "rf_sdn_3v3" O R 8250 4250 50 
+F13 "can_tx_3v3" O L 6450 5300 50 
+F14 "can_rx_3v3" I L 6450 5400 50 
+$EndSheet
+$Sheet
+S 2700 5100 1850 950 
+U 5B0C6E1B
+F0 "CAN" 50
+F1 "can.sch" 50
+F2 "can_tx_3v3" I R 4550 5300 50 
+F3 "can_rx_3v3" O R 4550 5400 50 
+F4 "can_h" B L 2700 5300 50 
+F5 "can_l" B L 2700 5400 50 
+$EndSheet
+Wire Wire Line
+	6450 5400 4550 5400
+Wire Wire Line
+	4550 5300 6450 5300
+Wire Wire Line
+	2700 4300 2250 4300
+Wire Wire Line
+	2250 4300 2250 5300
+Wire Wire Line
+	2250 5300 2700 5300
+Wire Wire Line
+	2700 5400 2350 5400
+Wire Wire Line
+	2350 5400 2350 4400
+Wire Wire Line
+	2350 4400 2700 4400
 $EndSCHEMATC
