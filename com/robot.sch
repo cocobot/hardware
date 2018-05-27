@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L com-rescue:Conn_01x04-conn J5
-U 1 1 5B7F7A0D
-P 2550 3300
-F 0 "J5" H 2630 3292 50  0000 L CNN
-F 1 "Conn_01x04" H 2630 3201 50  0000 L CNN
-F 2 "espitall:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled" H 2550 3300 50  0001 C CNN
-F 3 "~" H 2550 3300 50  0001 C CNN
-	1    2550 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR017
 U 1 1 5B7F7AA5
 P 2950 3950
@@ -333,4 +322,28 @@ Connection ~ 3600 3400
 Wire Wire Line
 	3700 3300 4000 3300
 Connection ~ 3700 3300
+$Comp
+L espitall:CocobotCAN J2
+U 1 1 5B0BC194
+P 2550 3300
+F 0 "J2" H 2570 3625 50  0000 C CNN
+F 1 "CocobotCAN" H 2570 3534 50  0000 C CNN
+F 2 "espitall:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled" H 2500 3500 50  0001 C CNN
+F 3 "~" H 2550 3300 50  0001 C CNN
+	1    2550 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5B0BCE4A
+P 2450 3950
+F 0 "#PWR0105" H 2450 3700 50  0001 C CNN
+F 1 "GND" H 2455 3777 50  0000 C CNN
+F 2 "" H 2450 3950 50  0001 C CNN
+F 3 "" H 2450 3950 50  0001 C CNN
+	1    2450 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3950 2450 3700
 $EndSCHEMATC

@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CocobotCAN
+D CAN connector for COCOBOT
+K CAN
+F ~
+$ENDCMP
+#
 $CMP HDSP-C8A1
 D Generic 7 segment display, common anode
 K LED
