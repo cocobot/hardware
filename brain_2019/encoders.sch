@@ -1,0 +1,343 @@
+EESchema Schematic File Version 4
+LIBS:brain_2019-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L espitall:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled J7
+U 1 1 5B20F4F5
+P 5150 2400
+F 0 "J7" H 5429 2320 50  0000 L CNN
+F 1 "JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled" H 5429 2229 50  0000 L CNN
+F 2 "espitall:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled" H 5100 2600 50  0001 C CNN
+F 3 "~" H 5150 2400 50  0001 C CNN
+	1    5150 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR050
+U 1 1 5B20F66D
+P 5050 3000
+F 0 "#PWR050" H 5050 2750 50  0001 C CNN
+F 1 "GND" H 5055 2827 50  0000 C CNN
+F 2 "" H 5050 3000 50  0001 C CNN
+F 3 "" H 5050 3000 50  0001 C CNN
+	1    5050 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3000 5050 2900
+Wire Wire Line
+	5050 2900 5450 2900
+Wire Wire Line
+	5450 2900 5450 2600
+Wire Wire Line
+	5450 2600 5350 2600
+Connection ~ 5050 2900
+Wire Wire Line
+	5050 2900 5050 2800
+Wire Wire Line
+	5350 2300 5450 2300
+Wire Wire Line
+	5450 1400 5450 1550
+$Comp
+L power:+5V #PWR047
+U 1 1 5B20F7B9
+P 5450 1400
+F 0 "#PWR047" H 5450 1250 50  0001 C CNN
+F 1 "+5V" H 5465 1573 50  0000 C CNN
+F 2 "" H 5450 1400 50  0001 C CNN
+F 3 "" H 5450 1400 50  0001 C CNN
+	1    5450 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR048
+U 1 1 5B197F1B
+P 7400 1900
+F 0 "#PWR048" H 7400 1750 50  0001 C CNN
+F 1 "+3V3" H 7415 2073 50  0000 C CNN
+F 2 "" H 7400 1900 50  0001 C CNN
+F 3 "" H 7400 1900 50  0001 C CNN
+	1    7400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1900 7400 2000
+$Comp
+L Device:C C22
+U 1 1 5B197FB5
+P 7750 2000
+F 0 "C22" V 7498 2000 50  0000 C CNN
+F 1 "C" V 7589 2000 50  0000 C CNN
+F 2 "espitall:C_0603" H 7788 1850 50  0001 C CNN
+F 3 "~" H 7750 2000 50  0001 C CNN
+	1    7750 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR049
+U 1 1 5B198057
+P 8050 2150
+F 0 "#PWR049" H 8050 1900 50  0001 C CNN
+F 1 "GND" H 8055 1977 50  0000 C CNN
+F 2 "" H 8050 2150 50  0001 C CNN
+F 3 "" H 8050 2150 50  0001 C CNN
+	1    8050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2150 8050 2000
+Wire Wire Line
+	8050 2000 7900 2000
+Wire Wire Line
+	7600 2000 7400 2000
+Connection ~ 7400 2000
+Wire Wire Line
+	7400 2000 7400 2100
+Wire Wire Line
+	5350 2400 5650 2400
+Wire Wire Line
+	5350 2500 5950 2500
+$Comp
+L espitall:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled J8
+U 1 1 5B198614
+P 5150 4350
+F 0 "J8" H 5429 4270 50  0000 L CNN
+F 1 "JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled" H 5429 4179 50  0000 L CNN
+F 2 "espitall:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled" H 5100 4550 50  0001 C CNN
+F 3 "~" H 5150 4350 50  0001 C CNN
+	1    5150 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR052
+U 1 1 5B19861A
+P 5050 4950
+F 0 "#PWR052" H 5050 4700 50  0001 C CNN
+F 1 "GND" H 5055 4777 50  0000 C CNN
+F 2 "" H 5050 4950 50  0001 C CNN
+F 3 "" H 5050 4950 50  0001 C CNN
+	1    5050 4950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4950 5050 4850
+Wire Wire Line
+	5050 4850 5450 4850
+Wire Wire Line
+	5450 4850 5450 4550
+Wire Wire Line
+	5450 4550 5350 4550
+Connection ~ 5050 4850
+Wire Wire Line
+	5050 4850 5050 4750
+Wire Wire Line
+	5350 4250 5450 4250
+Wire Wire Line
+	5450 3350 5450 3500
+$Comp
+L power:+5V #PWR051
+U 1 1 5B198628
+P 5450 3350
+F 0 "#PWR051" H 5450 3200 50  0001 C CNN
+F 1 "+5V" H 5465 3523 50  0000 C CNN
+F 2 "" H 5450 3350 50  0001 C CNN
+F 3 "" H 5450 3350 50  0001 C CNN
+	1    5450 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4350 5650 4350
+Wire Wire Line
+	6300 4350 6300 2600
+Wire Wire Line
+	6300 2600 6900 2600
+Wire Wire Line
+	6400 4450 6400 2700
+Wire Wire Line
+	6400 2700 6900 2700
+Wire Wire Line
+	5350 4450 5950 4450
+$Comp
+L power:GND #PWR053
+U 1 1 5B198F8F
+P 7400 4950
+F 0 "#PWR053" H 7400 4700 50  0001 C CNN
+F 1 "GND" H 7405 4777 50  0000 C CNN
+F 2 "" H 7400 4950 50  0001 C CNN
+F 3 "" H 7400 4950 50  0001 C CNN
+	1    7400 4950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3700 7400 3800
+Text Label 5600 2400 0    50   ~ 0
+enc_l_A_5v
+Text Label 5600 2500 0    50   ~ 0
+enc_l_B_5v
+Text Label 5600 4350 0    50   ~ 0
+enc_r_A_5v
+Text Label 5600 4450 0    50   ~ 0
+enc_r_B_5v
+Wire Wire Line
+	7900 2400 8500 2400
+Text HLabel 8500 2400 2    50   Output ~ 0
+enc_l_A_3v3
+Text HLabel 8500 2500 2    50   Output ~ 0
+enc_l_B_3v3
+Text HLabel 8500 2600 2    50   Output ~ 0
+enc_r_A_3v3
+Text HLabel 8500 2700 2    50   Output ~ 0
+enc_r_B_3v3
+Wire Wire Line
+	7900 2500 8500 2500
+Wire Wire Line
+	8500 2600 7900 2600
+Wire Wire Line
+	7900 2700 8500 2700
+Wire Wire Line
+	6900 3300 6750 3300
+Wire Wire Line
+	6750 3300 6750 3400
+Wire Wire Line
+	6750 3800 7400 3800
+Connection ~ 7400 3800
+Wire Wire Line
+	7400 3800 7400 4950
+Wire Wire Line
+	6900 3400 6750 3400
+Connection ~ 6750 3400
+Wire Wire Line
+	6750 3400 6750 3800
+Wire Wire Line
+	6750 2800 6900 2800
+Connection ~ 6750 3300
+Wire Wire Line
+	6900 2900 6750 2900
+Wire Wire Line
+	6750 2800 6750 2900
+Connection ~ 6750 2900
+Wire Wire Line
+	6750 2900 6750 3000
+Wire Wire Line
+	6900 3000 6750 3000
+Connection ~ 6750 3000
+Wire Wire Line
+	6750 3000 6750 3100
+Wire Wire Line
+	6750 3100 6900 3100
+Connection ~ 6750 3100
+Wire Wire Line
+	6750 3100 6750 3300
+$Comp
+L Device:R R8
+U 1 1 5B1BB149
+P 5650 1800
+F 0 "R8" H 5720 1846 50  0000 L CNN
+F 1 "R" H 5720 1755 50  0000 L CNN
+F 2 "espitall:R_0603" V 5580 1800 50  0001 C CNN
+F 3 "~" H 5650 1800 50  0001 C CNN
+	1    5650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5B1BB19B
+P 5950 1800
+F 0 "R9" H 6020 1846 50  0000 L CNN
+F 1 "R" H 6020 1755 50  0000 L CNN
+F 2 "espitall:R_0603" V 5880 1800 50  0001 C CNN
+F 3 "~" H 5950 1800 50  0001 C CNN
+	1    5950 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1950 5950 2500
+Connection ~ 5950 2500
+Wire Wire Line
+	5950 2500 6900 2500
+Wire Wire Line
+	5650 1950 5650 2400
+Connection ~ 5650 2400
+Wire Wire Line
+	5650 2400 6900 2400
+Wire Wire Line
+	5650 1650 5650 1550
+Wire Wire Line
+	5650 1550 5450 1550
+Connection ~ 5450 1550
+Wire Wire Line
+	5450 1550 5450 2300
+Wire Wire Line
+	5650 1550 5950 1550
+Wire Wire Line
+	5950 1550 5950 1650
+Connection ~ 5650 1550
+$Comp
+L Device:R R10
+U 1 1 5B1BDB33
+P 5650 3750
+F 0 "R10" H 5720 3796 50  0000 L CNN
+F 1 "R" H 5720 3705 50  0000 L CNN
+F 2 "espitall:R_0603" V 5580 3750 50  0001 C CNN
+F 3 "~" H 5650 3750 50  0001 C CNN
+	1    5650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5B1BDB39
+P 5950 3750
+F 0 "R11" H 6020 3796 50  0000 L CNN
+F 1 "R" H 6020 3705 50  0000 L CNN
+F 2 "espitall:R_0603" V 5880 3750 50  0001 C CNN
+F 3 "~" H 5950 3750 50  0001 C CNN
+	1    5950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3900 5950 4450
+Wire Wire Line
+	5650 3900 5650 4350
+Wire Wire Line
+	5650 3600 5650 3500
+Wire Wire Line
+	5650 3500 5450 3500
+Wire Wire Line
+	5650 3500 5950 3500
+Wire Wire Line
+	5950 3500 5950 3600
+Connection ~ 5650 3500
+Connection ~ 5450 3500
+Wire Wire Line
+	5450 3500 5450 4250
+Connection ~ 5650 4350
+Wire Wire Line
+	5650 4350 6300 4350
+Connection ~ 5950 4450
+Wire Wire Line
+	5950 4450 6400 4450
+$Comp
+L espitall:MC74VHC244DTG U?
+U 1 1 5B1EDE70
+P 7400 2900
+F 0 "U?" H 7150 3600 50  0000 C CNN
+F 1 "MC74VHC244DTG" H 7800 2250 50  0000 C CNN
+F 2 "espitall:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 7000 3450 50  0001 C CNN
+F 3 "" H 7100 3550 50  0001 C CNN
+	1    7400 2900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

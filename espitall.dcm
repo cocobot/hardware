@@ -11,6 +11,35 @@ D Generic 7 segment display, common anode
 K LED
 $ENDCMP
 #
+$CMP JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled
+D CAN connector for COCOBOT
+K CAN
+F ~
+$ENDCMP
+#
+$CMP JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled
+D CAN connector for COCOBOT
+K CAN
+F ~
+$ENDCMP
+#
+$CMP JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled
+D CAN connector for COCOBOT
+K CAN
+F ~
+$ENDCMP
+#
+$CMP MC74VHC244DTG
+D 8-bit Buffer/Line Driver 3-state
+K TTL BUFFER 3State
+$ENDCMP
+#
+$CMP NUP2105LT1G
+D Bidirectional dual transient-voltage-suppression (TVS) diode (center=pin3)
+K diode TVS thyrector
+F ~
+$ENDCMP
+#
 $CMP XGURUGX10D
 D LED dual, common cathode
 K led diode bicolor dual

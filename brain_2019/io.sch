@@ -1,0 +1,83 @@
+EESchema Schematic File Version 4
+LIBS:brain_2019-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L espitall:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled J9
+U 1 1 5B1CA419
+P 3350 3250
+F 0 "J9" H 3370 3575 50  0000 C CNN
+F 1 "JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 3370 3484 50  0000 C CNN
+F 2 "espitall:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 3300 3450 50  0001 C CNN
+F 3 "~" H 3350 3250 50  0001 C CNN
+	1    3350 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR055
+U 1 1 5B1CA4C7
+P 3250 3850
+F 0 "#PWR055" H 3250 3600 50  0001 C CNN
+F 1 "GND" H 3255 3677 50  0000 C CNN
+F 2 "" H 3250 3850 50  0001 C CNN
+F 3 "" H 3250 3850 50  0001 C CNN
+	1    3250 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3250 3700 3250
+Wire Wire Line
+	3700 3250 3700 3600
+Wire Wire Line
+	3700 3600 3250 3600
+Wire Wire Line
+	3250 3600 3250 3850
+Wire Wire Line
+	3250 3600 3250 3450
+Connection ~ 3250 3600
+$Comp
+L power:+3V3 #PWR054
+U 1 1 5B1CA56D
+P 3700 2000
+F 0 "#PWR054" H 3700 1850 50  0001 C CNN
+F 1 "+3V3" H 3715 2173 50  0000 C CNN
+F 2 "" H 3700 2000 50  0001 C CNN
+F 3 "" H 3700 2000 50  0001 C CNN
+	1    3700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5B1CA5DB
+P 3700 2450
+F 0 "R12" H 3770 2496 50  0000 L CNN
+F 1 "R" H 3770 2405 50  0000 L CNN
+F 2 "espitall:R_0603" V 3630 2450 50  0001 C CNN
+F 3 "~" H 3700 2450 50  0001 C CNN
+	1    3700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2600 3700 3150
+Wire Wire Line
+	3700 3150 3550 3150
+Wire Wire Line
+	3700 3150 4400 3150
+Connection ~ 3700 3150
+Text HLabel 4400 3150 2    50   Output ~ 0
+starter_3v3
+Wire Wire Line
+	3700 2000 3700 2300
+$EndSCHEMATC
