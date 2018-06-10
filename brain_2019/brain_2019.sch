@@ -98,4 +98,48 @@ F2 "starter_3v3" O L 8000 3850 50
 $EndSheet
 Wire Wire Line
 	7550 3850 8000 3850
+$Comp
+L Connector_Generic:Conn_01x01 H1
+U 1 1 5B1C02FF
+P 900 7250
+F 0 "H1" H 820 7025 50  0000 C CNN
+F 1 "Conn_01x01" H 820 7116 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 900 7250 50  0001 C CNN
+F 3 "~" H 900 7250 50  0001 C CNN
+	1    900  7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 H3
+U 1 1 5B1C0380
+P 900 7600
+F 0 "H3" H 820 7375 50  0000 C CNN
+F 1 "Conn_01x01" H 820 7466 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 900 7600 50  0001 C CNN
+F 3 "~" H 900 7600 50  0001 C CNN
+	1    900  7600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 H2
+U 1 1 5B1C0418
+P 1450 7250
+F 0 "H2" H 1370 7025 50  0000 C CNN
+F 1 "Conn_01x01" H 1370 7116 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1450 7250 50  0001 C CNN
+F 3 "~" H 1450 7250 50  0001 C CNN
+	1    1450 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 H4
+U 1 1 5B1C041E
+P 1450 7600
+F 0 "H4" H 1370 7375 50  0000 C CNN
+F 1 "Conn_01x01" H 1370 7466 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1450 7600 50  0001 C CNN
+F 3 "~" H 1450 7600 50  0001 C CNN
+	1    1450 7600
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
