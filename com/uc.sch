@@ -317,7 +317,7 @@ Text Label 1900 1750 0    60   ~ 0
 BOOT0_3v3
 Text Label 1900 1850 0    60   ~ 0
 BOOT1_3v3
-Text Label 2500 7050 0    60   ~ 0
+Text Label 2750 7050 0    60   ~ 0
 BOOT1_3v3
 Text Label 2500 3250 0    60   ~ 0
 BOOT0_3v3
@@ -460,12 +460,6 @@ F 3 "" H 1300 5600 60  0000 C CNN
 	1    1300 5600
 	1    0    0    -1  
 $EndComp
-Text Label 13500 8050 0    60   ~ 0
-rf_spi_mosi_3v3
-Text Label 13500 7950 0    60   ~ 0
-rf_spi_miso_3v3
-Text Label 13500 7850 0    60   ~ 0
-rf_spi_sck_3v3
 Text HLabel 14450 7850 2    60   Output ~ 0
 rf_spi_sck_3v3
 Text HLabel 14450 7950 2    60   Input ~ 0
@@ -519,7 +513,7 @@ Connection ~ 1350 1750
 Wire Wire Line
 	1750 1850 2350 1850
 Wire Wire Line
-	3400 7050 2350 7050
+	3400 7050 2650 7050
 Wire Wire Line
 	3400 3250 2350 3250
 Wire Wire Line
@@ -573,10 +567,6 @@ Connection ~ 7300 1400
 Connection ~ 7000 1400
 Connection ~ 6700 1400
 Connection ~ 6400 1400
-Text Label 13500 5550 0    60   ~ 0
-tx_3v3
-Text Label 13500 5650 0    60   ~ 0
-rx_3v3
 Text HLabel 14450 5550 2    60   Output ~ 0
 tx_3v3
 Text HLabel 14450 5650 2    60   Input ~ 0
@@ -964,24 +954,6 @@ Wire Wire Line
 	900  11050 900  10950
 Wire Wire Line
 	900  10950 1300 10950
-Wire Wire Line
-	3400 8350 3250 8350
-Wire Wire Line
-	3150 8250 3400 8250
-Wire Wire Line
-	3050 8150 3400 8150
-Wire Wire Line
-	2950 8050 3400 8050
-Wire Wire Line
-	2850 7950 3400 7950
-Wire Wire Line
-	2750 7850 3400 7850
-Wire Wire Line
-	2650 7750 3400 7750
-Wire Wire Line
-	2550 7650 3400 7650
-Wire Wire Line
-	2450 7550 3400 7550
 Connection ~ 1300 10950
 Wire Wire Line
 	1300 10900 1300 10950
@@ -1068,63 +1040,21 @@ Wire Wire Line
 Wire Wire Line
 	800  10250 800  10300
 Wire Wire Line
-	2350 7450 3400 7450
-Wire Wire Line
-	2250 7350 3400 7350
-Wire Wire Line
-	2150 7250 3400 7250
-Wire Wire Line
-	2050 7150 3400 7150
-Wire Wire Line
-	1950 6950 3400 6950
-Wire Wire Line
-	1850 6850 3400 6850
-Wire Wire Line
-	1200 9950 1200 9550
-Wire Wire Line
-	3300 6750 3300 6550
-Wire Wire Line
-	3300 6550 3400 6550
-Wire Wire Line
-	1750 6750 3300 6750
-Wire Wire Line
-	1650 6650 3200 6650
-Wire Wire Line
-	3200 6650 3200 6450
-Wire Wire Line
-	3200 6450 3400 6450
-Wire Wire Line
-	1550 6550 3100 6550
-Wire Wire Line
-	3100 6550 3100 6350
-Wire Wire Line
-	3100 6350 3400 6350
-Wire Wire Line
-	1450 6450 3000 6450
-Wire Wire Line
-	3000 6450 3000 6250
-Wire Wire Line
-	3000 6250 3400 6250
-Wire Wire Line
-	1350 6350 2900 6350
-Wire Wire Line
-	2900 6350 2900 6150
-Wire Wire Line
-	2900 6150 3400 6150
+	1200 9950 1200 9200
 Wire Wire Line
 	3400 9200 3400 9950
 Wire Wire Line
-	3600 9100 3600 9950
+	3600 9200 3600 9950
 Wire Wire Line
-	3800 9000 3800 9950
+	3800 9200 3800 9950
 Wire Wire Line
-	4000 8900 4000 9950
+	4000 9200 4000 9950
 Wire Wire Line
-	4200 8800 4200 9950
+	4200 9200 4200 9950
 Wire Wire Line
-	4400 8700 4400 9950
+	4400 9200 4400 9950
 Wire Wire Line
-	4600 8600 4600 9950
+	4600 9200 4600 9950
 $Comp
 L com-rescue:SW_DIP_x08-switches SW1
 U 1 1 5B613C51
@@ -1237,10 +1167,6 @@ F 3 "~" H 900 6050 50  0001 C CNN
 	1    900  6050
 	-1   0    0    -1  
 $EndComp
-Text Label 13500 5050 0    60   ~ 0
-can_tx_3v3
-Text Label 13500 5150 0    60   ~ 0
-can_rx_3v3
 Text HLabel 14450 5050 2    60   Output ~ 0
 can_tx_3v3
 Text HLabel 14450 5150 2    60   Input ~ 0
@@ -1251,11 +1177,11 @@ Wire Wire Line
 	13400 5150 14450 5150
 Wire Wire Line
 	1750 1850 1750 2600
-Text Label 800  9800 1    50   ~ 0
+Text Label 800  9750 1    50   ~ 0
 led_c1_1_3v3
-Text Label 1200 9800 1    50   ~ 0
+Text Label 1200 9750 1    50   ~ 0
 led_c1_2_3v3
-Text Label 1600 9800 1    50   ~ 0
+Text Label 1600 9750 1    50   ~ 0
 led_c1_3_3v3
 Text Label 2000 9750 1    50   ~ 0
 led_c1_4_3v3
@@ -1272,25 +1198,25 @@ led_c1_9_3v3
 Text Label 4400 9750 1    50   ~ 0
 led_c1_10_3v3
 Wire Wire Line
-	1600 9250 1600 9950
+	1600 9200 1600 9950
 Wire Wire Line
-	1400 9250 1400 9950
+	1400 9200 1400 9950
 Wire Wire Line
-	1000 9250 1000 9950
+	1000 9200 1000 9950
 Wire Wire Line
-	800  9250 800  9950
+	800  9200 800  9950
 Wire Wire Line
-	1800 9250 1800 9950
+	1800 9200 1800 9950
 Wire Wire Line
-	2000 9250 2000 9950
+	2000 9200 2000 9950
 Wire Wire Line
-	2200 9250 2200 9950
+	2200 9200 2200 9950
 Wire Wire Line
-	2400 9250 2400 9950
+	2400 9200 2400 9950
 Wire Wire Line
-	2600 9250 2600 9950
+	2600 9200 2600 9950
 Wire Wire Line
-	2800 9250 2800 9950
+	2800 9200 2800 9950
 Wire Wire Line
 	3000 9200 3000 9950
 Wire Wire Line
@@ -1327,7 +1253,7 @@ Wire Wire Line
 	13400 6250 14100 6250
 Wire Wire Line
 	13400 6350 14100 6350
-Text Label 1000 9800 1    50   ~ 0
+Text Label 1000 9750 1    50   ~ 0
 led_c2_1_3v3
 Text Label 1400 9750 1    50   ~ 0
 led_c2_2_3v3
@@ -1339,7 +1265,7 @@ Text Label 2600 9750 1    50   ~ 0
 led_c2_5_3v3
 Text Label 3000 9750 1    50   ~ 0
 led_c2_6_3v3
-Text Label 3400 9700 1    50   ~ 0
+Text Label 3400 9750 1    50   ~ 0
 led_c2_7_3v3
 Text Label 3800 9750 1    50   ~ 0
 led_c2_8_3v3
@@ -1347,7 +1273,7 @@ Text Label 4200 9750 1    50   ~ 0
 led_c2_9_3v3
 Text Label 4600 9750 1    50   ~ 0
 led_c2_10_3v3
-Text Label 3250 7950 2    50   ~ 0
+Text Label 3300 7950 2    50   ~ 0
 led_c2_10_3v3
 Text Label 3250 7850 2    50   ~ 0
 led_c2_9_3v3
@@ -1404,8 +1330,6 @@ sw1_3v3
 Text Label 2950 5750 0    50   ~ 0
 sw2_3v3
 Wire Wire Line
-	13400 7350 14100 7350
-Wire Wire Line
 	13400 7250 14100 7250
 Text Label 2950 5650 0    50   ~ 0
 sw3_3v3
@@ -1433,4 +1357,174 @@ Wire Wire Line
 	2900 5250 3400 5250
 Wire Wire Line
 	2900 5350 3400 5350
+Wire Wire Line
+	2650 7850 3400 7850
+Wire Wire Line
+	2650 7950 3400 7950
+Wire Wire Line
+	2650 8050 3400 8050
+Wire Wire Line
+	2650 8150 3400 8150
+Wire Wire Line
+	2650 8250 3400 8250
+Wire Wire Line
+	2650 8350 3400 8350
+$Comp
+L espitall:24LC64T-I U6
+U 1 1 5B3679A9
+P 1450 7450
+F 0 "U6" H 1120 7496 50  0000 R CNN
+F 1 "24LC64T-I" H 1120 7405 50  0000 R CNN
+F 2 "espitall:SOT-23-5" H 1500 7600 50  0001 C CNN
+F 3 "" H 1600 7700 50  0001 C CNN
+	1    1450 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 7450 2000 7450
+Wire Wire Line
+	3400 7550 2350 7550
+Wire Wire Line
+	2350 7550 2350 7350
+Wire Wire Line
+	2350 7350 2250 7350
+$Comp
+L power:GND #PWR?
+U 1 1 5B39064F
+P 1450 7950
+AR Path="/5B39064F" Ref="#PWR?"  Part="1" 
+AR Path="/555F206D/5B39064F" Ref="#PWR?"  Part="1" 
+AR Path="/5AFB1EE6/5B39064F" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 1450 7700 50  0001 C CNN
+F 1 "GND" H 1450 7800 50  0000 C CNN
+F 2 "" H 1450 7950 60  0000 C CNN
+F 3 "" H 1450 7950 60  0000 C CNN
+	1    1450 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 7950 1450 7750
+$Comp
+L power:+3V3 #PWR0107
+U 1 1 5B39E890
+P 1450 6850
+F 0 "#PWR0107" H 1450 6700 50  0001 C CNN
+F 1 "+3V3" H 1465 7023 50  0000 C CNN
+F 2 "" H 1450 6850 50  0001 C CNN
+F 3 "" H 1450 6850 50  0001 C CNN
+	1    1450 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 6850 1450 7000
+$Comp
+L Device:R R25
+U 1 1 5B3ACD1F
+P 2000 7050
+F 0 "R25" H 2070 7096 50  0000 L CNN
+F 1 "2k2" H 2070 7005 50  0000 L CNN
+F 2 "espitall:R_0603" V 1930 7050 50  0001 C CNN
+F 3 "~" H 2000 7050 50  0001 C CNN
+	1    2000 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5B3ACDA3
+P 2250 7050
+F 0 "R26" H 2320 7096 50  0000 L CNN
+F 1 "2k2" H 2320 7005 50  0000 L CNN
+F 2 "espitall:R_0603" V 2180 7050 50  0001 C CNN
+F 3 "~" H 2250 7050 50  0001 C CNN
+	1    2250 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 7200 2250 7350
+Connection ~ 2250 7350
+Wire Wire Line
+	2250 7350 1850 7350
+Wire Wire Line
+	2000 7200 2000 7450
+Connection ~ 2000 7450
+Wire Wire Line
+	2000 7450 1850 7450
+$Comp
+L power:+3V3 #PWR0108
+U 1 1 5B3E6E93
+P 2000 6850
+F 0 "#PWR0108" H 2000 6700 50  0001 C CNN
+F 1 "+3V3" H 2015 7023 50  0000 C CNN
+F 2 "" H 2000 6850 50  0001 C CNN
+F 3 "" H 2000 6850 50  0001 C CNN
+	1    2000 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 5B3E6EF4
+P 2250 6850
+F 0 "#PWR0109" H 2250 6700 50  0001 C CNN
+F 1 "+3V3" H 2265 7023 50  0000 C CNN
+F 2 "" H 2250 6850 50  0001 C CNN
+F 3 "" H 2250 6850 50  0001 C CNN
+	1    2250 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 6850 2250 6900
+Wire Wire Line
+	2000 6850 2000 6900
+$Comp
+L Device:C C14
+U 1 1 5B405198
+P 1150 7000
+F 0 "C14" V 898 7000 50  0000 C CNN
+F 1 "100n" V 989 7000 50  0000 C CNN
+F 2 "espitall:C_0603" H 1188 6850 50  0001 C CNN
+F 3 "~" H 1150 7000 50  0001 C CNN
+	1    1150 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B405249
+P 850 7200
+AR Path="/5B405249" Ref="#PWR?"  Part="1" 
+AR Path="/555F206D/5B405249" Ref="#PWR?"  Part="1" 
+AR Path="/5AFB1EE6/5B405249" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 850 6950 50  0001 C CNN
+F 1 "GND" H 850 7050 50  0000 C CNN
+F 2 "" H 850 7200 60  0000 C CNN
+F 3 "" H 850 7200 60  0000 C CNN
+	1    850  7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  7200 850  7000
+Wire Wire Line
+	850  7000 1000 7000
+Wire Wire Line
+	1300 7000 1450 7000
+Connection ~ 1450 7000
+Wire Wire Line
+	1450 7000 1450 7150
+$Comp
+L power:GND #PWR?
+U 1 1 5B42CF5A
+P 2050 7950
+AR Path="/5B42CF5A" Ref="#PWR?"  Part="1" 
+AR Path="/555F206D/5B42CF5A" Ref="#PWR?"  Part="1" 
+AR Path="/5AFB1EE6/5B42CF5A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2050 7700 50  0001 C CNN
+F 1 "GND" H 2050 7800 50  0000 C CNN
+F 2 "" H 2050 7950 60  0000 C CNN
+F 3 "" H 2050 7950 60  0000 C CNN
+	1    2050 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 7550 2050 7550
+Wire Wire Line
+	2050 7550 2050 7950
 $EndSCHEMATC
