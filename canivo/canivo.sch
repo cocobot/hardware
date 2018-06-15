@@ -1,0 +1,150 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L espitall:STM32F042F6P6 U?
+U 1 1 5B203355
+P 4250 4100
+F 0 "U?" H 4375 3214 50  0000 C CNN
+F 1 "STM32F042F6P6" H 4375 3123 50  0000 C CNN
+F 2 "espitall:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 2700 5000 50  0001 C CNN
+F 3 "" H 2700 5000 50  0001 C CNN
+	1    4250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L espitall:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled J?
+U 1 1 5B20350B
+P 900 1300
+F 0 "J?" H 900 1150 50  0000 C CNN
+F 1 "JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" V 1250 1100 50  0000 C CNN
+F 2 "espitall:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 850 1500 50  0001 C CNN
+F 3 "~" H 900 1300 50  0001 C CNN
+	1    900  1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5P #PWR?
+U 1 1 5B203C56
+P 1200 750
+F 0 "#PWR?" H 1200 600 50  0001 C CNN
+F 1 "+5P" H 1215 923 50  0000 C CNN
+F 2 "" H 1200 750 50  0001 C CNN
+F 3 "" H 1200 750 50  0001 C CNN
+	1    1200 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 750  1200 900 
+Wire Wire Line
+	1200 1200 1100 1200
+$Comp
+L power:GND #PWR?
+U 1 1 5B203D1C
+P 1200 1750
+F 0 "#PWR?" H 1200 1500 50  0001 C CNN
+F 1 "GND" H 1205 1577 50  0000 C CNN
+F 2 "" H 1200 1750 50  0001 C CNN
+F 3 "" H 1200 1750 50  0001 C CNN
+	1    1200 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1750 1200 1600
+Wire Wire Line
+	1200 1300 1100 1300
+$Comp
+L power:GND #PWR?
+U 1 1 5B203D3C
+P 800 1750
+F 0 "#PWR?" H 800 1500 50  0001 C CNN
+F 1 "GND" H 805 1577 50  0000 C CNN
+F 2 "" H 800 1750 50  0001 C CNN
+F 3 "" H 800 1750 50  0001 C CNN
+	1    800  1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  1750 800  1500
+$Comp
+L Device:C C?
+U 1 1 5B203EAB
+P 1450 1250
+F 0 "C?" H 1565 1296 50  0000 L CNN
+F 1 "C" H 1565 1205 50  0000 L CNN
+F 2 "" H 1488 1100 50  0001 C CNN
+F 3 "~" H 1450 1250 50  0001 C CNN
+	1    1450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1100 1450 1050
+Wire Wire Line
+	1450 900  1200 900 
+Connection ~ 1200 900 
+Wire Wire Line
+	1200 900  1200 1200
+Wire Wire Line
+	1450 1400 1450 1600
+Wire Wire Line
+	1450 1600 1200 1600
+Connection ~ 1200 1600
+Wire Wire Line
+	1200 1600 1200 1300
+$Comp
+L espitall:LM3940IMP-3.3 U?
+U 1 1 5B20403A
+P 2250 1100
+F 0 "U?" H 2250 1437 60  0000 C CNN
+F 1 "LM3940IMP-3.3" H 2250 1331 60  0000 C CNN
+F 2 "espitall:SOT-223-3_TabPin2" H 2300 804 60  0001 C CNN
+F 3 "" H 2250 1100 60  0000 C CNN
+	1    2250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5B2040EF
+P 2800 800
+F 0 "#PWR?" H 2800 650 50  0001 C CNN
+F 1 "+3V3" H 2815 973 50  0000 C CNN
+F 2 "" H 2800 800 50  0001 C CNN
+F 3 "" H 2800 800 50  0001 C CNN
+	1    2800 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 800  2800 1050
+Wire Wire Line
+	2800 1050 2650 1050
+Wire Wire Line
+	1850 1050 1450 1050
+Connection ~ 1450 1050
+Wire Wire Line
+	1450 1050 1450 900 
+$Comp
+L power:GND #PWR?
+U 1 1 5B204225
+P 2250 1750
+F 0 "#PWR?" H 2250 1500 50  0001 C CNN
+F 1 "GND" H 2255 1577 50  0000 C CNN
+F 2 "" H 2250 1750 50  0001 C CNN
+F 3 "" H 2250 1750 50  0001 C CNN
+	1    2250 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1750 2250 1350
+$EndSCHEMATC
