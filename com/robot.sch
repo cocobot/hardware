@@ -26,7 +26,7 @@ F 3 "" H 2950 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 3950 2950 3500
+	2950 3950 2950 3600
 Wire Wire Line
 	2950 3500 2750 3500
 Wire Wire Line
@@ -323,17 +323,6 @@ Wire Wire Line
 	3700 3300 4000 3300
 Connection ~ 3700 3300
 $Comp
-L espitall:CocobotCAN J2
-U 1 1 5B0BC194
-P 2550 3300
-F 0 "J2" H 2570 3625 50  0000 C CNN
-F 1 "CocobotCAN" H 2570 3534 50  0000 C CNN
-F 2 "espitall:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled" H 2500 3500 50  0001 C CNN
-F 3 "~" H 2550 3300 50  0001 C CNN
-	1    2550 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0105
 U 1 1 5B0BCE4A
 P 2450 3950
@@ -344,6 +333,22 @@ F 3 "" H 2450 3950 50  0001 C CNN
 	1    2450 3950
 	1    0    0    -1  
 $EndComp
+$Comp
+L espitall:CocobotCAN J2
+U 1 1 5B24549B
+P 2550 3300
+F 0 "J2" H 2589 3625 50  0000 C CNN
+F 1 "CocobotCAN" H 2589 3534 50  0000 C CNN
+F 2 "espitall:JST_PH_S5B-PH-SM4-TB_05x2.00mm_Angled" H 2500 3500 50  0001 C CNN
+F 3 "~" H 2550 3300 50  0001 C CNN
+	1    2550 3300
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
-	2450 3950 2450 3700
+	2450 3800 2450 3950
+Wire Wire Line
+	2750 3600 2950 3600
+Connection ~ 2950 3600
+Wire Wire Line
+	2950 3600 2950 3500
 $EndSCHEMATC
