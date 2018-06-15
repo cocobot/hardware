@@ -124,17 +124,6 @@ Wire Wire Line
 	2150 3600 2150 3700
 Connection ~ 2150 3700
 $Comp
-L espitall:CocobotCAN J1
-U 1 1 5B1D7055
-P 8000 3450
-F 0 "J1" H 8279 3370 50  0000 L CNN
-F 1 "CocobotCAN" H 8279 3279 50  0000 L CNN
-F 2 "espitall:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled" H 7950 3650 50  0001 C CNN
-F 3 "~" H 8000 3450 50  0001 C CNN
-	1    8000 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR010
 U 1 1 5B1D70DF
 P 8100 4450
@@ -146,27 +135,7 @@ F 3 "" H 8100 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 3850 8100 3950
-Wire Wire Line
-	8100 3950 7650 3950
-Wire Wire Line
-	7650 3950 7650 3650
-Wire Wire Line
-	7650 3650 7800 3650
-Connection ~ 8100 3950
-Wire Wire Line
-	8100 3950 8100 4450
-$Comp
-L espitall:CocobotCAN J2
-U 1 1 5B1D7321
-P 9100 3450
-F 0 "J2" H 9379 3370 50  0000 L CNN
-F 1 "CocobotCAN" H 9379 3279 50  0000 L CNN
-F 2 "espitall:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled" H 9050 3650 50  0001 C CNN
-F 3 "~" H 9100 3450 50  0001 C CNN
-	1    9100 3450
-	1    0    0    -1  
-$EndComp
+	7700 3650 7800 3650
 $Comp
 L power:GND #PWR011
 U 1 1 5B1D7394
@@ -179,34 +148,17 @@ F 3 "" H 9200 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 4450 9200 3950
-Wire Wire Line
-	9200 3950 8800 3950
-Wire Wire Line
-	8800 3950 8800 3650
-Wire Wire Line
 	8800 3650 8900 3650
-Connection ~ 9200 3950
-Wire Wire Line
-	9200 3950 9200 3850
-Wire Wire Line
-	8900 3550 7800 3550
-Wire Wire Line
-	7800 3550 7200 3550
 Wire Wire Line
 	6650 3550 6650 3600
 Wire Wire Line
 	3650 3600 4400 3600
-Connection ~ 7800 3550
 Wire Wire Line
 	6650 3400 6650 3450
 Wire Wire Line
 	6650 3450 7100 3450
 Wire Wire Line
 	3650 3400 4050 3400
-Wire Wire Line
-	8900 3450 7800 3450
-Connection ~ 7800 3450
 Wire Wire Line
 	7800 3350 8900 3350
 Wire Wire Line
@@ -246,8 +198,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 3850 7100 3450
 Connection ~ 7100 3450
-Wire Wire Line
-	7100 3450 7800 3450
 $Comp
 L Device:C C2
 U 1 1 5B1E6B26
@@ -386,4 +336,64 @@ F 3 "" V 5050 3540 50  0000 C CNN
 	1    5050 3500
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	7100 3450 7800 3450
+Wire Wire Line
+	7200 3550 7800 3550
+$Comp
+L espitall:CocobotCAN J1
+U 1 1 5B243B36
+P 8000 3450
+F 0 "J1" H 8319 3320 50  0000 L CNN
+F 1 "CocobotCAN" H 8319 3229 50  0000 L CNN
+F 2 "espitall:JST_PH_S5B-PH-SM4-TB_05x2.00mm_Angled" H 7950 3650 50  0001 C CNN
+F 3 "~" H 8000 3450 50  0001 C CNN
+	1    8000 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 7800 3450
+Wire Wire Line
+	7800 3450 8900 3450
+Connection ~ 7800 3550
+Wire Wire Line
+	7800 3550 8900 3550
+Wire Wire Line
+	8100 3950 8100 4350
+Wire Wire Line
+	7800 3750 7700 3750
+Connection ~ 7700 3750
+Wire Wire Line
+	7700 3750 7700 3650
+Wire Wire Line
+	7700 4350 8100 4350
+Wire Wire Line
+	7700 3750 7700 4350
+Connection ~ 8100 4350
+Wire Wire Line
+	8100 4350 8100 4450
+$Comp
+L espitall:CocobotCAN J2
+U 1 1 5B2460BB
+P 9100 3450
+F 0 "J2" H 9419 3320 50  0000 L CNN
+F 1 "CocobotCAN" H 9419 3229 50  0000 L CNN
+F 2 "espitall:JST_PH_S5B-PH-SM4-TB_05x2.00mm_Angled" H 9050 3650 50  0001 C CNN
+F 3 "~" H 9100 3450 50  0001 C CNN
+	1    9100 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3750 8800 3750
+Connection ~ 8800 3750
+Wire Wire Line
+	8800 3750 8800 3650
+Wire Wire Line
+	9200 3950 9200 4350
+Wire Wire Line
+	9200 4350 8800 4350
+Wire Wire Line
+	8800 3750 8800 4350
+Connection ~ 9200 4350
+Wire Wire Line
+	9200 4350 9200 4450
 $EndSCHEMATC
