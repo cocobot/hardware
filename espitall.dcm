@@ -6,9 +6,19 @@ K CAN
 F ~
 $ENDCMP
 #
+$CMP DMC3025LSD
+F ~
+$ENDCMP
+#
 $CMP HDSP-C8A1
 D Generic 7 segment display, common anode
 K LED
+$ENDCMP
+#
+$CMP ISO1050DW
+D 200 kbps, Isolated 5-V Half-Duplex RS-485 transceiver, SOIC-16
+K RS-485
+F http://www.ti.com/lit/ds/symlink/iso3082.pdf
 $ENDCMP
 #
 $CMP JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled
