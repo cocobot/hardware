@@ -31,10 +31,7 @@ S 2000 2250 1150 300
 U 5B1D90DB
 F0 "Supply" 50
 F1 "supply.sch" 50
-F2 "vbatmon_0-3v3" O R 3150 2350 50 
 $EndSheet
-Wire Wire Line
-	3150 2350 3550 2350
 $Comp
 L Connector_Generic:Conn_01x01 H1
 U 1 1 5B1C02FF
@@ -153,17 +150,6 @@ Wire Wire Line
 	7550 5700 8300 5700
 Wire Wire Line
 	8300 5800 7550 5800
-$Comp
-L Connector_Generic:Conn_01x06 J3
-U 1 1 5C863095
-P 9600 3100
-F 0 "J3" H 9680 3092 50  0000 L CNN
-F 1 "Conn_01x06" H 9680 3001 50  0000 L CNN
-F 2 "espitall:JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled" H 9600 3100 50  0001 C CNN
-F 3 "~" H 9600 3100 50  0001 C CNN
-	1    9600 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9300 3650 9300 3400
 Wire Wire Line
@@ -191,17 +177,6 @@ Wire Wire Line
 	7550 4100 9400 4100
 Wire Wire Line
 	7550 4200 9400 4200
-$Comp
-L Connector_Generic:Conn_01x06 J4
-U 1 1 5C863BB4
-P 9600 4200
-F 0 "J4" H 9680 4192 50  0000 L CNN
-F 1 "Conn_01x06" H 9680 4101 50  0000 L CNN
-F 2 "espitall:JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled" H 9600 4200 50  0001 C CNN
-F 3 "~" H 9600 4200 50  0001 C CNN
-	1    9600 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9300 4750 9300 4500
 Wire Wire Line
@@ -210,4 +185,56 @@ Wire Wire Line
 	9400 4300 7550 4300
 Wire Wire Line
 	9400 4400 7550 4400
+$Comp
+L espitall:JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled J3
+U 1 1 5C8C1196
+P 9600 3000
+F 0 "J3" H 9879 2820 50  0000 L CNN
+F 1 "JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled" H 9879 2729 50  0000 L CNN
+F 2 "espitall:JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled" H 9550 3200 50  0001 C CNN
+F 3 "~" H 9600 3000 50  0001 C CNN
+	1    9600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L espitall:JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled J4
+U 1 1 5C8C1222
+P 9600 4100
+F 0 "J4" H 9879 3920 50  0000 L CNN
+F 1 "JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled" H 9879 3829 50  0000 L CNN
+F 2 "espitall:JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled" H 9550 4300 50  0001 C CNN
+F 3 "~" H 9600 4100 50  0001 C CNN
+	1    9600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8C125C
+P 9700 4750
+AR Path="/5C808C50/5C8C125C" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C125C" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 9700 4500 50  0001 C CNN
+F 1 "GND" H 9705 4577 50  0000 C CNN
+F 2 "" H 9700 4750 50  0001 C CNN
+F 3 "" H 9700 4750 50  0001 C CNN
+	1    9700 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4750 9700 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5C8C1560
+P 9700 3650
+AR Path="/5C808C50/5C8C1560" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C1560" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 9700 3400 50  0001 C CNN
+F 1 "GND" H 9705 3477 50  0000 C CNN
+F 2 "" H 9700 3650 50  0001 C CNN
+F 3 "" H 9700 3650 50  0001 C CNN
+	1    9700 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 3650 9700 3600
 $EndSCHEMATC

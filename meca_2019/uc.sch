@@ -26,17 +26,6 @@ F 3 "" H 6150 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
-U 1 1 555F25EB
-P 6400 1650
-F 0 "C9" H 6425 1750 50  0000 L CNN
-F 1 "10u" H 6425 1550 50  0000 L CNN
-F 2 "espitall:C_0603" V 6300 1650 30  0001 C CNN
-F 3 "" H 6400 1650 60  0000 C CNN
-	1    6400 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C10
 U 1 1 555F29FA
 P 6700 1650
@@ -359,7 +348,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 3650 2650 3650
 Wire Wire Line
-	3400 7050 2750 7050
+	3400 7050 2250 7050
 Wire Wire Line
 	3400 3450 2000 3450
 Wire Wire Line
@@ -375,22 +364,18 @@ Wire Wire Line
 	2650 4250 2650 4100
 Wire Wire Line
 	6400 1900 6700 1900
-Connection ~ 6400 1900
 Connection ~ 8200 1900
 Connection ~ 7900 1900
 Connection ~ 7600 1900
 Connection ~ 7300 1900
 Connection ~ 7000 1900
 Connection ~ 6700 1900
-Wire Wire Line
-	6150 1400 6400 1400
 Connection ~ 8200 1400
 Connection ~ 7900 1400
 Connection ~ 7600 1400
 Connection ~ 7300 1400
 Connection ~ 7000 1400
 Connection ~ 6700 1400
-Connection ~ 6400 1400
 $Comp
 L espitall:STM32F407VG U4
 U 1 1 556F4014
@@ -449,8 +434,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 1400 7000 1400
 Wire Wire Line
-	6400 1400 6700 1400
-Wire Wire Line
 	9300 9300 9300 9400
 Wire Wire Line
 	9800 9300 9800 9400
@@ -473,8 +456,6 @@ Wire Wire Line
 	2000 3450 2000 4300
 Wire Wire Line
 	2000 4600 2000 4700
-Wire Wire Line
-	6400 1800 6400 1900
 Wire Wire Line
 	6700 1800 6700 1900
 Wire Wire Line
@@ -503,15 +484,13 @@ Wire Wire Line
 	7000 1400 7000 1500
 Wire Wire Line
 	6700 1400 6700 1500
-Wire Wire Line
-	6400 1400 6400 1500
 $Comp
 L Connector_Generic:Conn_01x04 J6
 U 1 1 5AFDF091
 P 900 5950
 F 0 "J6" H 980 5942 50  0000 L CNN
 F 1 "Conn_01x04" H 800 5650 50  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 900 5950 50  0001 C CNN
+F 2 "espitall:Socket_Strip_Straight_1x04_Pitch2.54mm" H 900 5950 50  0001 C CNN
 F 3 "~" H 900 5950 50  0001 C CNN
 	1    900  5950
 	-1   0    0    -1  
@@ -524,51 +503,45 @@ Wire Wire Line
 	13400 5050 13800 5050
 Wire Wire Line
 	13400 5150 13800 5150
-Text HLabel 13800 6850 2    50   Input ~ 0
-vbatmon_0-3v3
-Wire Wire Line
-	13800 6850 13400 6850
-Text HLabel 13800 5250 2    60   Output ~ 0
+Text HLabel 13800 6150 2    60   Output ~ 0
 pump_1_3v3
 Wire Wire Line
-	13400 5250 13800 5250
+	13400 6150 13800 6150
 $Comp
 L power:GND #PWR038
 U 1 1 5B1D7106
-P 3100 9400
-F 0 "#PWR038" H 3100 9150 50  0001 C CNN
-F 1 "GND" H 3100 9250 50  0000 C CNN
-F 2 "" H 3100 9400 60  0000 C CNN
-F 3 "" H 3100 9400 60  0000 C CNN
-	1    3100 9400
+P 1700 6400
+F 0 "#PWR038" H 1700 6150 50  0001 C CNN
+F 1 "GND" H 1700 6250 50  0000 C CNN
+F 2 "" H 1700 6400 60  0000 C CNN
+F 3 "" H 1700 6400 60  0000 C CNN
+	1    1700 6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D3
 U 1 1 5B1D710C
-P 3100 8950
-F 0 "D3" V 3138 8833 50  0000 R CNN
-F 1 "LED" V 3047 8833 50  0000 R CNN
-F 2 "espitall:LED_0805" H 3100 8950 50  0001 C CNN
-F 3 "~" H 3100 8950 50  0001 C CNN
-	1    3100 8950
+P 1700 6250
+F 0 "D3" V 1738 6133 50  0000 R CNN
+F 1 "LED" V 1647 6133 50  0000 R CNN
+F 2 "espitall:LED_0805" H 1700 6250 50  0001 C CNN
+F 3 "~" H 1700 6250 50  0001 C CNN
+	1    1700 6250
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3100 9100 3100 9400
 $Comp
 L Device:R R6
 U 1 1 5B1D7113
-P 3100 8450
-F 0 "R6" H 3170 8496 50  0000 L CNN
-F 1 "220" H 3170 8405 50  0000 L CNN
-F 2 "espitall:R_0603" V 3030 8450 50  0001 C CNN
-F 3 "~" H 3100 8450 50  0001 C CNN
-	1    3100 8450
+P 1700 5700
+F 0 "R6" H 1770 5746 50  0000 L CNN
+F 1 "220" H 1770 5655 50  0000 L CNN
+F 2 "espitall:R_0603" V 1630 5700 50  0001 C CNN
+F 3 "~" H 1700 5700 50  0001 C CNN
+	1    1700 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 8600 3100 8800
+	1700 5850 1700 6100
 $Comp
 L espitall:24LC64T-I U6
 U 1 1 5B1D735A
@@ -581,17 +554,13 @@ F 3 "" H 1400 7700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 7450 2500 7450
+	3400 7450 2100 7450
 Wire Wire Line
 	1850 7550 1850 7350
 Wire Wire Line
 	1850 7350 1650 7350
 Wire Wire Line
 	1650 7550 1750 7550
-Wire Wire Line
-	1750 7550 1750 7650
-Wire Wire Line
-	1750 7650 3400 7650
 $Comp
 L Device:R R13
 U 1 1 5B1E6581
@@ -701,16 +670,12 @@ $EndComp
 Wire Wire Line
 	1250 7750 1250 9400
 Wire Wire Line
-	1850 7550 2600 7550
+	1850 7550 2100 7550
 Wire Wire Line
 	2100 7450 2100 7200
 Connection ~ 2100 7450
 Wire Wire Line
-	2100 7450 1650 7450
-Wire Wire Line
-	3400 7750 3100 7750
-Wire Wire Line
-	3100 7750 3100 8300
+	2100 7450 2000 7450
 $Comp
 L Device:R R7
 U 1 1 5C78DEE8
@@ -724,76 +689,74 @@ F 3 "~" H 1600 4450 50  0001 C CNN
 $EndComp
 Text Notes 1400 7800 0    50   ~ 0
 Addr: 101_0000
-Text HLabel 2300 8000 0    50   Output ~ 0
+Text HLabel 1650 8000 0    50   Output ~ 0
 scl_3v3
-Text HLabel 2300 8100 0    50   BiDi ~ 0
+Text HLabel 1650 8100 0    50   BiDi ~ 0
 sda_3v3
 Wire Wire Line
-	2300 8000 2500 8000
+	1650 8000 2000 8000
 Wire Wire Line
-	2500 8000 2500 7450
-Connection ~ 2500 7450
+	2000 8000 2000 7450
+Connection ~ 2000 7450
 Wire Wire Line
-	2500 7450 2100 7450
+	2100 7550 2100 8100
 Wire Wire Line
-	2600 7550 2600 8100
+	2100 8100 1650 8100
+Connection ~ 2100 7550
 Wire Wire Line
-	2600 8100 2300 8100
-Connection ~ 2600 7550
-Wire Wire Line
-	2600 7550 3400 7550
-Text HLabel 13800 5350 2    60   Output ~ 0
+	2100 7550 3400 7550
+Text HLabel 13800 4550 2    60   Output ~ 0
 pump_2_3v3
-Text HLabel 13800 5450 2    60   Output ~ 0
+Text HLabel 13800 6050 2    60   Output ~ 0
 solenoid_1_3v3
-Text HLabel 13800 5550 2    60   Output ~ 0
+Text HLabel 3000 8350 0    60   Output ~ 0
 solenoid_2_3v3
-Text HLabel 13800 5650 2    60   Output ~ 0
+Text HLabel 3000 8150 0    60   Output ~ 0
 solenoid_3_3v3
-Text HLabel 13800 5750 2    60   Output ~ 0
+Text HLabel 3000 8050 0    60   Output ~ 0
 solenoid_4_3v3
 Wire Wire Line
-	13800 5350 13400 5350
-Wire Wire Line
-	13400 5450 13800 5450
-Wire Wire Line
-	13800 5550 13400 5550
-Wire Wire Line
-	13400 5650 13800 5650
-Wire Wire Line
-	13800 5750 13400 5750
-Text HLabel 13800 6950 2    50   Input ~ 0
-ana_1_0-3v3
-Wire Wire Line
-	13800 6950 13400 6950
-Text HLabel 13800 7050 2    50   Input ~ 0
-ana_2_0-3v3
-Text HLabel 13800 7150 2    50   Input ~ 0
-ana_3_0-3v3
-Text HLabel 13800 7250 2    50   Input ~ 0
-ana_4_0-3v3
-Wire Wire Line
-	13800 7250 13400 7250
-Wire Wire Line
-	13400 7150 13800 7150
-Wire Wire Line
-	13800 7050 13400 7050
-Text HLabel 13800 5850 2    60   Output ~ 0
-solenoid_5_3v3
-Text HLabel 13800 5950 2    60   Output ~ 0
-solenoid_6_3v3
-Text HLabel 13800 6050 2    60   Output ~ 0
-solenoid_7_3v3
-Text HLabel 13800 6150 2    60   Output ~ 0
-solenoid_8_3v3
-Wire Wire Line
-	13400 5850 13800 5850
-Wire Wire Line
-	13800 5950 13400 5950
+	13800 4550 13400 4550
 Wire Wire Line
 	13400 6050 13800 6050
 Wire Wire Line
-	13800 6150 13400 6150
+	3000 8350 3400 8350
+Wire Wire Line
+	3400 8150 3000 8150
+Wire Wire Line
+	3000 8050 3400 8050
+Text HLabel 3000 5650 0    50   Input ~ 0
+ana_1_0-3v3
+Wire Wire Line
+	3000 5450 3400 5450
+Text HLabel 3000 5750 0    50   Input ~ 0
+ana_2_0-3v3
+Text HLabel 3000 5450 0    50   Input ~ 0
+ana_3_0-3v3
+Text HLabel 3000 5550 0    50   Input ~ 0
+ana_4_0-3v3
+Wire Wire Line
+	3000 5750 3400 5750
+Wire Wire Line
+	3400 5650 3000 5650
+Wire Wire Line
+	3000 5550 3400 5550
+Text HLabel 13800 4650 2    60   Output ~ 0
+solenoid_5_3v3
+Text HLabel 13800 4750 2    60   Output ~ 0
+solenoid_6_3v3
+Text HLabel 3000 7850 0    60   Output ~ 0
+solenoid_7_3v3
+Text HLabel 3000 7950 0    60   Output ~ 0
+solenoid_8_3v3
+Wire Wire Line
+	13400 4650 13800 4650
+Wire Wire Line
+	13800 4750 13400 4750
+Wire Wire Line
+	3400 7850 3000 7850
+Wire Wire Line
+	3000 7950 3400 7950
 Wire Wire Line
 	1200 3250 1600 3250
 $Comp
@@ -823,27 +786,39 @@ Wire Wire Line
 $Comp
 L Device:R R18
 U 1 1 5C89C11E
-P 2750 8450
-F 0 "R18" H 2820 8496 50  0000 L CNN
-F 1 "10k" H 2820 8405 50  0000 L CNN
-F 2 "espitall:R_0603" V 2680 8450 50  0001 C CNN
-F 3 "~" H 2750 8450 50  0001 C CNN
-	1    2750 8450
+P 2250 8750
+F 0 "R18" H 2320 8796 50  0000 L CNN
+F 1 "10k" H 2320 8705 50  0000 L CNN
+F 2 "espitall:R_0603" V 2180 8750 50  0001 C CNN
+F 3 "~" H 2250 8750 50  0001 C CNN
+	1    2250 8750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR013
 U 1 1 5C89C224
-P 2750 9400
-F 0 "#PWR013" H 2750 9150 50  0001 C CNN
-F 1 "GND" H 2750 9250 50  0000 C CNN
-F 2 "" H 2750 9400 60  0000 C CNN
-F 3 "" H 2750 9400 60  0000 C CNN
-	1    2750 9400
+P 2250 9400
+F 0 "#PWR013" H 2250 9150 50  0001 C CNN
+F 1 "GND" H 2250 9250 50  0000 C CNN
+F 2 "" H 2250 9400 60  0000 C CNN
+F 3 "" H 2250 9400 60  0000 C CNN
+	1    2250 9400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 9400 2750 8600
+	2250 9400 2250 8900
 Wire Wire Line
-	2750 8300 2750 7050
+	2250 8600 2250 7050
+Wire Wire Line
+	6150 1400 6700 1400
+Wire Wire Line
+	1750 6550 3400 6550
+Wire Wire Line
+	1700 5550 1700 5250
+Wire Wire Line
+	1700 5250 3400 5250
+Wire Wire Line
+	1750 7550 1750 6550
+Wire Wire Line
+	2000 7450 1650 7450
 $EndSCHEMATC
