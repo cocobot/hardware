@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name espitall)(type Legacy)(uri ${KIPRJMOD}/../espitall.lib)(options "")(descr ""))
-  (lib (name meca_2019-rescue)(type Legacy)(uri ${KIPRJMOD}/meca_2019-rescue.lib)(options "")(descr ""))
-)
