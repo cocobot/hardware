@@ -56,6 +56,16 @@ K diode TVS thyrector
 F ~
 $ENDCMP
 #
+$CMP OPA349SA-3K
+D 10 MHz, 850 µA Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
+$CMP Q_NMOS_LFPAK
+F ~
+$ENDCMP
+#
 $CMP XGURUGX10D
 D LED dual, common cathode
 K led diode bicolor dual
