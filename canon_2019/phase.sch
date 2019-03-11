@@ -1,0 +1,286 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1750 2050 1    50   Input ~ 0
+Vdrv
+$Comp
+L Driver_FET:IR2104 U?
+U 1 1 5C9127BD
+P 2950 3000
+F 0 "U?" H 2950 3450 50  0000 C CNN
+F 1 "IR2104" H 2950 2550 50  0000 C CNN
+F 2 "" H 2950 2550 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir2104.pdf?fileId=5546d462533600a4015355c7c1c31671" H 2750 2450 50  0001 C CNN
+	1    2950 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2050 1750 2300
+$Comp
+L Device:C C?
+U 1 1 5C9128DF
+P 1750 3050
+F 0 "C?" H 1865 3096 50  0000 L CNN
+F 1 "100n" H 1865 3005 50  0000 L CNN
+F 2 "" H 1788 2900 50  0001 C CNN
+F 3 "~" H 1750 3050 50  0001 C CNN
+	1    1750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C912972
+P 1750 3650
+F 0 "#PWR?" H 1750 3400 50  0001 C CNN
+F 1 "GND" H 1755 3477 50  0000 C CNN
+F 2 "" H 1750 3650 50  0001 C CNN
+F 3 "" H 1750 3650 50  0001 C CNN
+	1    1750 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3650 1750 3200
+Text HLabel 2500 3100 0    50   Input ~ 0
+PWM_3v3
+Wire Wire Line
+	2500 3100 2650 3100
+Text HLabel 2500 3200 0    50   Input ~ 0
+EN_3v3
+Wire Wire Line
+	2500 3200 2650 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5C912A09
+P 2450 3650
+F 0 "#PWR?" H 2450 3400 50  0001 C CNN
+F 1 "GND" H 2455 3477 50  0000 C CNN
+F 2 "" H 2450 3650 50  0001 C CNN
+F 3 "" H 2450 3650 50  0001 C CNN
+	1    2450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3650 2450 3300
+Wire Wire Line
+	2450 3300 2650 3300
+$Comp
+L Device:D_Schottky D?
+U 1 1 5C912B76
+P 2950 2300
+F 0 "D?" H 2950 2084 50  0000 C CNN
+F 1 "BAS-40-02V-V-G-08" H 2950 2175 50  0000 C CNN
+F 2 "" H 2950 2300 50  0001 C CNN
+F 3 "~" H 2950 2300 50  0001 C CNN
+	1    2950 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 2300 2500 2300
+Connection ~ 1750 2300
+Wire Wire Line
+	1750 2300 1750 2900
+Wire Wire Line
+	2650 2700 2500 2700
+Wire Wire Line
+	2500 2700 2500 2300
+Connection ~ 2500 2300
+Wire Wire Line
+	2500 2300 1750 2300
+Wire Wire Line
+	3250 2700 3400 2700
+Wire Wire Line
+	3400 2700 3400 2300
+Wire Wire Line
+	3400 2300 3100 2300
+$Comp
+L Device:C C?
+U 1 1 5C913005
+P 3750 2750
+F 0 "C?" H 3865 2796 50  0000 L CNN
+F 1 "100n" H 3865 2705 50  0000 L CNN
+F 2 "" H 3788 2600 50  0001 C CNN
+F 3 "~" H 3750 2750 50  0001 C CNN
+	1    3750 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2300 3750 2300
+Wire Wire Line
+	3750 2300 3750 2600
+Connection ~ 3400 2300
+Wire Wire Line
+	3750 2900 3750 3200
+Wire Wire Line
+	3750 3200 3250 3200
+$Comp
+L espitall:Q_NMOS_LFPAK Q?
+U 1 1 5C91937D
+P 5350 2450
+F 0 "Q?" H 5737 2496 50  0000 L CNN
+F 1 "Q_NMOS_LFPAK" H 5737 2405 50  0000 L CNN
+F 2 "" H 5550 2550 50  0001 C CNN
+F 3 "~" H 5350 2450 50  0001 C CNN
+	1    5350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L espitall:Q_NMOS_LFPAK Q?
+U 1 1 5C9193DD
+P 5350 3300
+F 0 "Q?" H 5737 3346 50  0000 L CNN
+F 1 "Q_NMOS_LFPAK" H 5737 3255 50  0000 L CNN
+F 2 "" H 5550 3400 50  0001 C CNN
+F 3 "~" H 5350 3300 50  0001 C CNN
+	1    5350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C919405
+P 5450 3650
+F 0 "#PWR?" H 5450 3400 50  0001 C CNN
+F 1 "GND" H 5455 3477 50  0000 C CNN
+F 2 "" H 5450 3650 50  0001 C CNN
+F 3 "" H 5450 3650 50  0001 C CNN
+	1    5450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3650 5450 3600
+Wire Wire Line
+	5450 3600 5550 3600
+Wire Wire Line
+	5550 3600 5550 3500
+Connection ~ 5450 3600
+Wire Wire Line
+	5450 3600 5450 3500
+Wire Wire Line
+	5550 3600 5650 3600
+Wire Wire Line
+	5650 3600 5650 3500
+Connection ~ 5550 3600
+$Comp
+L Device:D_Schottky D?
+U 1 1 5C91996F
+P 4800 3300
+F 0 "D?" H 4800 3450 50  0000 C CNN
+F 1 "BAS-40-02V-V-G-08" H 4800 3200 50  0000 C CNN
+F 2 "" H 4800 3300 50  0001 C CNN
+F 3 "~" H 4800 3300 50  0001 C CNN
+	1    4800 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3300 5050 3300
+Wire Wire Line
+	4650 3300 4500 3300
+$Comp
+L Device:R R?
+U 1 1 5C91A3D1
+P 4800 3050
+F 0 "R?" V 4593 3050 50  0000 C CNN
+F 1 "47" V 4684 3050 50  0000 C CNN
+F 2 "" V 4730 3050 50  0001 C CNN
+F 3 "~" H 4800 3050 50  0001 C CNN
+	1    4800 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 3050 4500 3050
+Wire Wire Line
+	4500 3050 4500 3300
+Connection ~ 4500 3300
+Wire Wire Line
+	4500 3300 3250 3300
+Wire Wire Line
+	4950 3050 5050 3050
+Wire Wire Line
+	5050 3050 5050 3300
+Connection ~ 5050 3300
+Wire Wire Line
+	5050 3300 4950 3300
+$Comp
+L Device:D_Schottky D?
+U 1 1 5C91AD51
+P 4800 2450
+F 0 "D?" H 4800 2600 50  0000 C CNN
+F 1 "BAS-40-02V-V-G-08" H 4800 2350 50  0000 C CNN
+F 2 "" H 4800 2450 50  0001 C CNN
+F 3 "~" H 4800 2450 50  0001 C CNN
+	1    4800 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2450 5050 2450
+Wire Wire Line
+	4650 2450 4500 2450
+$Comp
+L Device:R R?
+U 1 1 5C91AD59
+P 4800 2200
+F 0 "R?" V 4593 2200 50  0000 C CNN
+F 1 "47" V 4684 2200 50  0000 C CNN
+F 2 "" V 4730 2200 50  0001 C CNN
+F 3 "~" H 4800 2200 50  0001 C CNN
+	1    4800 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 2200 4500 2200
+Wire Wire Line
+	4500 2200 4500 2450
+Wire Wire Line
+	4950 2200 5050 2200
+Wire Wire Line
+	5050 2200 5050 2450
+Connection ~ 5050 2450
+Wire Wire Line
+	5050 2450 4950 2450
+Wire Wire Line
+	3250 3100 4200 3100
+Wire Wire Line
+	4200 3100 4200 2450
+Wire Wire Line
+	4200 2450 4500 2450
+Connection ~ 4500 2450
+Wire Wire Line
+	3750 3200 4350 3200
+Wire Wire Line
+	4350 3200 4350 2800
+Wire Wire Line
+	4350 2800 5450 2800
+Connection ~ 3750 3200
+Wire Wire Line
+	5450 2650 5450 2700
+Connection ~ 5450 2800
+Wire Wire Line
+	5450 2800 5450 3100
+Wire Wire Line
+	5550 2650 5550 2700
+Wire Wire Line
+	5550 2700 5450 2700
+Connection ~ 5450 2700
+Wire Wire Line
+	5450 2700 5450 2800
+Wire Wire Line
+	5550 2700 5650 2700
+Wire Wire Line
+	5650 2700 5650 2650
+Connection ~ 5550 2700
+Wire Wire Line
+	5450 2250 5450 1650
+Text HLabel 5450 1650 1    50   Input ~ 0
+Vpwr
+$EndSCHEMATC

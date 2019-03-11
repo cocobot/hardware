@@ -1,0 +1,325 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title "Canon"
+Date ""
+Rev "2019"
+Comp "Cocobot"
+Comment1 "Version originale: Brushless SSLv2 - R. Deniéport"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C8535F6
+P 1300 1400
+F 0 "J?" H 1300 1500 50  0000 C CNN
+F 1 "Conn_01x02" H 1300 1200 50  0000 C CNN
+F 2 "" H 1300 1400 50  0001 C CNN
+F 3 "~" H 1300 1400 50  0001 C CNN
+	1    1300 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1400 2550 800 
+Wire Wire Line
+	2550 1500 2550 2100
+Text Label 1600 1400 0    50   ~ 0
+PWR_BAT
+Text Label 1600 1500 0    50   ~ 0
+PWR_GND
+$Comp
+L Device:R R?
+U 1 1 5C8537A0
+P 3150 1150
+F 0 "R?" H 3220 1196 50  0000 L CNN
+F 1 "10k" H 3220 1105 50  0000 L CNN
+F 2 "" V 3080 1150 50  0001 C CNN
+F 3 "~" H 3150 1150 50  0001 C CNN
+	1    3150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8537D0
+P 3150 1850
+F 0 "R?" H 3220 1896 50  0000 L CNN
+F 1 "1k" H 3220 1805 50  0000 L CNN
+F 2 "" V 3080 1850 50  0001 C CNN
+F 3 "~" H 3150 1850 50  0001 C CNN
+	1    3150 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2000 3150 2100
+Wire Wire Line
+	2550 2100 3150 2100
+Wire Wire Line
+	3150 1000 3150 800 
+Wire Wire Line
+	2550 800  3150 800 
+Wire Wire Line
+	3150 1300 3150 1450
+Wire Wire Line
+	3150 1450 3450 1450
+Wire Wire Line
+	3450 1450 3450 2300
+Connection ~ 3150 1450
+Wire Wire Line
+	3150 1450 3150 1700
+$Comp
+L espitall:LM3940IMP-3.3 U?
+U 1 1 5C853B8A
+P 4500 1500
+F 0 "U?" H 4500 1837 60  0000 C CNN
+F 1 "LM3940IMP-3.3" H 4500 1731 60  0000 C CNN
+F 2 "espitall:SOT-223-3_TabPin2" H 4550 1204 60  0001 C CNN
+F 3 "" H 4500 1500 60  0000 C CNN
+	1    4500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C853C2F
+P 3850 1800
+F 0 "C?" H 3965 1846 50  0000 L CNN
+F 1 "100n" H 3965 1755 50  0000 L CNN
+F 2 "" H 3888 1650 50  0001 C CNN
+F 3 "~" H 3850 1800 50  0001 C CNN
+	1    3850 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1450 3850 1450
+Wire Wire Line
+	3850 1450 3850 800 
+Wire Wire Line
+	3850 800  3150 800 
+Connection ~ 3150 800 
+Wire Wire Line
+	3150 2100 3850 2100
+Wire Wire Line
+	3850 2100 3850 1950
+Connection ~ 3150 2100
+Wire Wire Line
+	3850 1650 3850 1450
+Connection ~ 3850 1450
+Wire Wire Line
+	3850 2100 4500 2100
+Wire Wire Line
+	4500 2100 4500 1750
+Connection ~ 3850 2100
+Wire Wire Line
+	4900 1450 5250 1450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C85419F
+P 5250 1350
+F 0 "#PWR?" H 5250 1200 50  0001 C CNN
+F 1 "+3V3" H 5265 1523 50  0000 C CNN
+F 2 "" H 5250 1350 50  0001 C CNN
+F 3 "" H 5250 1350 50  0001 C CNN
+	1    5250 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1350 5250 1450
+$Comp
+L Device:C C?
+U 1 1 5C854330
+P 5250 1800
+F 0 "C?" H 5365 1846 50  0000 L CNN
+F 1 "470n" H 5365 1755 50  0000 L CNN
+F 2 "" H 5288 1650 50  0001 C CNN
+F 3 "~" H 5250 1800 50  0001 C CNN
+	1    5250 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2100 5250 2100
+Wire Wire Line
+	5250 2100 5250 1950
+Connection ~ 4500 2100
+Wire Wire Line
+	5250 1650 5250 1450
+Connection ~ 5250 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5C85479E
+P 2550 2250
+F 0 "#PWR?" H 2550 2000 50  0001 C CNN
+F 1 "GND" H 2555 2077 50  0000 C CNN
+F 2 "" H 2550 2250 50  0001 C CNN
+F 3 "" H 2550 2250 50  0001 C CNN
+	1    2550 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2250 2550 2100
+Connection ~ 2550 2100
+$Comp
+L Device:R R?
+U 1 1 5C854A20
+P 5850 1100
+F 0 "R?" H 5920 1146 50  0000 L CNN
+F 1 "10k" H 5920 1055 50  0000 L CNN
+F 2 "" V 5780 1100 50  0001 C CNN
+F 3 "~" H 5850 1100 50  0001 C CNN
+	1    5850 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 800  5850 950 
+Connection ~ 3850 800 
+$Comp
+L Device:D_Zener D?
+U 1 1 5C854E6C
+P 5850 1800
+F 0 "D?" V 5804 1879 50  0000 L CNN
+F 1 "15V" V 5895 1879 50  0000 L CNN
+F 2 "" H 5850 1800 50  0001 C CNN
+F 3 "~" H 5850 1800 50  0001 C CNN
+	1    5850 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 1950 5850 2100
+Wire Wire Line
+	5850 2100 5250 2100
+Connection ~ 5250 2100
+Wire Wire Line
+	5850 1650 5850 1450
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5C8555DD
+P 6150 1450
+F 0 "Q?" H 6355 1496 50  0000 L CNN
+F 1 "BSS126" H 6355 1405 50  0000 L CNN
+F 2 "" H 6350 1550 50  0001 C CNN
+F 3 "~" H 6150 1450 50  0001 C CNN
+	1    6150 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1650 6250 2300
+Wire Wire Line
+	5950 1450 5850 1450
+Connection ~ 5850 1450
+Wire Wire Line
+	5850 1450 5850 1250
+Wire Wire Line
+	6250 1250 6250 800 
+Wire Wire Line
+	6250 800  5850 800 
+Connection ~ 5850 800 
+$Comp
+L Device:R R?
+U 1 1 5C856B75
+P 7050 1100
+F 0 "R?" H 7120 1146 50  0000 L CNN
+F 1 "10k" H 7120 1055 50  0000 L CNN
+F 2 "" V 6980 1100 50  0001 C CNN
+F 3 "~" H 7050 1100 50  0001 C CNN
+	1    7050 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 800  7050 950 
+$Comp
+L Device:D_Zener D?
+U 1 1 5C856B7D
+P 7050 1800
+F 0 "D?" V 7004 1879 50  0000 L CNN
+F 1 "5V6" V 7095 1879 50  0000 L CNN
+F 2 "" H 7050 1800 50  0001 C CNN
+F 3 "~" H 7050 1800 50  0001 C CNN
+	1    7050 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 1950 7050 2100
+Wire Wire Line
+	7050 1650 7050 1450
+Wire Wire Line
+	7450 1650 7450 1700
+Wire Wire Line
+	7150 1450 7050 1450
+Connection ~ 7050 1450
+Wire Wire Line
+	7050 1450 7050 1250
+Wire Wire Line
+	7450 1250 7450 800 
+Wire Wire Line
+	7450 800  7050 800 
+Wire Wire Line
+	3850 800  5850 800 
+Wire Wire Line
+	6250 800  7050 800 
+Connection ~ 6250 800 
+Connection ~ 7050 800 
+Wire Wire Line
+	5850 2100 7050 2100
+Connection ~ 5850 2100
+$Comp
+L Device:C C?
+U 1 1 5C85CEE5
+P 7450 1850
+F 0 "C?" H 7565 1896 50  0000 L CNN
+F 1 "470n" H 7565 1805 50  0000 L CNN
+F 2 "" H 7488 1700 50  0001 C CNN
+F 3 "~" H 7450 1850 50  0001 C CNN
+	1    7450 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2000 7450 2100
+Wire Wire Line
+	7450 2100 7050 2100
+Connection ~ 7050 2100
+Wire Wire Line
+	7450 1700 7900 1700
+Wire Wire Line
+	7900 1700 7900 2300
+Connection ~ 7450 1700
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 5C85EEFE
+P 7350 1450
+F 0 "Q?" H 7541 1496 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 7541 1405 50  0000 L CNN
+F 2 "" H 7550 1550 50  0001 C CNN
+F 3 "~" H 7350 1450 50  0001 C CNN
+	1    7350 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1500 2550 1500
+Wire Wire Line
+	1500 1400 2550 1400
+Wire Notes Line
+	2100 600  2100 2600
+Wire Notes Line
+	2100 2600 8300 2600
+Wire Notes Line
+	8300 2600 8300 600 
+Wire Notes Line
+	8300 600  2100 600 
+Text Notes 8050 750  0    50   ~ 0
+PSU
+$Sheet
+S 3700 3200 1150 2650
+U 5C862F9A
+F0 "Control" 50
+F1 "control.sch" 50
+$EndSheet
+$Sheet
+S 8600 3200 1150 2600
+U 5C862FD1
+F0 "Drive" 50
+F1 "drive.sch" 50
+$EndSheet
+$EndSCHEMATC
