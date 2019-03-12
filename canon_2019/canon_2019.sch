@@ -1,15 +1,16 @@
 EESchema Schematic File Version 4
+LIBS:canon_2019-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 6
 Title "Canon"
 Date ""
 Rev "2019"
 Comp "Cocobot"
 Comment1 "Version originale: Brushless SSLv2 - R. Deniéport"
-Comment2 ""
+Comment2 "CC-BY 4.0"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -66,8 +67,6 @@ Wire Wire Line
 	3150 1300 3150 1450
 Wire Wire Line
 	3150 1450 3450 1450
-Wire Wire Line
-	3450 1450 3450 2300
 Connection ~ 3150 1450
 Wire Wire Line
 	3150 1450 3150 1700
@@ -205,8 +204,6 @@ F 3 "~" H 6150 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 1650 6250 2300
-Wire Wire Line
 	5950 1450 5850 1450
 Connection ~ 5850 1450
 Wire Wire Line
@@ -282,8 +279,6 @@ Wire Wire Line
 Connection ~ 7050 2100
 Wire Wire Line
 	7450 1700 7900 1700
-Wire Wire Line
-	7900 1700 7900 2300
 Connection ~ 7450 1700
 $Comp
 L Device:Q_NPN_BEC Q?
@@ -315,11 +310,241 @@ S 3700 3200 1150 2650
 U 5C862F9A
 F0 "Control" 50
 F1 "control.sch" 50
+F2 "REF_1v65" O R 4850 3550 50 
+F3 "I_W_0-3v3" I R 4850 4550 50 
+F4 "I_U_0-3v3" I R 4850 4350 50 
+F5 "I_V_0-3v3" I R 4850 4450 50 
+F6 "HALL_U_3v3" I R 4850 4650 50 
+F7 "HALL_V_3v3" I R 4850 4750 50 
+F8 "HALL_W_3v3" I R 4850 4850 50 
+F9 "BAT_ADC_0-3v3" I L 3700 3550 50 
+F10 "UPWM_3v3" O R 4850 3750 50 
+F11 "VPWM_3v3" O R 4850 3850 50 
+F12 "WPWM_3v3" O R 4850 3950 50 
+F13 "WEN_3v3" O R 4850 4250 50 
+F14 "VEN_3v3" O R 4850 4150 50 
+F15 "UEN_3v3" O R 4850 4050 50 
 $EndSheet
 $Sheet
 S 8600 3200 1150 2600
 U 5C862FD1
 F0 "Drive" 50
 F1 "drive.sch" 50
+F2 "Vdrv" I L 8600 3450 50 
+F3 "Vpwr" I L 8600 3350 50 
+F4 "U_PWM_3v3" I L 8600 3750 50 
+F5 "U_EN_3v3" I L 8600 4050 50 
+F6 "V_PWM_3v3" I L 8600 3850 50 
+F7 "V_EN_3v3" I L 8600 4150 50 
+F8 "W_PWM_3v3" I L 8600 3950 50 
+F9 "W_EN_3v3" I L 8600 4250 50 
+F10 "REF_1v65" I L 8600 3550 50 
+F11 "U_PH" O R 9750 3750 50 
+F12 "I_U_0-3v3" O L 8600 4350 50 
+F13 "V_PH" O R 9750 3850 50 
+F14 "I_V_0-3v3" O L 8600 4450 50 
+F15 "W_PH" O R 9750 3950 50 
+F16 "I_W_0-3v3" O L 8600 4550 50 
 $EndSheet
+Wire Wire Line
+	7450 800  8100 800 
+Wire Wire Line
+	8100 800  8100 3350
+Wire Wire Line
+	8100 3350 8600 3350
+Connection ~ 7450 800 
+Wire Wire Line
+	7900 1700 7900 2750
+Wire Wire Line
+	8600 3450 6250 3450
+Wire Wire Line
+	6250 1650 6250 3450
+Wire Wire Line
+	4850 3750 8600 3750
+Wire Wire Line
+	8600 3850 4850 3850
+Wire Wire Line
+	4850 3950 8600 3950
+Wire Wire Line
+	8600 4050 4850 4050
+Wire Wire Line
+	4850 4150 8600 4150
+Wire Wire Line
+	8600 4250 4850 4250
+Wire Wire Line
+	3700 3550 3450 3550
+Wire Wire Line
+	3450 1450 3450 3550
+Wire Wire Line
+	4850 3550 8600 3550
+Wire Wire Line
+	8600 4550 4850 4550
+Wire Wire Line
+	4850 4450 8600 4450
+Wire Wire Line
+	8600 4350 4850 4350
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5C8A6627
+P 10800 4050
+F 0 "J?" H 10880 4042 50  0000 L CNN
+F 1 "Conn_01x08" H 10700 3500 50  0000 L CNN
+F 2 "" H 10800 4050 50  0001 C CNN
+F 3 "~" H 10800 4050 50  0001 C CNN
+	1    10800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3750 10600 3750
+Wire Wire Line
+	9750 3850 10600 3850
+Wire Wire Line
+	10600 3950 9750 3950
+Wire Wire Line
+	10600 4050 10400 4050
+Wire Wire Line
+	10400 4050 10400 2750
+Wire Wire Line
+	10400 2750 7900 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5C8ABF4D
+P 10400 4900
+F 0 "#PWR?" H 10400 4650 50  0001 C CNN
+F 1 "GND" H 10405 4727 50  0000 C CNN
+F 2 "" H 10400 4900 50  0001 C CNN
+F 3 "" H 10400 4900 50  0001 C CNN
+	1    10400 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 4900 10400 4150
+Wire Wire Line
+	10400 4150 10600 4150
+Wire Wire Line
+	10600 4250 10050 4250
+Wire Wire Line
+	10050 4250 10050 6150
+Wire Wire Line
+	10050 6150 7850 6150
+Wire Wire Line
+	7850 6150 7850 4650
+Wire Wire Line
+	7850 4650 4850 4650
+Wire Wire Line
+	10600 4350 10150 4350
+Wire Wire Line
+	10150 4350 10150 6250
+Wire Wire Line
+	10150 6250 7750 6250
+Wire Wire Line
+	7750 6250 7750 4750
+Wire Wire Line
+	7750 4750 4850 4750
+Wire Wire Line
+	4850 4850 7650 4850
+Wire Wire Line
+	7650 4850 7650 6350
+Wire Wire Line
+	7650 6350 10250 6350
+Wire Wire Line
+	10250 6350 10250 4450
+Wire Wire Line
+	10250 4450 10600 4450
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5C8B3D34
+P 800 7250
+F 0 "H?" H 900 7301 50  0000 L CNN
+F 1 "MountingHole_Pad" H 900 7210 50  0000 L CNN
+F 2 "" H 800 7250 50  0001 C CNN
+F 3 "~" H 800 7250 50  0001 C CNN
+	1    800  7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8B3E2F
+P 800 7500
+F 0 "#PWR?" H 800 7250 50  0001 C CNN
+F 1 "GND" H 805 7327 50  0000 C CNN
+F 2 "" H 800 7500 50  0001 C CNN
+F 3 "" H 800 7500 50  0001 C CNN
+	1    800  7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  7500 800  7350
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5C8B5BBF
+P 800 6650
+F 0 "H?" H 900 6701 50  0000 L CNN
+F 1 "MountingHole_Pad" H 900 6610 50  0000 L CNN
+F 2 "" H 800 6650 50  0001 C CNN
+F 3 "~" H 800 6650 50  0001 C CNN
+	1    800  6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8B5BC5
+P 800 6900
+F 0 "#PWR?" H 800 6650 50  0001 C CNN
+F 1 "GND" H 805 6727 50  0000 C CNN
+F 2 "" H 800 6900 50  0001 C CNN
+F 3 "" H 800 6900 50  0001 C CNN
+	1    800  6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  6900 800  6750
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5C8B7A54
+P 800 6050
+F 0 "H?" H 900 6101 50  0000 L CNN
+F 1 "MountingHole_Pad" H 900 6010 50  0000 L CNN
+F 2 "" H 800 6050 50  0001 C CNN
+F 3 "~" H 800 6050 50  0001 C CNN
+	1    800  6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8B7A5A
+P 800 6300
+F 0 "#PWR?" H 800 6050 50  0001 C CNN
+F 1 "GND" H 805 6127 50  0000 C CNN
+F 2 "" H 800 6300 50  0001 C CNN
+F 3 "" H 800 6300 50  0001 C CNN
+	1    800  6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  6300 800  6150
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5C8B7A61
+P 800 5450
+F 0 "H?" H 900 5501 50  0000 L CNN
+F 1 "MountingHole_Pad" H 900 5410 50  0000 L CNN
+F 2 "" H 800 5450 50  0001 C CNN
+F 3 "~" H 800 5450 50  0001 C CNN
+	1    800  5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8B7A67
+P 800 5700
+F 0 "#PWR?" H 800 5450 50  0001 C CNN
+F 1 "GND" H 805 5527 50  0000 C CNN
+F 2 "" H 800 5700 50  0001 C CNN
+F 3 "" H 800 5700 50  0001 C CNN
+	1    800  5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  5700 800  5550
 $EndSCHEMATC
