@@ -39,7 +39,13 @@ K CAN
 F ~
 $ENDCMP
 #
-$CMP JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled
+$CMP JST_PH_S5B-PH-SM4-TB_05x2.00mm_Angled
+D CAN connector for COCOBOT
+K CAN
+F ~
+$ENDCMP
+#
+$CMP JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled_0
 D CAN connector for COCOBOT
 K CAN
 F ~
